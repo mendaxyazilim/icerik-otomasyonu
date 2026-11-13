@@ -55,7 +55,7 @@ publish:
   services: [instagram, youtube]
   mode: shareNow                  # elle çalıştırınca hemen yayın
   timezone: Europe/Istanbul
-  slots: ["08:00", "12:00", "17:00"]  # zamanlanmış çalışmalarda video bu saatlere planlanır
+  slots: ["09:00", "15:00"]  # zamanlanmış çalışmalarda video bu saatlere planlanır
   youtube_category: "28"          # Bilim ve Teknoloji
   # Videonun herkese açık adresi ({id} dosya adıdır). media dalı GitHub Actions tarafından güncellenir.
   media_url: "https://raw.githubusercontent.com/mendaxyazilim/icerik-otomasyonu/media/{id}.mp4"

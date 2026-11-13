@@ -2,10 +2,9 @@ name: Günlük video
 
 on:
   schedule:
-    # Videolar yayın saatinden ~1 saat önce üretilir ve Buffer'a o saate planlanır (Türkiye saati: 08:00, 12:00, 17:00)
-    - cron: '3 4 * * *'     # 07:03 TR -> 08:00 yayını
-    - cron: '3 8 * * *'     # 11:03 TR -> 12:00 yayını
-    - cron: '3 13 * * *'    # 16:03 TR -> 17:00 yayını
+    # Videolar yayın saatinden ~1 saat önce üretilir ve Buffer'a o saate planlanır (Türkiye saati: 09:00, 15:00)
+    - cron: '3 5 * * *'     # 08:03 TR -> 09:00 yayını
+    - cron: '3 11 * * *'    # 14:03 TR -> 15:00 yayını
   workflow_dispatch:
     inputs:
       topic:
