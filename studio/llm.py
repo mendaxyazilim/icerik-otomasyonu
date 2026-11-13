@@ -116,9 +116,11 @@ KURALLAR (çok önemli):
 - Videoya uygun TEK kelimelik, büyük harfli bir yorum anahtar kelimesi seç ("cta_keyword"; örn. SİSTEM, ARAÇ, SES, PROMPT; en fazla 8 harf).
 - Son segment kapanış çağrısıdır: "Yorumlara <ANAHTAR KELİME> yaz, {cta_say}" cümlesi; sahnesi "cta" olmalı.
 - "dm": Yorum yazan kişiye DM'den gidecek kısa, samimi mesaj (2-5 satır). Konuyla ilgili araç linklerini yer tutucuyla ver (örn. {{ELEVENLABS}}).
+  DM'de olmayan bir şeyi (şablon, PDF, rehber, prompt dosyası vb.) "hazır", "ekte" diye VAAT ETME; videoda anlatılan adımları 1-3 kısa maddeyle özetleyebilirsin.
 - Ardışık iki segmentte aynı sahne tipini kullanma; en az 6 farklı sahne tipi kullan.
 - Sahne metinleri kısa olsun (etiketler 1-4 kelime).
 - "stat" sahnesini SADECE "say" metninde açıkça geçen bir sayı için kullan; yüzde artış, oran, kullanıcı sayısı UYDURMA.
+- "X kat daha hızlı", "yüzde X verim" gibi ölçülmemiş performans/sonuç iddiaları YAZMA (ne seslendirmede ne sahnede).
 
 SAHNE TİPLERİ (type ve params):
 {templates}
