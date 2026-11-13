@@ -89,28 +89,47 @@ def default_dm(cfg):
     return '\n'.join(lines)
 
 
+def _try(path, **params):
+    try:
+        js = _get(path, **params)
+        print(f'  {path}: {str(js)[:160]}')
+        return js
+    except RuntimeError as e:
+        print(f'  {path}: {e}')
+        return {}
+
+
+def discover_ig_id():
+    """System-user anahtarına atanmış Instagram hesabını bulmaya çalışır."""
+    print('Instagram hesap kimliği aranıyor:')
+    js = _try('me/accounts', fields='instagram_business_account{id,username}')
+    for it in js.get('data', []):
+        if it.get('instagram_business_account'):
+            return it['instagram_business_account']['id']
+    for path in ('me/instagram_accounts', 'me/owned_instagram_accounts'):
+        js = _try(path, fields='id,username')
+        if js.get('data'):
+            return js['data'][0]['id']
+    js = _try('me', fields='id,name,business')
+    bid = (js.get('business') or {}).get('id')
+    if not bid:
+        bl = _try('me/businesses', fields='id,name')
+        bid = (bl.get('data') or [{}])[0].get('id')
+    if bid:
+        for edge in ('owned_instagram_accounts', 'instagram_accounts', 'instagram_business_accounts'):
+            js = _try(f'{bid}/{edge}', fields='id,username')
+            if js.get('data'):
+                return js['data'][0]['id']
+    return None
+
+
 def run(cfg):
     uid = os.environ.get('IG_USER_ID', '').strip()
     if _tok().startswith('IG'):
         me = _get('me', fields='user_id,username')
         uid = uid or me.get('user_id') or me.get('id')
     elif not uid:
-        # system-user anahtarından bağlı Instagram hesabını bulmaya çalış
-        for path, fields in (('me/accounts', 'instagram_business_account{id,username}'),
-                             ('me', 'instagram_business_account{id,username}')):
-            try:
-                js = _get(path, fields=fields)
-            except RuntimeError as e:
-                print('Hesap arama:', e)
-                continue
-            items = js.get('data', [js])
-            for it in items:
-                iba = it.get('instagram_business_account')
-                if iba:
-                    uid = iba['id']
-                    break
-            if uid:
-                break
+        uid = discover_ig_id()
         if not uid:
             raise SystemExit('Instagram hesap kimliği bulunamadı. IG_USER_ID adlı bir GitHub değişkeni/secret ekle.')
     uname = _get(uid, fields='username').get('username')
