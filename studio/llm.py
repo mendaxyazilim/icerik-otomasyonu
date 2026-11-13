@@ -113,7 +113,9 @@ KURALLAR (çok önemli):
   (örn. "yüzde altmış", "üç gün"), kısaltma/emoji/URL kullanma.
 - "captions": o segmentin ekranda görünen altyazısı; 1-3 parça, her parça en fazla 42 karakter, "say" metniyle
   aynı kelimeler (sayılar rakamla yazılabilir). Her parçada 1-3 vurgulu kelimeyi *yıldız* içine al (her kelime ayrı: *kanca* *kalıpları*).
-- Son segment kapanış çağrısıdır: "{cta_say}" anlamında bir cümle; sahnesi "cta" olmalı.
+- Videoya uygun TEK kelimelik, büyük harfli bir yorum anahtar kelimesi seç ("cta_keyword"; örn. SİSTEM, ARAÇ, SES, PROMPT; en fazla 8 harf).
+- Son segment kapanış çağrısıdır: "Yorumlara <ANAHTAR KELİME> yaz, {cta_say}" cümlesi; sahnesi "cta" olmalı.
+- "dm": Yorum yazan kişiye DM'den gidecek kısa, samimi mesaj (2-5 satır). Konuyla ilgili araç linklerini yer tutucuyla ver (örn. {{ELEVENLABS}}).
 - Ardışık iki segmentte aynı sahne tipini kullanma; en az 6 farklı sahne tipi kullan.
 - Sahne metinleri kısa olsun (etiketler 1-4 kelime).
 - "stat" sahnesini SADECE "say" metninde açıkça geçen bir sayı için kullan; yüzde artış, oran, kullanıcı sayısı UYDURMA.
@@ -130,6 +132,8 @@ SAHNE TİPLERİ (type ve params):
  "caption": "Instagram/YouTube açıklaması: 3-6 kısa paragraf, emoji olabilir. Konuyla ilgili araç geçiyorsa linki yer tutucuyla ver (örn. {{HIGGSFIELD}}). En sonda kapanış çağrısı.",
  "hashtags": ["#yapayzeka", "... 6-10 etiket"],
  "tools": ["açıklamada linki verilen araçların anahtarları, örn. HIGGSFIELD"],
+ "cta_keyword": "SİSTEM",
+ "dm": "Selam! 👋 ... {{HIGGSFIELD}} ...",
  "segments": [{{"say": "...", "captions": ["..."], "scene": {{"type": "...", "params": {{...}}}}}}]
 }}"""
 
@@ -222,8 +226,14 @@ def validate(sb, cfg):
         if tp == 'bigtext' and not params.get('lines'):
             params['lines'] = [caps[0].replace('*', '')[:30]]
         out.append({'say': say, 'captions': caps, 'scene': {'type': tp, 'params': params}})
-    # kapanış sahnesi her zaman config'teki sabit tasarım
-    out[-1]['scene'] = {'type': 'cta', 'params': dict(cfg['cta']['scene'])}
+    # anahtar kelime + sabit kapanış tasarımı
+    kw = re.sub(r'[^A-ZÇĞİÖŞÜ]', '', str(sb.get('cta_keyword', '')).replace('i', 'İ').upper())[:10] or cfg['cta']['default_keyword']
+    sb['cta_keyword'] = kw
+    out[-1]['say'] = f"Yorumlara {kw} yaz, {cfg['cta']['say']}"
+    params = dict(cfg['cta']['scene'])
+    params['word'] = kw
+    out[-1]['scene'] = {'type': 'cta', 'params': params}
+    out[-1]['captions'] = [f'Yorumlara *{kw}* yaz']
     words = sum(len(s['say'].split()) for s in out)
     if words > 200:
         raise ValueError(f'metin çok uzun ({words} kelime)')

@@ -58,14 +58,22 @@ def fill_links(text, cfg):
 
 def build_meta(sb, cfg, vid):
     caption = fill_links(sb.get('caption', ''), cfg)
-    used_links = any(v['url'] in caption for v in (cfg.get('affiliates') or {}).values())
     tags = ' '.join(h if h.startswith('#') else '#' + h for h in sb.get('hashtags', [])[:10])
-    disclosure = cfg['disclosure'] if used_links else ''
-    ig = '\n\n'.join(x for x in [caption, disclosure, tags] if x)
+    kw = sb.get('cta_keyword', cfg['cta']['default_keyword'])
+    dm = fill_links(sb.get('dm') or cfg['dm']['default'], cfg).strip()
+    if not any(v['url'] in dm for v in (cfg.get('affiliates') or {}).values()):
+        dm += '\n\n' + '\n'.join(f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values())
+    dm += '\n\n' + cfg['dm']['disclosure']
+    ig_cta = cfg['cta']['ig_line'].format(kw=kw)
+    links = '\n'.join(f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values())
+    disclosure = cfg['disclosure']
+    ig = '\n\n'.join(x for x in [caption, ig_cta, disclosure, tags] if x)
     yt_tags = tags if '#shorts' in tags.lower() else (tags + ' #shorts').strip()
-    yt = '\n\n'.join(x for x in [caption, disclosure, yt_tags] if x)
+    has_links = any(v['url'] in caption for v in cfg['affiliates'].values())
+    yt = '\n\n'.join(x for x in [caption, '' if has_links else '🔗 ' + links, disclosure, yt_tags] if x)
     return {'id': vid, 'title': sb.get('title', vid), 'youtube_title': sb.get('youtube_title', sb.get('title', vid)),
-            'instagram_text': ig[:2150], 'youtube_text': yt[:4900], 'segments': sb['segments']}
+            'instagram_text': ig[:2150], 'youtube_text': yt[:4900], 'keyword': kw, 'dm': dm[:950],
+            'segments': sb['segments']}
 
 
 def do_render(sb, audio, out, cfg, vid):
@@ -83,7 +91,7 @@ def do_render(sb, audio, out, cfg, vid):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('cmd', choices=['produce', 'render', 'publish', 'channels'])
+    ap.add_argument('cmd', choices=['produce', 'render', 'publish', 'channels', 'dmbot'])
     ap.add_argument('--out', default='out')
     ap.add_argument('--storyboard')
     ap.add_argument('--audio')
@@ -93,6 +101,11 @@ def main():
     a = ap.parse_args()
     cfg = load_cfg()
     os.makedirs(a.out, exist_ok=True)
+
+    if a.cmd == 'dmbot':
+        from .dmbot import run
+        run(cfg)
+        return
 
     if a.cmd == 'channels':
         from .publish import channels

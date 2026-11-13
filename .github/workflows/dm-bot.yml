@@ -1,0 +1,29 @@
+name: Yorum → DM botu
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'   # 10 dakikada bir (GitHub yoğunlukta birkaç dakika geciktirebilir)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dm-bot
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    if: ${{ vars.DM_BOT_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q requests pyyaml
+      - run: python -m studio.main dmbot
