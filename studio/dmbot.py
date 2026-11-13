@@ -18,7 +18,7 @@ import time
 import unicodedata
 import requests
 
-BASE = 'https://graph.instagram.com'
+BASE = 'https://graph.instagram.com/v26.0'
 MEDIA_BRANCH_RAW = 'https://raw.githubusercontent.com/{repo}/media/{name}'
 
 
