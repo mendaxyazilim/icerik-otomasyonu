@@ -161,10 +161,13 @@ def run(cfg):
                 continue
             cts = dt.datetime.fromisoformat(c['timestamp'].replace('+0000', '+00:00'))
             if now - cts > max_age:
+                print('      → 7 günden eski, atlandı')
                 continue
-            reps = _get(f"{c['id']}/replies", fields='id,username,from').get('data', [])
-            if any((r.get('username') or (r.get('from') or {}).get('username')) == uname for r in reps):
-                continue  # zaten yanıtlanmış
+            reps = _get(f"{c['id']}/replies", fields='id,text,username,from').get('data', [])
+            mine = [r for r in reps if (r.get('username') or (r.get('from') or {}).get('username')) == uname]
+            if mine:
+                print(f"      → zaten yanıtlanmış: {mine[0].get('text','')[:50]!r}")
+                continue
             text = dms.get(kw) or default_dm(cfg)
             try:
                 _post(f'{uid}/messages', {'recipient': {'comment_id': c['id']}, 'message': {'text': text}})
