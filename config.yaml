@@ -1,11 +1,13 @@
 # İçerik otomasyonu ayarları
 
 models:
-  text: gemini-2.5-flash            # senaryo yazan model
-  tts: gemini-2.5-flash-preview-tts # seslendirme modeli
+  text: gemini-3.8-flash            # senaryo yazan model
+  tts: gemini-3.8-flash-tts         # seslendirme modeli
+  tts_fallbacks: [gemini-3.8-flash-lite-tts, gemini-3.1-flash-tts-preview]
 
 voice:
-  name: Orus                        # kalın, kararlı erkek sesi. Alternatifler: Charon, Algenib, Alnilam, Fenrir
+  name: Arlo                        # AI Studio'da seçtiğin ses
+  fallbacks: [Orus, Charon, Algenib]  # Arlo API'de yoksa sırayla denenir
   style: "Aşağıdaki Türkçe metni enerjik, akıcı ve merak uyandıran bir reklam seslendirmesi tonunda, net ve tok bir erkek sesiyle oku:"
 
 avatar:

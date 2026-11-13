@@ -18,19 +18,31 @@ def _key():
     return k
 
 
-def _post(model, body, tries=6):
+class GeminiError(RuntimeError):
+    def __init__(self, msg, status):
+        super().__init__(msg)
+        self.status = status
+
+
+def _post(model, body, tries=6, _hops=0):
     url = API.format(model=model)
-    last = None
+    last, status = None, None
     for i in range(tries):
-        r = requests.post(url, params={'key': _key()}, json=body, timeout=180)
+        r = requests.post(url, params={'key': _key()}, json=body, timeout=240)
         if r.status_code == 200:
             return r.json()
-        last = f'{r.status_code}: {r.text[:500]}'
+        status = r.status_code
+        last = f'{r.status_code}: {r.text[:600]}'
+        if r.status_code == 404 and _hops < 2:
+            m = re.search(r'use models/([\w.\-]+)', r.text)
+            if m and m.group(1) != model:
+                print(f'Model {model} kullanılamıyor, {m.group(1)} deneniyor')
+                return _post(m.group(1), body, tries, _hops + 1)
         if r.status_code in (429, 500, 502, 503, 504):
             time.sleep(min(90, 8 * (2 ** i)))
             continue
         break
-    raise RuntimeError(f'Gemini hatası ({model}) {last}')
+    raise GeminiError(f'Gemini hatası ({model}) {last}', status)
 
 
 STORY_PROMPT = """Sen Türkçe kısa video (Instagram Reels / YouTube Shorts) senaristisin. Kanal: yapay zekâ araçları ve otomasyon
@@ -116,30 +128,61 @@ def validate(sb, cfg):
     return sb
 
 
+def _voice_cfgs(name):
+    yield {'voiceConfig': {'voice': name}}
+    yield {'voiceConfig': {'prebuiltVoiceConfig': {'voiceName': name}}}
+
+
 def tts(text, cfg, out_wav):
-    """Synthesize the full script in one call; returns path to a 24 kHz mono WAV."""
+    """Synthesize the full script in one call; writes a mono WAV and returns its path."""
+    import io
     import wave
     style = cfg['voice'].get('style', '')
-    body = {
-        'contents': [{'role': 'user', 'parts': [{'text': (style + '\n' if style else '') + text}]}],
-        'generationConfig': {
-            'responseModalities': ['AUDIO'],
-            'speechConfig': {'voiceConfig': {'prebuiltVoiceConfig': {'voiceName': cfg['voice']['name']}}},
-        },
-    }
-    js = _post(cfg['models']['tts'], body)
-    part = js['candidates'][0]['content']['parts'][0]['inlineData']
-    pcm = base64.b64decode(part['data'])
-    rate = 24000
-    m = re.search(r'rate=(\d+)', part.get('mimeType', ''))
-    if m:
-        rate = int(m.group(1))
-    with wave.open(out_wav, 'wb') as w:
-        w.setnchannels(1)
-        w.setsampwidth(2)
-        w.setframerate(rate)
-        w.writeframes(pcm)
-    return out_wav
+    voices = [cfg['voice']['name']] + [v for v in cfg['voice'].get('fallbacks', []) if v != cfg['voice']['name']]
+    models = [cfg['models']['tts']] + [m for m in cfg['models'].get('tts_fallbacks', []) if m != cfg['models']['tts']]
+    errors = []
+    for model in models:
+        for voice in voices:
+            for sc in _voice_cfgs(voice):
+                body = {
+                    'contents': [{'role': 'user', 'parts': [{'text': (style + '\n' if style else '') + text}]}],
+                    'generationConfig': {'responseModalities': ['AUDIO'], 'speechConfig': sc},
+                }
+                try:
+                    js = _post(model, body, tries=4)
+                except GeminiError as e:
+                    errors.append(str(e)[:300])
+                    if e.status in (400, 404):
+                        continue
+                    raise
+                part = js['candidates'][0]['content']['parts'][0]['inlineData']
+                data = base64.b64decode(part['data'])
+                if data[:4] == b'RIFF':
+                    with open(out_wav, 'wb') as f:
+                        f.write(data)
+                    # normalise to plain 16-bit PCM WAV for the renderer
+                    try:
+                        with wave.open(out_wav) as w:
+                            w.getnframes()
+                    except Exception:
+                        import subprocess
+                        tmp = out_wav + '.src.wav'
+                        os.replace(out_wav, tmp)
+                        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-ac', '1', '-ar', '24000',
+                                        '-c:a', 'pcm_s16le', out_wav], check=True)
+                else:
+                    rate = 24000
+                    m = re.search(r'rate=(\d+)', part.get('mimeType', ''))
+                    if m:
+                        rate = int(m.group(1))
+                    with wave.open(out_wav, 'wb') as w:
+                        w.setnchannels(1)
+                        w.setsampwidth(2)
+                        w.setframerate(rate)
+                        w.writeframes(data)
+                print(f'Seslendirme: model={model} ses={voice}')
+                return out_wav
+    raise RuntimeError('Seslendirme başarısız:\n' + '\n'.join(errors[-6:]))
 
 
 TOPIC_PROMPT = """Türkçe "yapay zekâ araçları ve otomasyon" temalı kısa video kanalı için YENİ bir video konusu öner.
