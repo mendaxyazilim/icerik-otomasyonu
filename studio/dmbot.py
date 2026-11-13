@@ -143,16 +143,21 @@ def run(cfg):
         cap = m.get('caption') or ''
         mk = KW_RE.search(cap)
         if not mk:
+            print(f"- gönderi {m['id']} ({m.get('timestamp','')[:16]}): anahtar kelime yok, atlandı")
             continue
         kw = norm(mk.group(1))
         ts = dt.datetime.fromisoformat(m['timestamp'].replace('+0000', '+00:00'))
         if now - ts > max_age + dt.timedelta(days=1):
             continue
         comments = _get(f"{m['id']}/comments", fields='id,text,username,timestamp,from', limit=50).get('data', [])
+        print(f"- gönderi {m['id']} ({m.get('timestamp','')[:16]}): kelime={kw.upper()}, {len(comments)} yorum")
         for c in comments:
+            print(f"    @{c.get('username') or (c.get('from') or {}).get('username')}: {c.get('text','')[:60]!r}")
             if (c.get('username') or (c.get('from') or {}).get('username')) == uname:
+                print('      → kendi hesabın, atlandı')
                 continue
             if not re.search(r'(?<![a-z0-9])' + re.escape(kw) + r'(?![a-z0-9])', norm(c.get('text', ''))):
+                print(f'      → "{kw.upper()}" geçmiyor, atlandı')
                 continue
             cts = dt.datetime.fromisoformat(c['timestamp'].replace('+0000', '+00:00'))
             if now - cts > max_age:

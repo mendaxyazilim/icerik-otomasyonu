@@ -27,4 +27,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -q requests pyyaml
-      - run: python -m studio.main dmbot
+      - run: python -u -m studio.main dmbot
