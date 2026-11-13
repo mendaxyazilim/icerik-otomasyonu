@@ -60,4 +60,5 @@ jobs:
 
       - name: Hata bildir
         if: failure()
-        run: gh issue comment "$NUM" --body "Yayınlama başarısız oldu, Actions kaydına bak: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        run: |
+          gh issue comment "$NUM" --body "Yayınlama başarısız oldu, Actions kaydına bak: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
