@@ -18,6 +18,50 @@ def _key():
     return k
 
 
+_MODELS_CACHE = None
+
+
+def available_models():
+    """Model names (without 'models/') that support generateContent, newest first."""
+    global _MODELS_CACHE
+    if _MODELS_CACHE is not None:
+        return _MODELS_CACHE
+    names, tok = [], None
+    try:
+        for _ in range(10):
+            r = requests.get('https://generativelanguage.googleapis.com/v1beta/models',
+                             params={'key': _key(), 'pageSize': 200, **({'pageToken': tok} if tok else {})}, timeout=60)
+            js = r.json()
+            for m in js.get('models', []):
+                if 'generateContent' in m.get('supportedGenerationMethods', ['generateContent']):
+                    names.append(m['name'].split('/', 1)[-1])
+            tok = js.get('nextPageToken')
+            if not tok:
+                break
+    except Exception as e:  # noqa
+        print('Model listesi alınamadı:', e)
+
+    def ver(n):
+        m = re.search(r'(\d+(?:\.\d+)?)', n)
+        return float(m.group(1)) if m else 0
+    _MODELS_CACHE = sorted(set(names), key=ver, reverse=True)
+    return _MODELS_CACHE
+
+
+def pick_models(preferred, kind):
+    """preferred list + discovered models of the given kind ('text' or 'tts')."""
+    av = available_models()
+    out = [m for m in preferred if not av or m in av]
+    bad = ('image', 'live', 'embedding', 'audio', 'native', 'veo', 'imagen', 'robotics', 'computer')
+    for m in av:
+        is_tts = 'tts' in m
+        if kind == 'tts' and is_tts and m not in out:
+            out.append(m)
+        if kind == 'text' and not is_tts and 'gemini' in m and 'flash' in m and not any(b in m for b in bad) and m not in out:
+            out.append(m)
+    return out or preferred
+
+
 class GeminiError(RuntimeError):
     def __init__(self, msg, status):
         super().__init__(msg)
@@ -93,7 +137,8 @@ def make_storyboard(topic, cfg):
     tools = ', '.join(f'{k} ({v["name"]}) -> yer tutucu {{{k}}}' for k, v in cfg.get('affiliates', {}).items())
     prompt = STORY_PROMPT.format(topic=topic, templates=TEMPLATE_DOC, tools=tools or 'yok',
                                  cta_say=cfg['cta']['say'])
-    models = [cfg['models']['text']] + [m for m in cfg['models'].get('text_fallbacks', []) if m != cfg['models']['text']]
+    models = pick_models([cfg['models']['text']] + cfg['models'].get('text_fallbacks', []), 'text')[:5]
+    print('Senaryo modelleri:', models)
     gen_variants = [
         {'responseMimeType': 'application/json', 'temperature': 0.9, 'thinkingConfig': {'thinkingLevel': 'low'}},
         {'responseMimeType': 'application/json', 'temperature': 0.9, 'thinkingConfig': {'thinkingBudget': 512}},
@@ -104,7 +149,7 @@ def make_storyboard(topic, cfg):
         for gc in gen_variants:
             body = {'contents': [{'role': 'user', 'parts': [{'text': prompt}]}], 'generationConfig': gc}
             try:
-                js = _post(model, body, tries=3)
+                js = _post(model, body, tries=5)
             except GeminiError as e:
                 errors.append(str(e)[:300])
                 if e.status == 400:
@@ -160,7 +205,8 @@ def tts(text, cfg, out_wav):
     import wave
     style = cfg['voice'].get('style', '')
     voices = [cfg['voice']['name']] + [v for v in cfg['voice'].get('fallbacks', []) if v != cfg['voice']['name']]
-    models = [cfg['models']['tts']] + [m for m in cfg['models'].get('tts_fallbacks', []) if m != cfg['models']['tts']]
+    models = pick_models([cfg['models']['tts']] + cfg['models'].get('tts_fallbacks', []), 'tts')[:4]
+    print('Seslendirme modelleri:', models)
     errors = []
     for model in models:
         for voice in voices:

@@ -41,12 +41,15 @@ jobs:
 
       - name: Videoyu üret
         id: uret
+        env:
+          TOPIC: ${{ github.event.inputs.topic }}
         run: |
-          if [ -n "${{ github.event.inputs.topic }}" ]; then
-            python -m studio.main produce --out out --topic "${{ github.event.inputs.topic }}"
-          else
-            python -m studio.main produce --out out
-          fi
+          uret() {
+            if [ -n "$TOPIC" ]; then python -m studio.main produce --out out --topic "$TOPIC"
+            else python -m studio.main produce --out out; fi
+          }
+          # Gemini yoğunsa 10 dakika bekleyip bir kez daha dene
+          uret || { echo "İlk deneme başarısız, 10 dk sonra tekrar"; sleep 600; uret; }
 
       - name: Videoyu herkese açık media dalına koy
         env:

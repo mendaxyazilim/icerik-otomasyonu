@@ -2,9 +2,9 @@
 
 models:
   text: gemini-3.8-flash            # senaryo yazan model
-  text_fallbacks: [gemini-3.8-flash-lite, gemini-3.1-flash]
+  text_fallbacks: []               # boşsa mevcut modeller API'den otomatik bulunur
   tts: gemini-3.8-flash-tts         # seslendirme modeli
-  tts_fallbacks: [gemini-3.8-flash-lite-tts, gemini-3.1-flash-tts-preview]
+  tts_fallbacks: [gemini-3.8-flash-lite-tts]
 
 voice:
   name: Arlo                        # AI Studio'da seçtiğin ses
