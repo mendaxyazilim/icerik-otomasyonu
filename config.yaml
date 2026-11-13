@@ -28,7 +28,7 @@ cta:
 # Instagram yorum → DM botu (her 10 dakikada bir çalışır)
 dm:
   default: "Selam! 👋 Videoda bahsettiğim araçlar burada:"
-  disclosure: "(Bazı linkler ortaklık linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.)"
+  disclosure: ""            # DM'ye eklenecek not (boş = eklenmez)
   max_age_days: 7          # Instagram, yoruma DM'yi en fazla 7 gün içinde izin veriyor
   replies_ok:              # DM gittikten sonra yoruma verilecek yanıtlar (rastgele seçilir)
     - "DM'den gönderdim ✅ Gelen kutuna bak!"

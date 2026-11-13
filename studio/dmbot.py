@@ -76,7 +76,8 @@ def load_dm_texts():
             if isinstance(f, dict) and f.get('name', '').endswith('.json'):
                 m = requests.get(MEDIA_BRANCH_RAW.format(repo=repo, name=f['name']), timeout=30).json()
                 if m.get('keyword') and m.get('dm'):
-                    out[norm(m['keyword'])] = m['dm']
+                    txt = m['dm'].replace('(Bazı linkler ortaklık linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.)', '').strip()
+                    out[norm(m['keyword'])] = txt
     except Exception as e:  # noqa
         print('Meta dosyaları okunamadı:', e)
     return out
@@ -85,7 +86,8 @@ def load_dm_texts():
 def default_dm(cfg):
     lines = [cfg['dm']['default'], '']
     lines += [f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values()]
-    lines += ['', cfg['dm']['disclosure']]
+    if cfg['dm'].get('disclosure'):
+        lines += ['', cfg['dm']['disclosure']]
     return '\n'.join(lines)
 
 

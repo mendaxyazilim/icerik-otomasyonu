@@ -63,7 +63,8 @@ def build_meta(sb, cfg, vid):
     dm = fill_links(sb.get('dm') or cfg['dm']['default'], cfg).strip()
     if not any(v['url'] in dm for v in (cfg.get('affiliates') or {}).values()):
         dm += '\n\n' + '\n'.join(f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values())
-    dm += '\n\n' + cfg['dm']['disclosure']
+    if cfg['dm'].get('disclosure'):
+        dm += '\n\n' + cfg['dm']['disclosure']
     ig_cta = cfg['cta']['ig_line'].format(kw=kw)
     links = '\n'.join(f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values())
     disclosure = cfg['disclosure']
