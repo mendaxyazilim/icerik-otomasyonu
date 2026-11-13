@@ -45,7 +45,7 @@ CREATE = '''mutation($input: CreatePostInput!) {
 }'''
 
 
-def publish(meta, cfg, video_url):
+def publish(meta, cfg, video_url, due_at=None):
     """Create one post per configured channel. Returns list of (service, result)."""
     wanted = [s.lower() for s in cfg['publish']['services']]
     results = []
@@ -58,10 +58,12 @@ def publish(meta, cfg, video_url):
             'channelId': ch['id'],
             'text': text,
             'schedulingType': 'automatic',
-            'mode': cfg['publish'].get('mode', 'shareNow'),
+            'mode': 'customScheduled' if due_at else cfg['publish'].get('mode', 'shareNow'),
             'assets': [{'video': {'url': video_url, 'metadata': {'thumbnailOffset': 1500}}}],
             'aiAssisted': True,
         }
+        if due_at:
+            inp['dueAt'] = due_at
         if svc == 'instagram':
             inp['metadata'] = {'instagram': {'type': 'reel', 'shouldShareToFeed': True, 'isAiGenerated': True}}
         elif svc == 'youtube':

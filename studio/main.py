@@ -56,6 +56,20 @@ def fill_links(text, cfg):
     return re.sub(r'\{[A-Z_]+\}', '', text)
 
 
+def next_slot(cfg):
+    """En yakın yayın saati (en az 10 dk sonrası), UTC ISO."""
+    from zoneinfo import ZoneInfo
+    tz = ZoneInfo(cfg['publish'].get('timezone', 'Europe/Istanbul'))
+    now = dt.datetime.now(tz)
+    for day in (0, 1):
+        for hhmm in cfg['publish']['slots']:
+            h, m = map(int, hhmm.split(':'))
+            cand = (now + dt.timedelta(days=day)).replace(hour=h, minute=m, second=0, microsecond=0)
+            if cand > now + dt.timedelta(minutes=10):
+                return cand.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.000Z')
+    return None
+
+
 def build_meta(sb, cfg, vid):
     caption = fill_links(sb.get('caption', ''), cfg)
     tags = ' '.join(h if h.startswith('#') else '#' + h for h in sb.get('hashtags', [])[:10])
@@ -99,6 +113,7 @@ def main():
     ap.add_argument('--meta')
     ap.add_argument('--url')
     ap.add_argument('--topic')
+    ap.add_argument('--due', default='', help="'next' = config'teki bir sonraki yayın saati, ya da ISO zaman")
     a = ap.parse_args()
     cfg = load_cfg()
     os.makedirs(a.out, exist_ok=True)
@@ -144,7 +159,9 @@ def main():
     if a.cmd == 'publish':
         from .publish import publish
         meta = json.load(open(a.meta, encoding='utf-8'))
-        res = publish(meta, cfg, a.url)
+        due = next_slot(cfg) if a.due == 'next' else (a.due or None)
+        print('Yayın zamanı:', due or 'hemen')
+        res = publish(meta, cfg, a.url, due)
         for svc, r in res:
             print(svc, r)
         if any(r.startswith('HATA') for _, r in res):

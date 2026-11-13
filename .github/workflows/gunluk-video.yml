@@ -2,7 +2,10 @@ name: Günlük video
 
 on:
   schedule:
-    - cron: '17 13 * * *'   # her gün 16:17 (Türkiye saati)
+    # Videolar yayın saatinden ~1 saat önce üretilir ve Buffer'a o saate planlanır (Türkiye saati: 08:00, 12:00, 17:00)
+    - cron: '3 4 * * *'     # 07:03 TR -> 08:00 yayını
+    - cron: '3 8 * * *'     # 11:03 TR -> 12:00 yayını
+    - cron: '3 13 * * *'    # 16:03 TR -> 17:00 yayını
   workflow_dispatch:
     inputs:
       topic:
@@ -64,8 +67,8 @@ jobs:
           fi
           cp "out/$ID.mp4" "out/$ID.json" media/
           cd media
-          # son 14 videoyu tut, geçmişi sıfırla (depo şişmesin)
-          ls -t *.mp4 | tail -n +15 | while read f; do rm -f "$f" "${f%.mp4}.json"; done
+          # son 30 videoyu tut, geçmişi sıfırla (depo şişmesin)
+          ls *.mp4 | sort -r | tail -n +31 | while read f; do rm -f "$f" "${f%.mp4}.json"; done
           git checkout -q --orphan yeni
           git add -A
           git commit -q -m "media: $ID"
@@ -115,7 +118,8 @@ jobs:
         run: |
           URL=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['publish']['media_url'].format(id='$ID'))")
           sleep 20
-          python -m studio.main publish --meta "out/$ID.json" --url "$URL"
+          if [ "${{ github.event_name }}" = "schedule" ]; then DUE=next; else DUE=""; fi
+          python -m studio.main publish --meta "out/$ID.json" --url "$URL" --due "$DUE"
 
       - name: Video dosyası (Actions'tan indirilebilir)
         if: always()
