@@ -28,7 +28,14 @@ def _post(model, body, tries=6, _hops=0):
     url = API.format(model=model)
     last, status = None, None
     for i in range(tries):
-        r = requests.post(url, params={'key': _key()}, json=body, timeout=240)
+        try:
+            r = requests.post(url, params={'key': _key()}, json=body, timeout=300)
+        except requests.exceptions.RequestException as e:
+            last, status = f'bağlantı/zaman aşımı: {e}', 'timeout'
+            print(f'{model}: {last} — tekrar deneniyor')
+            if i >= 1:
+                break
+            continue
         if r.status_code == 200:
             return r.json()
         status = r.status_code
@@ -86,18 +93,32 @@ def make_storyboard(topic, cfg):
     tools = ', '.join(f'{k} ({v["name"]}) -> yer tutucu {{{k}}}' for k, v in cfg.get('affiliates', {}).items())
     prompt = STORY_PROMPT.format(topic=topic, templates=TEMPLATE_DOC, tools=tools or 'yok',
                                  cta_say=cfg['cta']['say'])
-    body = {
-        'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
-        'generationConfig': {'responseMimeType': 'application/json', 'temperature': 0.9},
-    }
-    for attempt in range(3):
-        js = _post(cfg['models']['text'], body)
-        txt = js['candidates'][0]['content']['parts'][0]['text']
-        try:
-            sb = json.loads(txt)
-            return validate(sb, cfg)
-        except Exception as e:  # noqa
-            print('Storyboard geçersiz, tekrar deneniyor:', e)
+    models = [cfg['models']['text']] + [m for m in cfg['models'].get('text_fallbacks', []) if m != cfg['models']['text']]
+    gen_variants = [
+        {'responseMimeType': 'application/json', 'temperature': 0.9, 'thinkingConfig': {'thinkingLevel': 'low'}},
+        {'responseMimeType': 'application/json', 'temperature': 0.9, 'thinkingConfig': {'thinkingBudget': 512}},
+        {'responseMimeType': 'application/json', 'temperature': 0.9},
+    ]
+    errors = []
+    for model in models:
+        for gc in gen_variants:
+            body = {'contents': [{'role': 'user', 'parts': [{'text': prompt}]}], 'generationConfig': gc}
+            try:
+                js = _post(model, body, tries=3)
+            except GeminiError as e:
+                errors.append(str(e)[:300])
+                if e.status == 400:
+                    continue  # bu model bu ayarı desteklemiyor, sıradakini dene
+                break  # zaman aşımı/404 vb: sonraki modele geç
+            parts = js['candidates'][0]['content']['parts']
+            txt = ''.join(p.get('text', '') for p in parts if not p.get('thought'))
+            txt = txt.strip().removeprefix('```json').removeprefix('```').removesuffix('```').strip()
+            try:
+                return validate(json.loads(txt), cfg)
+            except Exception as e:  # noqa
+                errors.append(f'geçersiz storyboard: {e}')
+                print('Storyboard geçersiz, tekrar deneniyor:', e)
+    print('\n'.join(errors[-6:]))
     raise RuntimeError('Geçerli storyboard üretilemedi')
 
 
@@ -152,7 +173,7 @@ def tts(text, cfg, out_wav):
                     js = _post(model, body, tries=4)
                 except GeminiError as e:
                     errors.append(str(e)[:300])
-                    if e.status in (400, 404):
+                    if e.status in (400, 404, 'timeout'):
                         continue
                     raise
                 part = js['candidates'][0]['content']['parts'][0]['inlineData']
@@ -195,6 +216,6 @@ Sadece tek satır konu cümlesi yaz."""
 def new_topic(history, cfg):
     body = {'contents': [{'role': 'user', 'parts': [{'text': TOPIC_PROMPT.format(
         history='; '.join(history[-40:]) or 'yok', extra=cfg.get('topic_hint', ''))}]}],
-        'generationConfig': {'temperature': 1.0}}
+        'generationConfig': {'temperature': 1.0, 'thinkingConfig': {'thinkingLevel': 'low'}}}
     js = _post(cfg['models']['text'], body)
     return js['candidates'][0]['content']['parts'][0]['text'].strip().split('\n')[0]
