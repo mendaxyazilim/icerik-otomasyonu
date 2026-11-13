@@ -1,0 +1,63 @@
+name: Onay ve yayın
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  yayinla:
+    # sadece onay bekleyen konularda ve sadece depo sahibi/üyeleri yorum yaptığında
+    if: >-
+      contains(github.event.issue.labels.*.name, 'onay-bekliyor') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      BODY: ${{ github.event.comment.body }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+      NUM: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q requests pyyaml
+
+      - name: Karar
+        id: karar
+        run: |
+          low=$(printf '%s' "$BODY" | tr '[:upper:]' '[:lower:]')
+          if printf '%s' "$low" | grep -Eq 'yay(ı|i|ı)nla'; then echo "k=yayinla" >> $GITHUB_OUTPUT
+          elif printf '%s' "$low" | grep -q 'iptal'; then echo "k=iptal" >> $GITHUB_OUTPUT
+          else echo "k=yok" >> $GITHUB_OUTPUT; fi
+          ID=$(printf '%s' "$ISSUE_BODY" | grep -o '<!-- id: [^ ]* -->' | head -1 | sed 's/<!-- id: //; s/ -->//')
+          echo "id=$ID" >> $GITHUB_OUTPUT
+
+      - name: İptal
+        if: steps.karar.outputs.k == 'iptal'
+        run: |
+          gh issue edit "$NUM" --remove-label onay-bekliyor
+          gh issue close "$NUM" --comment "İptal edildi, yayınlanmadı."
+
+      - name: Yayınla
+        if: steps.karar.outputs.k == 'yayinla'
+        env:
+          ID: ${{ steps.karar.outputs.id }}
+        run: |
+          set -e
+          BASE="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/media"
+          curl -sfL "$BASE/$ID.json" -o meta.json
+          URL=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['publish']['media_url'].format(id='$ID'))")
+          python -m studio.main publish --meta meta.json --url "$URL" | tee sonuc.txt
+          gh issue edit "$NUM" --remove-label onay-bekliyor
+          gh issue close "$NUM" --comment "Buffer'a gönderildi:
+          $(cat sonuc.txt)"
+
+      - name: Hata bildir
+        if: failure()
+        run: gh issue comment "$NUM" --body "Yayınlama başarısız oldu, Actions kaydına bak: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

@@ -1,0 +1,41 @@
+# İçerik otomasyonu ayarları
+
+models:
+  text: gemini-2.5-flash            # senaryo yazan model
+  tts: gemini-2.5-flash-preview-tts # seslendirme modeli
+
+voice:
+  name: Orus                        # kalın, kararlı erkek sesi. Alternatifler: Charon, Algenib, Alnilam, Fenrir
+  style: "Aşağıdaki Türkçe metni enerjik, akıcı ve merak uyandıran bir reklam seslendirmesi tonunda, net ve tok bir erkek sesiyle oku:"
+
+avatar:
+  width: 420
+
+# Kapanış çağrısı (son sahne). Yorum-DM otomasyonu (ManyChat vb.) kurulursa "yorum" moduna geçilebilir.
+cta:
+  say: "Daha fazlası için takip et; kullandığım araçların linkleri açıklamada."
+  scene:
+    top: "Kaçırma"
+    word: "TAKİP ET"
+    line: "Araç linkleri açıklamada"
+    pills: ["Claude", "ElevenLabs", "Higgsfield"]
+
+# Affiliate linkleri: senaryo yazarı açıklamada {ANAHTAR} yer tutucusunu kullanır
+affiliates:
+  HIGGSFIELD:
+    name: Higgsfield (AI video modelleri)
+    url: https://higgsfield.ai?fpr=egemen-b32749
+  ELEVENLABS:
+    name: ElevenLabs (AI seslendirme)
+    url: https://try.elevenlabs.io/ltkcv8jbeob1
+
+disclosure: "#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim."
+
+topic_hint: "Konular ağırlıkla AI araçları/otomasyon; arada saat (horoloji) dünyasıyla AI'ı birleştiren konular da olabilir."
+
+publish:
+  services: [instagram, youtube]
+  mode: shareNow
+  youtube_category: "28"          # Bilim ve Teknoloji
+  # Videonun herkese açık adresi ({id} dosya adıdır). media dalı GitHub Actions tarafından güncellenir.
+  media_url: "https://raw.githubusercontent.com/mendaxyazilim/icerik-otomasyonu/media/{id}.mp4"

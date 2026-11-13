@@ -1,0 +1,7 @@
+out/
+__pycache__/
+*.pyc
+issue.md
+title.txt
+meta.json
+sonuc.txt

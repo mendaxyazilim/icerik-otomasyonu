@@ -1,0 +1,31 @@
+# Sıradaki video konuları (her gün bir tanesi, yukarıdan aşağı). Bitince sistem yeni konu üretir.
+Yüzünü göstermeden yapay zekâ animasyonlu Reels hesabı açmak: neden şimdi erken ve nasıl başlanır
+Claude ile tek bir cümleden kısa video senaryosu yazdırmanın 5 adımlık formülü
+ElevenLabs ile kendi sesini klonlayıp videolarını hiç mikrofon kullanmadan seslendirmek
+İlk 2 saniyede izleyiciyi yakalayan kanca cümleleri: yapay zekâya nasıl yazdırılır
+Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek
+Yapay zekâ ile Excel tablolarını tek komutla rapora çevirmek
+Claude Code ile kod bilmeden küçük bir web sitesi kurmak
+Yapay zekâ ile haftalık içerik takvimini 10 dakikada çıkarmak
+Kelime zamanlı altyazılar neden izlenme süresini artırır ve nasıl otomatik yapılır
+Yapay zekâ ile bir saat koleksiyonunu fotoğraftan kataloglamak
+Uzun bir videoyu yapay zekâyla otomatik kısa kliplere bölmek
+ChatGPT ile Claude arasındaki farklar: hangi işte hangisi
+Yapay zekâ ile ürün fotoğraflarını stüdyo çekimi gibi göstermek
+E-postalarını yapay zekâya özetletip yanıt taslağı hazırlatmak
+Yapay zekâ ile yabancı bir videoyu kendi sesinle Türkçeye dublaj etmek
+Bir saatin hikâyesini yapay zekâyla belgesel tadında anlatmak
+Yapay zekâ ajanları nedir ve günlük işleri nasıl otomatikleştirir
+Prompt yazarken en sık yapılan 4 hata
+Yapay zekâ ile sunum hazırlamanın en hızlı yolu
+Telefonla çekilmiş bir videonun sesini yapay zekâyla stüdyo kalitesine getirmek
+Yapay zekâ ile kişisel finans takip tablosu kurmak
+Yapay zekâ animasyonlarında özensiz görüntüden kaçınmanın 3 kuralı
+Bir işi yapay zekâya devretmeden önce sorman gereken 3 soru
+Yapay zekâ ile bir YouTube kanalının ilk 30 video fikrini çıkarmak
+Saat koleksiyoncuları için yapay zekâ: sahte saat ilanlarını ayırt etmeye yardımcı ipuçları
+Yapay zekâ ile toplantı notlarını otomatik görev listesine çevirmek
+Yapay zekâ ile logo ve marka renkleri belirlemek
+Kısa videolarda tempo: kaç saniyede bir sahne değişmeli
+Yapay zekâ ile müşteri yorumlarını analiz edip ürün geliştirmek
+Bir haftalık deneme: her gün yapay zekâyla bir video üretmek neler öğretir
