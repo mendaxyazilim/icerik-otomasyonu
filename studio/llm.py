@@ -116,6 +116,7 @@ KURALLAR (çok önemli):
 - Son segment kapanış çağrısıdır: "{cta_say}" anlamında bir cümle; sahnesi "cta" olmalı.
 - Ardışık iki segmentte aynı sahne tipini kullanma; en az 6 farklı sahne tipi kullan.
 - Sahne metinleri kısa olsun (etiketler 1-4 kelime).
+- "stat" sahnesini SADECE "say" metninde açıkça geçen bir sayı için kullan; yüzde artış, oran, kullanıcı sayısı UYDURMA.
 
 SAHNE TİPLERİ (type ve params):
 {templates}
@@ -167,6 +168,39 @@ def make_storyboard(topic, cfg):
     raise RuntimeError('Geçerli storyboard üretilemedi')
 
 
+_NUM_WORDS = {'bir': 1, 'iki': 2, 'üç': 3, 'dört': 4, 'beş': 5, 'altı': 6, 'yedi': 7, 'sekiz': 8, 'dokuz': 9, 'on': 10,
+              'yirmi': 20, 'otuz': 30, 'kırk': 40, 'elli': 50, 'altmış': 60, 'yetmiş': 70, 'seksen': 80, 'doksan': 90,
+              'yüz': 100, 'bin': 1000, 'milyon': 10 ** 6}
+
+
+def _number_in_text(value, text):
+    try:
+        v = float(value)
+    except (TypeError, ValueError):
+        return False
+    t = text.lower()
+    digits = [float(x.replace(',', '.')) for x in re.findall(r'\d+(?:[.,]\d+)?', t)]
+    if any(abs(d - v) < 1e-6 for d in digits):
+        return True
+    words = re.findall(r'[a-zçğıöşü]+', t)
+    total, cur = 0, 0
+    vals = set()
+    for w in words:
+        if w in _NUM_WORDS:
+            n = _NUM_WORDS[w]
+            if n >= 100:
+                cur = max(cur, 1) * n
+            else:
+                cur += n
+            vals.add(cur)
+        else:
+            if cur:
+                total = cur
+                vals.add(total)
+            cur = 0
+    return v in vals or (v >= 1000 and v / 1000 in vals)
+
+
 def validate(sb, cfg):
     segs = sb.get('segments') or []
     if len(segs) < 4:
@@ -180,11 +214,16 @@ def validate(sb, cfg):
         sc = s.get('scene') or {}
         tp = sc.get('type') if sc.get('type') in TEMPLATES else 'bigtext'
         params = sc.get('params') or {}
+        if tp == 'stat' and not _number_in_text(params.get('value'), say + ' ' + ' '.join(caps)):
+            # sayı seslendirmede geçmiyorsa uydurma istatistik riski: düz metne çevir
+            print('stat sahnesi metinde geçmeyen sayı içeriyor, bigtext yapıldı:', params.get('value'))
+            tp = 'bigtext'
+            params = {'lines': [str(params.get('label') or caps[0].replace('*', ''))[:28]]}
         if tp == 'bigtext' and not params.get('lines'):
             params['lines'] = [caps[0].replace('*', '')[:30]]
         out.append({'say': say, 'captions': caps, 'scene': {'type': tp, 'params': params}})
-    if out[-1]['scene']['type'] != 'cta':
-        out[-1]['scene'] = {'type': 'cta', 'params': dict(cfg['cta']['scene'])}
+    # kapanış sahnesi her zaman config'teki sabit tasarım
+    out[-1]['scene'] = {'type': 'cta', 'params': dict(cfg['cta']['scene'])}
     words = sum(len(s['say'].split()) for s in out)
     if words > 200:
         raise ValueError(f'metin çok uzun ({words} kelime)')
