@@ -13,7 +13,7 @@ import re
 import unicodedata
 import yaml
 
-from .core import ROOT
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CFG_PATH = os.path.join(ROOT, 'config.yaml')
 STATE = os.path.join(ROOT, 'content', 'state.json')
