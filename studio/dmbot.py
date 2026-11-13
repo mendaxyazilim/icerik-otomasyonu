@@ -18,7 +18,13 @@ import time
 import unicodedata
 import requests
 
-BASE = 'https://graph.instagram.com/v26.0'
+VERSION = 'v26.0'
+
+
+def _base():
+    # Instagram Login anahtarları "IG" ile başlar (graph.instagram.com);
+    # Unified / Facebook Login (system-user) anahtarları graph.facebook.com ile çalışır.
+    return f"https://graph.{'instagram' if _tok().startswith('IG') else 'facebook'}.com/{VERSION}"
 MEDIA_BRANCH_RAW = 'https://raw.githubusercontent.com/{repo}/media/{name}'
 
 
@@ -31,7 +37,7 @@ def _tok():
 
 def _get(path, **params):
     params['access_token'] = _tok()
-    r = requests.get(f'{BASE}/{path}', params=params, timeout=30)
+    r = requests.get(f'{_base()}/{path}', params=params, timeout=30)
     js = r.json()
     if 'error' in js:
         raise RuntimeError(f"GET {path}: {js['error'].get('message')}")
@@ -40,7 +46,7 @@ def _get(path, **params):
 
 def _post(path, payload=None, **params):
     params['access_token'] = _tok()
-    r = requests.post(f'{BASE}/{path}', params=params, json=payload, timeout=30)
+    r = requests.post(f'{_base()}/{path}', params=params, json=payload, timeout=30)
     js = r.json()
     if 'error' in js:
         raise RuntimeError(f"POST {path}: {js['error'].get('message')}")
@@ -84,8 +90,30 @@ def default_dm(cfg):
 
 
 def run(cfg):
-    me = _get('me', fields='user_id,username')
-    uid, uname = me.get('user_id') or me.get('id'), me.get('username')
+    uid = os.environ.get('IG_USER_ID', '').strip()
+    if _tok().startswith('IG'):
+        me = _get('me', fields='user_id,username')
+        uid = uid or me.get('user_id') or me.get('id')
+    elif not uid:
+        # system-user anahtarından bağlı Instagram hesabını bulmaya çalış
+        for path, fields in (('me/accounts', 'instagram_business_account{id,username}'),
+                             ('me', 'instagram_business_account{id,username}')):
+            try:
+                js = _get(path, fields=fields)
+            except RuntimeError as e:
+                print('Hesap arama:', e)
+                continue
+            items = js.get('data', [js])
+            for it in items:
+                iba = it.get('instagram_business_account')
+                if iba:
+                    uid = iba['id']
+                    break
+            if uid:
+                break
+        if not uid:
+            raise SystemExit('Instagram hesap kimliği bulunamadı. IG_USER_ID adlı bir GitHub değişkeni/secret ekle.')
+    uname = _get(uid, fields='username').get('username')
     print(f'Hesap: @{uname}')
     dms = load_dm_texts()
     now = dt.datetime.now(dt.timezone.utc)
