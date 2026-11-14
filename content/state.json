@@ -1,5 +1,5 @@
 {
- "next": 7,
+ "next": 8,
  "history": [
   "Yüzünü göstermeden yapay zekâ animasyonlu Reels hesabı açmak: neden şimdi erken ve nasıl başlanır",
   "Claude ile tek bir cümleden kısa video senaryosu yazdırmanın 5 adımlık formülü",
@@ -7,9 +7,11 @@
   "İlk 2 saniyede izleyiciyi yakalayan kanca cümleleri: yapay zekâya nasıl yazdırılır",
   "Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek",
   "Yapay zekâ ile Excel tablolarını tek komutla rapora çevirmek",
-  "Claude Code ile kod bilmeden küçük bir web sitesi kurmak"
+  "Claude Code ile kod bilmeden küçük bir web sitesi kurmak",
+  "Yapay zekâ ile haftalık içerik takvimini 10 dakikada çıkarmak"
  ],
  "filled_slots": [
-  "2026-11-14T12:00:00.000Z"
+  "2026-11-14T12:00:00.000Z",
+  "2026-11-15T06:00:00.000Z"
  ]
 }
