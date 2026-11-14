@@ -30,10 +30,22 @@ def slug(s):
     return re.sub(r'[^a-zA-Z0-9]+', '-', s).strip('-').lower()[:50] or 'video'
 
 
+def ready_tools(cfg):
+    return [k for k, v in (cfg.get('affiliates') or {}).items() if (v.get('url') or '').strip()]
+
+
 def pick_topic(cfg):
     st = {'next': 0, 'history': []}
     if os.path.exists(STATE):
         st = json.load(open(STATE, encoding='utf-8'))
+    if cfg.get('tool_rotation') and ready_tools(cfg):
+        from .llm import new_topic
+        tools = ready_tools(cfg)
+        key = tools[st.get('tool_i', 0) % len(tools)]
+        st['tool_i'] = st.get('tool_i', 0) + 1
+        st['_tool'] = key
+        topic = new_topic(st['history'], cfg, tool=key)
+        return topic, st
     topics = [l.strip() for l in open(TOPICS, encoding='utf-8') if l.strip() and not l.startswith('#')]
     if st['next'] < len(topics):
         topic = topics[st['next']]
@@ -44,7 +56,8 @@ def pick_topic(cfg):
 
 
 def save_state(st, topic):
-    st['next'] += 1
+    if st.pop('_tool', None) is None:
+        st['next'] += 1
     st['history'].append(topic)
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     json.dump(st, open(STATE, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
@@ -109,6 +122,14 @@ def next_slot(cfg):
 
 
 def build_meta(sb, cfg, vid):
+    focus = sb.get('focus_tool')
+    affs = cfg.get('affiliates') or {}
+    if focus and focus in affs:
+        cfg = dict(cfg)
+        cfg['affiliates'] = {focus: affs[focus]}  # açıklama ve DM'de yalnızca bu aracın linki
+    else:
+        cfg = dict(cfg)
+        cfg['affiliates'] = {k: v for k, v in affs.items() if (v.get('url') or '').strip()}
     caption = fill_links(sb.get('caption', ''), cfg)
     tags = ' '.join(h if h.startswith('#') else '#' + h for h in sb.get('hashtags', [])[:10])
     kw = sb.get('cta_keyword', cfg['cta']['default_keyword'])
@@ -191,7 +212,9 @@ def main():
         from .llm import make_storyboard, tts
         topic, st = (a.topic, None) if a.topic else pick_topic(cfg)
         print('Konu:', topic)
-        sb = make_storyboard(topic, cfg)
+        tool = (st or {}).get('_tool') if st else None
+        sb = make_storyboard(topic, cfg, tool=tool)
+        sb['focus_tool'] = tool
         vid = dt.date.today().isoformat() + '-' + slug(sb.get('title', topic))
         json.dump(sb, open(os.path.join(a.out, f'{vid}.storyboard.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         text = '\n'.join(s['say'] for s in sb['segments'])

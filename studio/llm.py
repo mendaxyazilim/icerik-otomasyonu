@@ -140,8 +140,14 @@ SAHNE TİPLERİ (type ve params):
 }}"""
 
 
-def make_storyboard(topic, cfg):
-    tools = ', '.join(f'{k} ({v["name"]}) -> yer tutucu {{{k}}}' for k, v in cfg.get('affiliates', {}).items())
+def make_storyboard(topic, cfg, tool=None):
+    affs = {k: v for k, v in cfg.get('affiliates', {}).items() if (v.get('url') or '').strip()}
+    if tool and tool in affs:
+        v = affs[tool]
+        tools = (f'Bu video SADECE {v["name"]} hakkında ({v.get("about", "")}). Açıklamada ve DM\'de yalnızca '
+                 f'{{{tool}}} yer tutucusunu kullan; başka aracın linkini verme. Aracın adını videoda net söyle.')
+    else:
+        tools = ', '.join(f'{k} ({v["name"]}) -> yer tutucu {{{k}}}' for k, v in affs.items())
     prompt = STORY_PROMPT.format(topic=topic, templates=TEMPLATE_DOC, tools=tools or 'yok',
                                  cta_say=cfg['cta']['say'])
     models = pick_models([cfg['models']['text']] + cfg['models'].get('text_fallbacks', []), 'text')[:5]
@@ -166,7 +172,10 @@ def make_storyboard(topic, cfg):
             txt = ''.join(p.get('text', '') for p in parts if not p.get('thought'))
             txt = txt.strip().removeprefix('```json').removeprefix('```').removesuffix('```').strip()
             try:
-                return validate(json.loads(txt), cfg)
+                data = json.loads(txt)
+                if tool and tool in affs:
+                    data['_focus_name'] = affs[tool]['name']
+                return validate(data, cfg)
             except Exception as e:  # noqa
                 errors.append(f'geçersiz storyboard: {e}')
                 print('Storyboard geçersiz, tekrar deneniyor:', e)
@@ -234,6 +243,9 @@ def validate(sb, cfg):
     out[-1]['say'] = f"Yorumlara {kw} yaz, {cfg['cta']['say']}"
     params = dict(cfg['cta']['scene'])
     params['word'] = kw
+    focus = sb.get('_focus_name')
+    if not params.get('pills') and focus:
+        params['pills'] = [focus]
     out[-1]['scene'] = {'type': 'cta', 'params': params}
     out[-1]['captions'] = [f'Yorumlara *{kw}* yaz']
     words = sum(len(s['say'].split()) for s in out)
@@ -303,6 +315,12 @@ def tts(text, cfg, out_wav):
     raise RuntimeError('Seslendirme başarısız:\n' + '\n'.join(errors[-6:]))
 
 
+TOOL_TOPIC_PROMPT = """Türkçe kısa video kanalı için {name} hakkında YENİ bir video konusu öner.
+{name}: {about}
+Daha önce işlenenler: {history}
+Konu, aracın gerçek ve bilinen bir özelliğini somut bir kullanım senaryosuyla anlatsın (örn. "X ile Y'yi 2 dakikada yapmak").
+Fiyat, kampanya veya uydurma rakam içermesin. Sadece tek satır konu cümlesi yaz."""
+
 TOPIC_PROMPT = """Türkçe "yapay zekâ araçları ve otomasyon" temalı kısa video kanalı için YENİ bir video konusu öner.
 Daha önce işlenenler: {history}
 Konu somut, faydalı ve merak uyandırıcı olsun (örn. bir aracın az bilinen bir kullanımı, bir iş akışı, bir taktik).
@@ -310,9 +328,13 @@ Konu somut, faydalı ve merak uyandırıcı olsun (örn. bir aracın az bilinen 
 Sadece tek satır konu cümlesi yaz."""
 
 
-def new_topic(history, cfg):
-    body = {'contents': [{'role': 'user', 'parts': [{'text': TOPIC_PROMPT.format(
-        history='; '.join(history[-40:]) or 'yok', extra=cfg.get('topic_hint', ''))}]}],
+def new_topic(history, cfg, tool=None):
+    if tool:
+        v = cfg['affiliates'][tool]
+        text = TOOL_TOPIC_PROMPT.format(name=v['name'], about=v.get('about', ''), history='; '.join(history[-40:]) or 'yok')
+    else:
+        text = TOPIC_PROMPT.format(history='; '.join(history[-40:]) or 'yok', extra=cfg.get('topic_hint', ''))
+    body = {'contents': [{'role': 'user', 'parts': [{'text': text}]}],
         'generationConfig': {'temperature': 1.0, 'thinkingConfig': {'thinkingLevel': 'low'}}}
     js = _post(cfg['models']['text'], body)
     return js['candidates'][0]['content']['parts'][0]['text'].strip().split('\n')[0]

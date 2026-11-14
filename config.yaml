@@ -23,7 +23,7 @@ cta:
     top: "Yorumlara yaz"
     word: "SİSTEM"
     line: "Linkleri DM'den atayım"
-    pills: ["Claude", "ElevenLabs", "Higgsfield"]
+    pills: []                     # boşsa videodaki aracın adı yazılır
 
 # Instagram yorum → DM botu (her 10 dakikada bir çalışır)
 dm:
@@ -38,14 +38,46 @@ dm:
   replies_fail:            # DM gönderilemezse
     - "DM'den ulaşamadım 🙏 Bana önce bir mesaj atarsan hemen gönderirim!"
 
-# Affiliate linkleri: senaryo yazarı açıklamada {ANAHTAR} yer tutucusunu kullanır
+# Affiliate araçları: her video bunlardan BİRİ hakkında olur ve DM'de yalnızca onun linki gider.
+# url boşsa araç sıraya girmez. Yeni link alınca url'yi doldurman yeterli.
+tool_rotation: true
 affiliates:
   HIGGSFIELD:
-    name: Higgsfield (AI video modelleri)
+    name: Higgsfield
+    about: "Tek fotoğraftan veya yazıdan sinematik AI video üreten platform; Kling, Veo, Seedance gibi modeller tek yerde"
     url: https://higgsfield.ai?fpr=egemen-b32749
   ELEVENLABS:
-    name: ElevenLabs (AI seslendirme)
+    name: ElevenLabs
+    about: "Gerçekçi AI seslendirme, ses klonlama ve video dublajı"
     url: https://try.elevenlabs.io/ltkcv8jbeob1
+  SUBMAGIC:
+    name: Submagic
+    about: "Kısa videolara otomatik altyazı, B-roll, efekt ve kurgu ekleyen AI editör"
+    url: ""
+  OPUSCLIP:
+    name: OpusClip
+    about: "Uzun videolardan (podcast, YouTube) otomatik viral kısa klipler çıkaran AI"
+    url: ""
+  HEYGEN:
+    name: HeyGen
+    about: "AI avatarla konuşan video, video çevirisi ve dudak senkronlu dublaj"
+    url: ""
+  SYNTHESIA:
+    name: Synthesia
+    about: "Yazıdan AI sunuculu eğitim ve tanıtım videoları"
+    url: ""
+  PICTORY:
+    name: Pictory
+    about: "Blog yazısından veya metinden otomatik video oluşturma"
+    url: ""
+  MURF:
+    name: Murf AI
+    about: "Stüdyo kalitesinde AI seslendirme ve ses düzenleme"
+    url: ""
+  CAPTIONS:
+    name: Captions
+    about: "Telefonla çekilen videoları AI ile düzenleme, altyazı ve göz teması düzeltme"
+    url: ""
 
 disclosure: "#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim."
 
