@@ -7,6 +7,9 @@ Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek
 Yapay zekâ ile Excel tablolarını tek komutla rapora çevirmek
 Claude Code ile kod bilmeden küçük bir web sitesi kurmak
 Yapay zekâ ile haftalık içerik takvimini 10 dakikada çıkarmak
+Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek
+ElevenLabs ile kendi sesini klonlayıp videolarını hiç mikrofon kullanmadan seslendirmek
+İlk 2 saniyede izleyiciyi yakalayan kanca cümleleri: yapay zekâya nasıl yazdırılır
 Kelime zamanlı altyazılar neden izlenme süresini artırır ve nasıl otomatik yapılır
 Yapay zekâ ile bir saat koleksiyonunu fotoğraftan kataloglamak
 Uzun bir videoyu yapay zekâyla otomatik kısa kliplere bölmek
