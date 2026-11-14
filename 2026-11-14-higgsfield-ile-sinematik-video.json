@@ -1,0 +1,179 @@
+{
+ "id": "2026-11-14-higgsfield-ile-sinematik-video",
+ "title": "Higgsfield ile Sinematik Video",
+ "youtube_title": "Tek Bir Fotoğrafı Sinematik Videoya Dönüştürün 🎬",
+ "instagram_text": "Hareketsiz bir fotoğraftan Hollywood tarzı kamera hareketleri çıkarmak artık hayal değil.\n\nHiggsfield yapay zekâsı sayesinde tek bir görseli yükleyip profesyonel kamera açılarıyla canlandırabiliyorsunuz.\n\n360 derece dönüşler, vinç çekimleri veya hızlı geçiş efektlerini saniyeler içinde videonuza ekleyin.\n\nDetaylı bağlantı ve adımlar için yorumlara KAMERA yazın, linki DM kutunuza göndereyim!\n\n💬 Yorumlara KAMERA yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videoüretimi #sinematik #içeriküretimi #otomasyon",
+ "youtube_text": "Hareketsiz bir fotoğraftan Hollywood tarzı kamera hareketleri çıkarmak artık hayal değil.\n\nHiggsfield yapay zekâsı sayesinde tek bir görseli yükleyip profesyonel kamera açılarıyla canlandırabiliyorsunuz.\n\n360 derece dönüşler, vinç çekimleri veya hızlı geçiş efektlerini saniyeler içinde videonuza ekleyin.\n\nDetaylı bağlantı ve adımlar için yorumlara KAMERA yazın, linki DM kutunuza göndereyim!\n\n🔗 Higgsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videoüretimi #sinematik #içeriküretimi #otomasyon #shorts",
+ "keyword": "KAMERA",
+ "dm": "Selam! 👋 Videoda bahsettiğim Higgsfield aracının bağlantısı burada:\nhttps://higgsfield.ai?fpr=egemen-b32749\n\nNasıl kullanılır:\n1. Fotoğrafını platforma yükle.\n2. İstediğin kamera hareketini veya açısını seç.\n3. Videoyu sinematik formatta dışa aktar.\n\nİyi üretimler!",
+ "segments": [
+  {
+   "say": "Tek bir fotoğraftan Hollywood kalitesinde sinematik kamera hareketleri üretmek artık mümkün.",
+   "captions": [
+    "*Tek* bir fotoğraftan",
+    "*Hollywood* kalitesinde",
+    "*sinematik* videolar üretin"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "TEK FOTOĞRAF",
+      "SİNEMATİK VİDEO"
+     ],
+     "highlight": "SİNEMATİK",
+     "stamp": "YAPAY ZEKA"
+    }
+   }
+  },
+  {
+   "say": "Genelde fotoğrafları canlandırırken karakterlerin yüzü dağılır ya da hareketler çok yapay kalır.",
+   "captions": [
+    "Fotoğrafları *canlandırırken*",
+    "yüzler *dağılır* ve",
+    "hareketler *yapay* kalır"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Bozulan Yüzler",
+      "Yapay Kaymalar",
+      "Kontrolsüz Açılar"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Higgsfield tam olarak bu noktada kontrolü tamamen sizin elinize veriyor.",
+   "captions": [
+    "*Higgsfield* tam bu noktada",
+    "kontrolü tamamen",
+    "*sizin* elinize veriyor"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Higgsfield AI",
+     "tagline": "Sinematik Kamera Kontrolü",
+     "button": "Dene",
+     "sticker_top": "YENİ",
+     "sticker_big": "KAMERA",
+     "sticker_bottom": "KONTROLÜ"
+    }
+   }
+  },
+  {
+   "say": "Sisteme herhangi bir portre veya manzara görseli yüklüyorsunuz.",
+   "captions": [
+    "Sisteme *herhangi* bir",
+    "*portre* veya *manzara*",
+    "görseli yüklüyorsunuz"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Görseli sinematik videoya çevir",
+     "command": "/upload image.png",
+     "tag": "Higgsfield",
+     "wait": "Görsel taranıyor...",
+     "done": "Görsel hazır!",
+     "result": "Görsel Aktarıldı"
+    }
+   }
+  },
+  {
+   "say": "Ardından vinç çekimi, üç yüz altmış derece dönüş veya yakınlaşma gibi kamera açılarını seçiyorsunuz.",
+   "captions": [
+    "*Vinç* çekimi veya",
+    "*üç* *yüz* *altmış* dönüş gibi",
+    "kamera açılarını *seçin*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kamera Hareketleri",
+     "items": [
+      {
+       "title": "Vinç Çekimi",
+       "sub": "Yukarıdan süzülme",
+       "icon": "play"
+      },
+      {
+       "title": "360 Derece",
+       "sub": "Etrafta dinamik dönüş",
+       "icon": "spark"
+      },
+      {
+       "title": "Hızlı Yakınlaşma",
+       "sub": "Dramatik odak",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Karakterin anatomisi bozulmadan profesyonel bir sahne ortaya çıkıyor.",
+   "captions": [
+    "*Karakterin* anatomisi bozulmadan",
+    "*profesyonel* bir sahne",
+    "ortaya çıkıyor"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "KLASİK ARAÇLAR",
+     "strike": "Bozuk Formlar",
+     "good": "HIGGSFIELD",
+     "good_sub": "Kusursuz Hareket",
+     "good_items": [
+      "Net Yüzler",
+      "Akıcı Kamera",
+      "Yüksek Detay"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üstelik karmaşık promptlar yazmadan sadece hazır kamera hareketlerini işaretlemeniz yetiyor.",
+   "captions": [
+    "*Karmaşık* promptlar yok",
+    "sadece hazır *kamera*",
+    "hareketlerini *seçin*"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Görseli Yükle",
+      "Açıyı Seç",
+      "Hareketi Başlat"
+     ],
+     "preview_title": "Sinematik Çıktı"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara KAMERA yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *KAMERA* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "KAMERA",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 47.56,
+ "topic": "Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek"
+}

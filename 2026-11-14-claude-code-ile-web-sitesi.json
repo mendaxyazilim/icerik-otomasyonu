@@ -1,0 +1,204 @@
+{
+ "id": "2026-11-14-claude-code-ile-web-sitesi",
+ "title": "claude-code-ile-web-sitesi",
+ "youtube_title": "Kod Bilmeden Web Sitesi Yapmak mı? Claude Code!",
+ "instagram_text": "Hiç kod bilmeden kendi web sitenizi kurmak ister misiniz? Claude Code tam olarak bunu yapıyor!\n\nSiz sadece ne istediğinizi Türkçe olarak söylüyorsunuz, yapay zekâ sizin için kodları yazıyor ve siteyi hazırlıyor.\n\nTeknik detaylarla boğuşmadan fikirlerinizi hızlıca hayata geçirmek artık çok daha kolay.\n\nYorumlara KOD yaz, detayları ve ilgili araçları DM'den göndereyim! 👇\n\n💬 Yorumlara KOD yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #claudecode #webtasarim #yazilim #otomasyon #teknoloji #kodsuzweb",
+ "youtube_text": "Hiç kod bilmeden kendi web sitenizi kurmak ister misiniz? Claude Code tam olarak bunu yapıyor!\n\nSiz sadece ne istediğinizi Türkçe olarak söylüyorsunuz, yapay zekâ sizin için kodları yazıyor ve siteyi hazırlıyor.\n\nTeknik detaylarla boğuşmadan fikirlerinizi hızlıca hayata geçirmek artık çok daha kolay.\n\nYorumlara KOD yaz, detayları ve ilgili araçları DM'den göndereyim! 👇\n\n🔗 Higgsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #claudecode #webtasarim #yazilim #otomasyon #teknoloji #kodsuzweb #shorts",
+ "keyword": "KOD",
+ "dm": "Selam! 👋 Claude Code ile kod yazmadan web sitesi yapma adımları kısaca şöyle:\n\n1. Terminal üzerinden Claude Code aracını çalıştırın.\n2. Yapmak istediğiniz web sitesini detaylıca anlatın.\n3. Yapay zekânın ürettiği kodları test edip sitenizi yayınlayın!\n\nKeyifli projeler!\n\nHiggsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1",
+ "segments": [
+  {
+   "say": "Tek bir satır kod bile bilmeden tam kapsamlı bir web sitesi kurabileceğinizi söylesem?",
+   "captions": [
+    "Tek bir satır *kod* bilmeden",
+    "tam *kapsamlı* bir web sitesi",
+    "kurabileceğinizi söylesem?"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "KOD BİLMEDEN",
+      "WEB SİTESİ KURUN"
+     ],
+     "highlight": "KOD BİLMEDEN",
+     "stamp": "YENİ YÖNTEM"
+    }
+   }
+  },
+  {
+   "say": "Geleneksel yöntemlerde günlerce kod yazmak ve hatalarla uğraşmak gerekiyordu.",
+   "captions": [
+    "Geleneksel yöntemlerde *günlerce*",
+    "kod yazmak ve *hatalarla*",
+    "uğraşmak gerekiyordu."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Karmaşık kodlar",
+      "Bitmeyen hatalar",
+      "Uzun süreçler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Claude Code ise doğrudan bilgisayarınızın terminalinde çalışan gelişmiş bir yapay zekâ asistanıdır.",
+   "captions": [
+    "Claude Code ise doğrudan *terminalde*",
+    "çalışan gelişmiş bir *yapay* *zekâ*",
+    "asistanıdır."
+   ],
+   "scene": {
+    "type": "terminal",
+    "params": {
+     "title": "Claude Code / Terminal",
+     "lines": [
+      "✓ Claude Code başlatıldı",
+      "✓ Yapay zekâ asistanı hazır"
+     ],
+     "typed": "claude"
+    }
+   }
+  },
+  {
+   "say": "Yapmanız gereken tek şey, nasıl bir web sitesi istediğinizi kendi cümlelerinizle tarif etmek.",
+   "captions": [
+    "Yapmanız gereken *tek* şey",
+    "nasıl bir site istediğinizi",
+    "kendi *cümlelerinizle* anlatmak."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Kullanıcı",
+     "command": "Modern bir portfolyo sitesi oluştur",
+     "tag": "Claude Code",
+     "wait": "Kodlar yazılıyor...",
+     "done": "Site dosyaları hazır!",
+     "result": "Başarılı"
+    }
+   }
+  },
+  {
+   "say": "Siz komut verdikçe HTML, CSS ve JavaScript dosyalarını otomatik olarak oluşturur.",
+   "captions": [
+    "Siz *komut* verdikçe",
+    "gerekli tüm web *dosyalarını*",
+    "otomatik olarak oluşturur."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Oluşturulan Yapı",
+     "items": [
+      {
+       "title": "HTML Yapısı",
+       "sub": "Sayfa düzeni",
+       "icon": "folder"
+      },
+      {
+       "title": "CSS Tasarımı",
+       "sub": "Görsel stiller",
+       "icon": "spark"
+      },
+      {
+       "title": "JavaScript",
+       "sub": "Etkileşimli öğeler",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Hata aldığınızda dosyaları inceleyip sorunu kendi kendine tespit eder ve düzeltir.",
+   "captions": [
+    "Hata aldığınızda dosyaları *inceleyip*",
+    "sorunu *kendi* *kendine*",
+    "tespit eder ve düzeltir."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Otonom Hata Düzeltme",
+     "screen_title": "Claude Çalışıyor",
+     "steps": [
+      "Kodu tara",
+      "Hatayı bul",
+      "Düzeltmeyi uygula"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Tasarımı değiştirmek istediğinizde sadece yeni isteklerinizi yazmanız yeterlidir.",
+   "captions": [
+    "Tasarımı değiştirmek istediğinizde",
+    "sadece *yeni* *isteklerinizi*",
+    "yazmanız yeterlidir."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Manuel Kod Revizesi",
+     "good": "CLAUDE CODE",
+     "good_sub": "Yazılı Komutla Güncelleme",
+     "good_items": [
+      "Hızlı",
+      "Pratik",
+      "Hatasız",
+      "Otomatik"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece yazılım deneyiminiz olmasa bile projelerinizi hızla canlıya alabilirsiniz.",
+   "captions": [
+    "Böylece *yazılım* deneyiminiz olmasa",
+    "bile projelerinizi hızla",
+    "*canlıya* alabilirsiniz."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "YENİ NESİL GELİŞTİRME",
+     "line1": "Fikirlerinizi Saniyeler İçinde",
+     "line2": "Web Sitesine Dönüştürün",
+     "sub": "Teknik engel yok",
+     "chips": [
+      "Claude Code",
+      "No-Code"
+     ],
+     "button": "Projeyi Başlat",
+     "icon": "spark"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara KOD yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *KOD* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "KOD",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 50.16,
+ "topic": "Claude Code ile kod bilmeden küçük bir web sitesi kurmak"
+}

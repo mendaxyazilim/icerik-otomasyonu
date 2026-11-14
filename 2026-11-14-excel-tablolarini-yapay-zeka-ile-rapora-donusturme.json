@@ -1,0 +1,197 @@
+{
+ "id": "2026-11-14-excel-tablolarini-yapay-zeka-ile-rapora-donusturme",
+ "title": "excel-tablolarini-yapay-zeka-ile-rapora-donusturme",
+ "youtube_title": "Excel Dosyalarını Tek Komutla Profesyonel Rapora Çevirin! 📊",
+ "instagram_text": "Saatlerce karmaşık Excel tabloları içinde boğulmaktan sıkıldınız mı? Yapay zeka araçları artık yüklediğiniz veri tablolarını saniyeler içinde analiz ediyor.\n\nSadece ne istediğinizi yazarak grafikleri, özet tabloları ve trend analizlerini anında oluşturabilirsiniz.\n\nFormül ezberleme ve elle rapor hazırlama dönemi sona eriyor.\n\nDetaylı bilgi ve kullandığımız yöntemler için yorumlara RAPOR yazın, detayları DM üzerinden göndereyim!\n\n💬 Yorumlara RAPOR yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #excel #otomasyon #produktivite #yapayzekaaraçları #teknoloji #verianalizi #office",
+ "youtube_text": "Saatlerce karmaşık Excel tabloları içinde boğulmaktan sıkıldınız mı? Yapay zeka araçları artık yüklediğiniz veri tablolarını saniyeler içinde analiz ediyor.\n\nSadece ne istediğinizi yazarak grafikleri, özet tabloları ve trend analizlerini anında oluşturabilirsiniz.\n\nFormül ezberleme ve elle rapor hazırlama dönemi sona eriyor.\n\nDetaylı bilgi ve kullandığımız yöntemler için yorumlara RAPOR yazın, detayları DM üzerinden göndereyim!\n\n🔗 Higgsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #excel #otomasyon #produktivite #yapayzekaaraçları #teknoloji #verianalizi #office #shorts",
+ "keyword": "RAPOR",
+ "dm": "Selam! 👋 Excel tablolarını yapay zeka ile otomatik rapora dönüştürme adımları şunlar:\n\n1. Excel veya CSV dosyanızı yapay zeka veri analizi aracına yükleyin.\n2. Veri setinizden çıkarmak istediğiniz özet ve grafikleri doğal dille talep edin.\n3. Hazırlanan grafik ve analiz özetlerini doğrudan sunumunuza ekleyin.\n\nHarika çalışmalar dilerim!\n\nHiggsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1",
+ "segments": [
+  {
+   "say": "Saatlerce Excel tablolarında formüllerle uğraşmaktan yorulmadınız mı?",
+   "captions": [
+    "Saatlerce *Excel* *tablolarında*",
+    "formüllerle uğraşmaktan *yorulmadınız* *mı?*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "EXCEL İÇİNDE",
+      "BOĞULMAYA SON"
+     ],
+     "highlight": "BOĞULMAYA",
+     "stamp": "OTOMASYON"
+    }
+   }
+  },
+  {
+   "say": "Artık ham verilerinizi tek bir komutla eksiksiz bir rapora dönüştürebilirsiniz.",
+   "captions": [
+    "Artık ham *verilerinizi* *tek* *komutla*",
+    "eksiksiz bir *rapora* *dönüştürebilirsiniz*"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Satış Tablosu.xlsx",
+     "command": "/raporla bu verileri analiz et ve özet çıkar",
+     "tag": "Veri Analiz Aracı",
+     "wait": "Grafikler oluşturuluyor...",
+     "done": "Rapor Hazır!",
+     "result": "TAMAMLANTI"
+    }
+   }
+  },
+  {
+   "say": "Sistem karmaşık tabloları saniyeler içinde inceler ve önemli noktaları çıkarır.",
+   "captions": [
+    "Sistem *karmaşık* *tabloları*",
+    "saniyeler içinde *inceler* ve *çıkarır*"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Veri seti yükleme",
+      "Otomatik trend tespiti",
+      "Özet tablo üretimi"
+     ],
+     "preview_title": "Yapay Zeka Analiz Adımları"
+    }
+   }
+  },
+  {
+   "say": "Elinizdeki veri dosyasını sisteme yüklersiniz.",
+   "captions": [
+    "Elinizdeki *veri* *dosyasını*",
+    "sisteme *yüklersiniz*"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "İşlem Adımları",
+     "screen_title": "Dosya Yükleme",
+     "steps": [
+      "Dosyayı seç",
+      "Sisteme yükle",
+      "Komutu gir"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ardından ne tür bir analiz istediğinizi Türkçe olarak yazarsınız.",
+   "captions": [
+    "Ardından *ne* *tür* bir analiz",
+    "istediğinizi *Türkçe* olarak *yazarsınız*"
+   ],
+   "scene": {
+    "type": "terminal",
+    "params": {
+     "title": "Yapay Zeka Komut Satırı",
+     "lines": [
+      "✓ Dosya okundu: veriler.xlsx",
+      "✓ Sütunlar analiz edildi"
+     ],
+     "typed": "En çok satan üç ürünü grafik yap"
+    }
+   }
+  },
+  {
+   "say": "Yapay zeka grafikleri çizer trendleri belirler ve özeti hazırlar.",
+   "captions": [
+    "Yapay zeka *grafikleri* *çizer*",
+    "trendleri *belirler* ve *özeti* hazırlar"
+   ],
+   "scene": {
+    "type": "chart",
+    "params": {
+     "now_label": "HAM VERİ",
+     "peak_label": "HAZIR RAPOR",
+     "x_label": "Süreç",
+     "y_label": "Analiz Derinliği"
+    }
+   }
+  },
+  {
+   "say": "Eski usul elle rapor hazırlamak yerine yapay zeka otomasyonunu kullanabilirsiniz.",
+   "captions": [
+    "Eski usul *elle* *rapor* hazırlamak yerine",
+    "yapay zeka *otomasyonunu* *kullanabilirsiniz*"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Elle Grafik Hazırlama",
+     "good": "YAPAY ZEKA",
+     "good_sub": "Tek tıkla analiz",
+     "good_items": [
+      "Hızlı",
+      "Hatasız",
+      "Otomatik Grafik"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece saatler süren işlerinizi dakikalar içinde tamamlayabilirsiniz.",
+   "captions": [
+    "Böylece *saatler* *süren* işlerinizi",
+    "dakikalar içinde *tamamlayabilirsiniz*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Ham Tablo",
+     "right": "Görsel Rapor",
+     "chips": [
+      "Otomatik",
+      "Hızlı",
+      "Sade"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bu otomasyon mantığı iş akışınızı baştan sona kolaylaştırır.",
+   "captions": [
+    "Bu *otomasyon* *mantığı*",
+    "iş akışınızı *baştan* *sona* kolaylaştırır"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Veri Analist Asistanı",
+     "tagline": "Raporlama Otomasyonu",
+     "button": "İncele",
+     "sticker_top": "YAPAY ZEKA",
+     "sticker_big": "RAPOR",
+     "sticker_bottom": "KOLAY KULLANIM"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara RAPOR yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *RAPOR* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "RAPOR",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 44.2,
+ "topic": "Yapay zekâ ile Excel tablolarını tek komutla rapora çevirmek"
+}

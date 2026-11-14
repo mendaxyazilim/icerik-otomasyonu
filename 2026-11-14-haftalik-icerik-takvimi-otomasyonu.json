@@ -1,0 +1,168 @@
+{
+ "id": "2026-11-14-haftalik-icerik-takvimi-otomasyonu",
+ "title": "Haftalik Icerik Takvimi Otomasyonu",
+ "youtube_title": "Yapay Zeka ile 10 Dakikada 1 Haftalık İçerik Planı! 🚀",
+ "instagram_text": "Her gün ne paylaşacağını düşünmekten yoruldun mu? Yapay zeka araçlarıyla haftalık içerik takvimini dakikalar içinde hazırlayabilirsin.\n\nÖnce konuları belirleyip metinleri üretiyoruz, ardından görselleri ve seslendirmeyi otomatize ediyoruz. Son adımda ise tüm içerikleri planlayıp arkamıza yaslanıyoruz.\n\nYorumlara TAKVİM yaz, kullandığım tüm araçların linklerini ve detayları DM'den göndereyim!\n\n💬 Yorumlara TAKVİM yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #otomasyon #icerikureticisi #sosyalmedya #dijitalpazarlama #verimlilik #reels",
+ "youtube_text": "Her gün ne paylaşacağını düşünmekten yoruldun mu? Yapay zeka araçlarıyla haftalık içerik takvimini dakikalar içinde hazırlayabilirsin.\n\nÖnce konuları belirleyip metinleri üretiyoruz, ardından görselleri ve seslendirmeyi otomatize ediyoruz. Son adımda ise tüm içerikleri planlayıp arkamıza yaslanıyoruz.\n\nYorumlara TAKVİM yaz, kullandığım tüm araçların linklerini ve detayları DM'den göndereyim!\n\n🔗 Higgsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #otomasyon #icerikureticisi #sosyalmedya #dijitalpazarlama #verimlilik #reels #shorts",
+ "keyword": "TAKVİM",
+ "dm": "Selam! 👋 Videoda bahsettiğim içerik otomasyonu adımları kısaca şöyle:\n\n1. Fikir ve metin üretimi için yapay zeka istemleri kullan.\n2. Seslendirme aşamasında profesyonel sesler için https://try.elevenlabs.io/ltkcv8jbeob1 kullanabilirsin.\n3. İçerikleri sosyal medya takvimine yükleyip otomatize et.\n\nHarika içerikler üretmeni dilerim!",
+ "segments": [
+  {
+   "say": "Saatlerce içerik fikri aramak yerine bütün bir haftayı elli dakikada planlamak ister misin?",
+   "captions": [
+    "Saatlerce *içerik* *fikri*",
+    "aramak yerine bütün haftayı",
+    "elli *dakikada* *planla!*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "1 HAFTALIK İÇERİK",
+      "SADECE 10 DAKİKADA"
+     ],
+     "highlight": "10 DAKİKADA",
+     "stamp": "HIZLI SİSTEM"
+    }
+   }
+  },
+  {
+   "say": "İlk adımda yapay zekaya hedef kitleni tanıtıp sekiz adet dikkat çekici konu başlığı çıkartıyorsun.",
+   "captions": [
+    "İlk adımda *yapay* *zekaya*",
+    "hedef kitleni tanıt ve",
+    "sekiz *konu* *başlığı* al."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "İçerik Stratejisti",
+     "command": "Hedef kitlem için 8 viral fikir üret",
+     "tag": "ChatGPT",
+     "wait": "Fikirler üretiliyor...",
+     "done": "8 Fikir Hazır",
+     "result": "İÇERİK LİSTESİ"
+    }
+   }
+  },
+  {
+   "say": "İkinci adımda seçtiğin konular için kanca cümleleri ve video metinlerini yazdırıyorsun.",
+   "captions": [
+    "İkinci adımda *kanca*",
+    "cümleleri ve video",
+    "*metinlerini* *yazdır.*"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "İçerik Üretimi · 3 dk",
+     "screen_title": "Metin Taslağı",
+     "steps": [
+      "Kanca Cümlesi",
+      "Ana Gövde Metni",
+      "Eylem Çağrısı"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üçüncü adımda seslendirme için doğal ses modellerini kullanarak metinleri ses dosyasına dönüştürüyorsun.",
+   "captions": [
+    "Üçüncü adımda *doğal*",
+    "ses modelleriyle metni",
+    "*sese* *dönüştür.*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Metin Dosyası",
+     "right": "Ses Dosyası",
+     "chips": [
+      "Doğal Ton",
+      "Hızlı İşleme"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Eski usul elle tasarım yapmak yerine artık her şey otomatik olarak sıralanıyor.",
+   "captions": [
+    "Eski usul *elle* *tasarım*",
+    "yapmak yerine her şey",
+    "*otomatik* *sıralanıyor.*"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "MANUEL",
+     "strike": "Saatlerce Tasarım Yapmak",
+     "good": "OTOMASYON",
+     "good_sub": "Saniyeler İçinde Hazır",
+     "good_items": [
+      "Hızlı Metin",
+      "Otomatik Ses",
+      "Hazır Şablon"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Son adımda hazırlanan tüm videoları sosyal medya planlama araçlarına yüklüyorsun.",
+   "captions": [
+    "Son adımda *videoları*",
+    "sosyal medya *planlama*",
+    "araçlarına *yükle.*"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Metinleri Hazırla",
+      "Sesleri Oluştur",
+      "Takvime Ekle"
+     ],
+     "preview_title": "Haftalık İÇerik Akışı"
+    }
+   }
+  },
+  {
+   "say": "Böylece haftanın geri kalanında tamamen kendi işine odaklanabilirsin.",
+   "captions": [
+    "Böylece *haftanın*",
+    "geri kalanında tamamen",
+    "kendi *işine* *odaklan.*"
+   ],
+   "scene": {
+    "type": "calendar",
+    "params": {
+     "top": "PLANLANDI",
+     "big": "7",
+     "unit": "GÜN AÇIK",
+     "note": "İçerikler Otomatikte",
+     "banner": "TÜM HAFTA HAZIR"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara TAKVİM yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *TAKVİM* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "TAKVİM",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 42.0,
+ "topic": "Yapay zekâ ile haftalık içerik takvimini 10 dakikada çıkarmak"
+}
