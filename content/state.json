@@ -1,11 +1,12 @@
 {
- "next": 5,
+ "next": 6,
  "history": [
   "Yüzünü göstermeden yapay zekâ animasyonlu Reels hesabı açmak: neden şimdi erken ve nasıl başlanır",
   "Claude ile tek bir cümleden kısa video senaryosu yazdırmanın 5 adımlık formülü",
   "ElevenLabs ile kendi sesini klonlayıp videolarını hiç mikrofon kullanmadan seslendirmek",
   "İlk 2 saniyede izleyiciyi yakalayan kanca cümleleri: yapay zekâya nasıl yazdırılır",
-  "Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek"
+  "Higgsfield ile tek fotoğraftan sinematik kamera hareketli video üretmek",
+  "Yapay zekâ ile Excel tablolarını tek komutla rapora çevirmek"
  ],
  "filled_slots": []
 }
