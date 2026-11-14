@@ -1,7 +1,11 @@
 {
- "next": 2,
+ "next": 3,
  "history": [
   "Yüzünü göstermeden yapay zekâ animasyonlu Reels hesabı açmak: neden şimdi erken ve nasıl başlanır",
-  "Claude ile tek bir cümleden kısa video senaryosu yazdırmanın 5 adımlık formülü"
+  "Claude ile tek bir cümleden kısa video senaryosu yazdırmanın 5 adımlık formülü",
+  "ElevenLabs ile kendi sesini klonlayıp videolarını hiç mikrofon kullanmadan seslendirmek"
+ ],
+ "filled_slots": [
+  "2026-11-14T12:00:00.000Z"
  ]
 }
