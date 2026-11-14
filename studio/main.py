@@ -56,6 +56,44 @@ def fill_links(text, cfg):
     return re.sub(r'\{[A-Z_]+\}', '', text)
 
 
+def _slot_candidates(cfg, hours=36):
+    from zoneinfo import ZoneInfo
+    tz = ZoneInfo(cfg['publish'].get('timezone', 'Europe/Istanbul'))
+    now = dt.datetime.now(tz)
+    out = []
+    for day in range(0, 3):
+        for hhmm in cfg['publish']['slots']:
+            h, m = map(int, hhmm.split(':'))
+            c = (now + dt.timedelta(days=day)).replace(hour=h, minute=m, second=0, microsecond=0)
+            if now + dt.timedelta(minutes=45) < c <= now + dt.timedelta(hours=hours):
+                out.append(c.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.000Z'))
+    return sorted(out)
+
+
+def _load_state():
+    if os.path.exists(STATE):
+        return json.load(open(STATE, encoding='utf-8'))
+    return {'next': 0, 'history': []}
+
+
+def next_empty_slot(cfg):
+    filled = set(_load_state().get('filled_slots', []))
+    for c in _slot_candidates(cfg):
+        if c not in filled:
+            return c
+    return ''
+
+
+def mark_slot(slot):
+    st = _load_state()
+    now = dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.000Z')
+    fs = [x for x in st.get('filled_slots', []) if x >= now]  # eskileri temizle
+    if slot not in fs:
+        fs.append(slot)
+    st['filled_slots'] = sorted(fs)
+    json.dump(st, open(STATE, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
 def next_slot(cfg):
     """En yakın yayın saati (en az 10 dk sonrası), UTC ISO."""
     from zoneinfo import ZoneInfo
@@ -106,17 +144,26 @@ def do_render(sb, audio, out, cfg, vid):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('cmd', choices=['produce', 'render', 'publish', 'channels', 'dmbot'])
+    ap.add_argument('cmd', choices=['produce', 'render', 'publish', 'channels', 'dmbot', 'next-slot', 'mark-slot'])
     ap.add_argument('--out', default='out')
     ap.add_argument('--storyboard')
     ap.add_argument('--audio')
     ap.add_argument('--meta')
     ap.add_argument('--url')
     ap.add_argument('--topic')
+    ap.add_argument('slot', nargs='?', default='')
     ap.add_argument('--due', default='', help="'next' = config'teki bir sonraki yayın saati, ya da ISO zaman")
     a = ap.parse_args()
     cfg = load_cfg()
     os.makedirs(a.out, exist_ok=True)
+
+    if a.cmd == 'next-slot':
+        print(next_empty_slot(cfg))
+        return
+
+    if a.cmd == 'mark-slot':
+        mark_slot(a.slot)
+        return
 
     if a.cmd == 'dmbot':
         from .dmbot import run, run_loop
@@ -157,6 +204,7 @@ def main():
             save_state(st, topic)
         with open(os.environ.get('GITHUB_OUTPUT', os.devnull), 'a') as gh:
             gh.write(f'id={vid}\n')
+        open(os.path.join(a.out, 'last_id.txt'), 'w').write(vid)
         print('Hazır:', mp4, f"({meta['duration']} sn)")
         return
 

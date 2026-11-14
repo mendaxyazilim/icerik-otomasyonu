@@ -1,12 +1,21 @@
 name: Günlük video
 
+# Sistem 3 saatte bir uyanır; önümüzdeki 36 saatteki boş yayın saatleri (config.yaml → publish.slots)
+# için video üretip Buffer'a o saate planlar. GitHub bir çalışmayı atlasa bile sonraki çalışma boşluğu doldurur.
 on:
   schedule:
-    # Videolar yayın saatinden ~1 saat önce üretilir ve Buffer'a o saate planlanır (Türkiye saati: 09:00, 15:00)
-    - cron: '3 5 * * *'     # 08:03 TR -> 09:00 yayını
-    - cron: '3 11 * * *'    # 14:03 TR -> 15:00 yayını
+    - cron: '41 */3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gunluk-video.yml'
+      - 'config.yaml'
   workflow_dispatch:
     inputs:
+      hemen:
+        description: 'Bir videoyu HEMEN yayınla (planlı saatleri beklemeden)'
+        type: boolean
+        default: false
       topic:
         description: 'Konu (boş bırakırsan sıradaki konu kullanılır)'
         required: false
@@ -23,11 +32,13 @@ concurrency:
 jobs:
   uret:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 120
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
       GH_TOKEN: ${{ github.token }}
+      HEMEN: ${{ github.event.inputs.hemen || 'false' }}
+      TOPIC: ${{ github.event.inputs.topic || '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -41,89 +52,65 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -r requirements.txt
 
-      - name: Videoyu üret
-        id: uret
-        env:
-          TOPIC: ${{ github.event.inputs.topic }}
-        run: |
-          uret() {
-            if [ -n "$TOPIC" ]; then python -m studio.main produce --out out --topic "$TOPIC"
-            else python -m studio.main produce --out out; fi
-          }
-          # Gemini yoğunsa 10 dakika bekleyip bir kez daha dene
-          uret || { echo "İlk deneme başarısız, 10 dk sonra tekrar"; sleep 600; uret; }
-
-      - name: Videoyu herkese açık media dalına koy
-        env:
-          ID: ${{ steps.uret.outputs.id }}
+      - name: Videoları üret ve Buffer'a planla
         run: |
           set -e
           git config --global user.name "icerik-bot"
           git config --global user.email "icerik-bot@users.noreply.github.com"
           REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          if git clone -q --depth 1 --branch media "$REMOTE" media 2>/dev/null; then :; else
-            mkdir media && cd media && git init -q -b media && git remote add origin "$REMOTE" && cd ..
-          fi
-          cp "out/$ID.mp4" "out/$ID.json" media/
-          cd media
-          # son 30 videoyu tut, geçmişi sıfırla (depo şişmesin)
-          ls *.mp4 | sort -r | tail -n +31 | while read f; do rm -f "$f" "${f%.mp4}.json"; done
-          git checkout -q --orphan yeni
-          git add -A
-          git commit -q -m "media: $ID"
-          git push -q -f origin yeni:media
 
-      - name: Konu sırasını kaydet
-        run: |
-          git add content/state.json || true
-          git commit -q -m "konu ilerledi: ${{ steps.uret.outputs.id }}" || true
-          git push -q || true
+          uret() {
+            if [ -n "$TOPIC" ]; then python -u -m studio.main produce --out out --topic "$TOPIC"
+            else python -u -m studio.main produce --out out; fi
+          }
 
-      - name: Onay için konu aç
-        if: ${{ vars.REQUIRE_APPROVAL != 'false' }}
-        env:
-          ID: ${{ steps.uret.outputs.id }}
-        run: |
-          python - <<'EOF'
-          import json, os, yaml
-          i = os.environ['ID']
-          m = json.load(open(f'out/{i}.json', encoding='utf-8'))
-          cfg = yaml.safe_load(open('config.yaml', encoding='utf-8'))
-          url = cfg['publish']['media_url'].format(id=i)
-          body = f"""<!-- id: {i} -->
-          ## 🎬 {m['youtube_title']}
-          **Konu:** {m.get('topic','')}  ·  **Süre:** {m.get('duration','?')} sn
+          medyaya_koy() {
+            rm -rf media
+            if git clone -q --depth 1 --branch media "$REMOTE" media 2>/dev/null; then :; else
+              mkdir media && (cd media && git init -q -b media && git remote add origin "$REMOTE")
+            fi
+            cp "out/$1.mp4" "out/$1.json" media/
+            (cd media
+             ls *.mp4 | sort -r | tail -n +31 | while read f; do rm -f "$f" "${f%.mp4}.json"; done
+             git checkout -q --orphan yeni && git add -A && git commit -q -m "media: $1" && git push -q -f origin yeni:media)
+          }
 
-          ▶️ **Videoyu izle:** {url}
+          durumu_kaydet() {
+            git add content/state.json
+            git commit -q -m "$1" || true
+            git pull -q --rebase origin main || true
+            git push -q || true
+          }
 
-          ### Instagram açıklaması
-          ```
-          {m['instagram_text']}
-          ```
+          for i in 1 2; do
+            if [ "$HEMEN" = "true" ]; then
+              SLOT=""
+            else
+              SLOT=$(python -m studio.main next-slot)
+              if [ -z "$SLOT" ]; then echo "Önümüzdeki saatlerin hepsi dolu, yapılacak iş yok."; break; fi
+              echo "== $SLOT saati için video hazırlanıyor =="
+            fi
 
-          ---
-          ✅ Yayınlamak için bu konuya **yayınla** yaz.  ❌ Vazgeçmek için **iptal** yaz.
-          """
-          open('issue.md', 'w', encoding='utf-8').write('\n'.join(l[10:] if l.startswith(' ' * 10) else l for l in body.split('\n')))
-          open('title.txt', 'w', encoding='utf-8').write(f"Onay: {m['youtube_title']}")
-          EOF
-          gh label create onay-bekliyor --color FFA500 --force >/dev/null
-          gh issue create --title "$(cat title.txt)" --body-file issue.md --label onay-bekliyor
+            # Gemini yoğunsa 10 dakika bekleyip bir kez daha dene
+            uret || { echo "İlk deneme başarısız, 10 dk sonra tekrar"; sleep 600; uret; }
+            ID=$(cat out/last_id.txt)
 
-      - name: Onaysız yayın
-        if: ${{ vars.REQUIRE_APPROVAL == 'false' }}
-        env:
-          ID: ${{ steps.uret.outputs.id }}
-        run: |
-          URL=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['publish']['media_url'].format(id='$ID'))")
-          sleep 20
-          if [ "${{ github.event_name }}" = "schedule" ]; then DUE=next; else DUE=""; fi
-          python -m studio.main publish --meta "out/$ID.json" --url "$URL" --due "$DUE"
+            medyaya_koy "$ID"
+            URL=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['publish']['media_url'].format(id='$ID'))")
+            sleep 20
+            python -u -m studio.main publish --meta "out/$ID.json" --url "$URL" --due "$SLOT"
 
-      - name: Video dosyası (Actions'tan indirilebilir)
+            if [ -n "$SLOT" ]; then python -m studio.main mark-slot "$SLOT"; fi
+            durumu_kaydet "video hazır: $ID ${SLOT:-hemen}"
+            TOPIC=""
+            if [ "$HEMEN" = "true" ]; then break; fi
+          done
+
+      - name: Video dosyaları (Actions'tan indirilebilir)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: video
           path: out/
           retention-days: 7
+          if-no-files-found: ignore
