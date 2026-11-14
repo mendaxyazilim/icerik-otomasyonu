@@ -9,7 +9,7 @@ models:
 voice:
   name: Arlo                        # AI Studio'da seçtiğin ses
   fallbacks: [Orus, Charon, Algenib]  # Arlo API'de yoksa sırayla denenir
-  style: "Aşağıdaki Türkçe metni enerjik, akıcı ve merak uyandıran bir reklam seslendirmesi tonunda, net ve tok bir erkek sesiyle oku:"
+  style: ""                        # boş bırak: yeni TTS modeli talimatı metinle birlikte sesli okuyor
 
 avatar:
   width: 420

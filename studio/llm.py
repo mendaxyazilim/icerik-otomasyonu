@@ -254,7 +254,7 @@ def tts(text, cfg, out_wav):
     """Synthesize the full script in one call; writes a mono WAV and returns its path."""
     import io
     import wave
-    style = cfg['voice'].get('style', '')
+    style = ''  # talimatı metne eklemiyoruz: yeni modeller bunu sesli okuyor
     voices = [cfg['voice']['name']] + [v for v in cfg['voice'].get('fallbacks', []) if v != cfg['voice']['name']]
     models = pick_models([cfg['models']['tts']] + cfg['models'].get('tts_fallbacks', []), 'tts')[:4]
     print('Seslendirme modelleri:', models)
