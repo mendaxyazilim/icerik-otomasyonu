@@ -37,7 +37,7 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
       GH_TOKEN: ${{ github.token }}
-      HEMEN: ${{ github.event.inputs.hemen || 'false' }}
+      HEMEN: ${{ github.event.inputs.hemen || (contains(github.event.head_commit.message, '[hemen]') && 'true') || 'false' }}
       TOPIC: ${{ github.event.inputs.topic || '' }}
     steps:
       - uses: actions/checkout@v4
@@ -82,9 +82,10 @@ jobs:
             git push -q || true
           }
 
-          for i in 1 2; do
+          for i in 1 2 3; do
             if [ "$HEMEN" = "true" ]; then
               SLOT=""
+              echo "== Hemen yayınlanacak video hazırlanıyor =="
             else
               SLOT=$(python -m studio.main next-slot)
               if [ -z "$SLOT" ]; then echo "Önümüzdeki saatlerin hepsi dolu, yapılacak iş yok."; break; fi
@@ -103,7 +104,7 @@ jobs:
             if [ -n "$SLOT" ]; then python -m studio.main mark-slot "$SLOT"; fi
             durumu_kaydet "video hazır: $ID ${SLOT:-hemen}"
             TOPIC=""
-            if [ "$HEMEN" = "true" ]; then break; fi
+            HEMEN=false   # ilk video hemen gider; kalan turlar boş planlı saatleri doldurur
           done
 
       - name: Video dosyaları (Actions'tan indirilebilir)
