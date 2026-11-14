@@ -119,8 +119,12 @@ def main():
     os.makedirs(a.out, exist_ok=True)
 
     if a.cmd == 'dmbot':
-        from .dmbot import run
-        run(cfg)
+        from .dmbot import run, run_loop
+        minutes = int(os.environ.get('DM_LOOP_MINUTES', '0') or 0)
+        if minutes > 0:
+            run_loop(cfg, minutes, int(os.environ.get('DM_INTERVAL_SECONDS', '180')))
+        else:
+            run(cfg)
         return
 
     if a.cmd == 'channels':

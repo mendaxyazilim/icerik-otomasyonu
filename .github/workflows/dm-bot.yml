@@ -1,8 +1,15 @@
 name: Yorum → DM botu
 
+# Bot her başladığında ~5,5 saat açık kalır ve 3 dakikada bir yorumları kontrol eder.
+# Saatlik zamanlayıcı, bir kopya kapanınca yenisini başlatır (aynı anda tek kopya çalışır).
 on:
   schedule:
-    - cron: '*/10 * * * *'   # 10 dakikada bir (GitHub yoğunlukta birkaç dakika geciktirebilir)
+    - cron: '7 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'studio/dmbot.py'
+      - '.github/workflows/dm-bot.yml'
   workflow_dispatch:
 
 permissions:
@@ -16,11 +23,13 @@ jobs:
   bot:
     if: ${{ vars.DM_BOT_ENABLED == 'true' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 350
     env:
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       IG_USER_ID: ${{ vars.IG_USER_ID || secrets.IG_USER_ID }}
       GH_TOKEN: ${{ github.token }}
+      DM_LOOP_MINUTES: '330'
+      DM_INTERVAL_SECONDS: '180'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

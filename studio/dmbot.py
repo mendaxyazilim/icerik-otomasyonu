@@ -186,3 +186,21 @@ def run(cfg):
                 print('Yorum yanıtı yazılamadı:', e)
             time.sleep(random.uniform(2, 5))  # spam gibi görünmesin
     print(f'Bitti: {sent} DM gönderildi, {failed} başarısız.')
+
+
+def run_loop(cfg, minutes=340, interval=180):
+    """Botu uzun süre açık tutar: her `interval` saniyede bir kontrol eder."""
+    end = time.time() + minutes * 60
+    n = 0
+    while True:
+        n += 1
+        print(f'=== Kontrol #{n} ({dt.datetime.now(dt.timezone.utc):%H:%M} UTC) ===', flush=True)
+        try:
+            run(cfg)
+        except SystemExit:
+            raise
+        except Exception as e:  # noqa — tek bir hatada döngü durmasın
+            print('Kontrol hatası:', e, flush=True)
+        if time.time() + interval > end:
+            break
+        time.sleep(interval)
