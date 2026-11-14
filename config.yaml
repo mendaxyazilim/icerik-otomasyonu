@@ -53,11 +53,11 @@ affiliates:
   SUBMAGIC:
     name: Submagic
     about: "Kısa videolara otomatik altyazı, B-roll, efekt ve kurgu ekleyen AI editör"
-    url: ""
+    url: https://submagic.co/?via=egemen-161849
   OPUSCLIP:
     name: OpusClip
     about: "Uzun videolardan (podcast, YouTube) otomatik viral kısa klipler çıkaran AI"
-    url: ""
+    url: https://opus.pro/?via=egemen
   HEYGEN:
     name: HeyGen
     about: "AI avatarla konuşan video, video çevirisi ve dudak senkronlu dublaj"
