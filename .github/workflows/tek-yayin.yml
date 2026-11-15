@@ -1,0 +1,34 @@
+name: Hazır videoyu yayınla
+
+# yayinla/*.txt dosyasına media dalındaki bir videonun kimliği yazılınca o videoyu Buffer'dan hemen yayınlar.
+on:
+  push:
+    branches: [main]
+    paths: ['yayinla/*.txt']
+
+permissions:
+  contents: read
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q requests pyyaml
+      - name: Yayınla
+        run: |
+          set -e
+          for f in $(git diff --name-only HEAD~1 HEAD -- 'yayinla/*.txt'); do
+            ID=$(tr -d '[:space:]' < "$f")
+            curl -fsSL "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/media/${ID}.json" -o meta.json
+            URL=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['publish']['media_url'].format(id='$ID'))")
+            python -u -m studio.main publish --meta meta.json --url "$URL"
+          done
