@@ -9,12 +9,13 @@
   "Yapay zekâ ile Excel tablolarını tek komutla rapora çevirmek",
   "Claude Code ile kod bilmeden küçük bir web sitesi kurmak",
   "Yapay zekâ ile haftalık içerik takvimini 10 dakikada çıkarmak",
-  "Higgsfield ile tek bir metin komutunu Kling ve Veo modellerinde aynı anda çalıştırıp en iyi sinematik sonucu seçmek."
+  "Higgsfield ile tek bir metin komutunu Kling ve Veo modellerinde aynı anda çalıştırıp en iyi sinematik sonucu seçmek.",
+  "ElevenLabs Video Dubbing ile yabancı dildeki bir videoyu kendi ses tonunu koruyarak saniyeler içinde Türkçeye çevirmek"
  ],
  "filled_slots": [
-  "2026-11-14T12:00:00.000Z",
   "2026-11-15T06:00:00.000Z",
-  "2026-11-15T12:00:00.000Z"
+  "2026-11-15T12:00:00.000Z",
+  "2026-11-16T06:00:00.000Z"
  ],
- "tool_i": 1
+ "tool_i": 2
 }
