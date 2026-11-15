@@ -1,0 +1,198 @@
+{
+ "title": "Kettle&Hob tanıtım",
+ "youtube_title": "Saat tutkunları için hepsi bir arada uygulama: Kettle&Hob",
+ "caption": "Saatlerini galeride, notlarda, ekran görüntülerinde takip etmeyi bırak. Kettle&Hob ile koleksiyonun, bakım hatırlatmaların ve saat dünyasından haberler tek uygulamada. ⌚",
+ "hashtags": [
+  "#saat",
+  "#saatkoleksiyonu",
+  "#watch",
+  "#watchcollector",
+  "#kettlehob",
+  "#uygulama"
+ ],
+ "cta_keyword": "SAAT",
+ "dm": "Selam! 👋 Kettle&Hob'u buradan indirebilirsin: {APP_LINK}",
+ "segments": [
+  {
+   "say": "Saat tutkunu musun? O zaman bu uygulama tam sana göre.",
+   "captions": [
+    "Saat *tutkunu* musun?",
+    "Bu uygulama tam *sana* göre."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SAAT",
+      "TUTKUNU",
+      "MUSUN?"
+     ],
+     "highlight": "tutkunu",
+     "stamp": "SENİN İÇİN"
+    }
+   }
+  },
+  {
+   "say": "Saatlerini hâlâ galeride, notlarda ve ekran görüntülerinde mi takip ediyorsun?",
+   "captions": [
+    "Hâlâ *galeride*, *notlarda*",
+    "ve *ekran görüntülerinde* mi?"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Galeri",
+      "Not defteri",
+      "Ekran görüntüsü"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Hepsini tek yerde topla: Kettle and Hob.",
+   "captions": [
+    "Hepsini *tek* *yerde* topla:",
+    "*Kettle&Hob*"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Kettle&Hob",
+     "tagline": "Saat tutkunları için hepsi bir arada",
+     "button": "Keşfet",
+     "sticker_top": "YENİ",
+     "sticker_big": "SAAT",
+     "sticker_bottom": "uygulama"
+    }
+   }
+  },
+  {
+   "say": "Saatinin fotoğrafını çek; yapay zekâ markasını ve modelini tanısın, bilgileri senin yerine doldursun.",
+   "captions": [
+    "Saatinin *fotoğrafını* çek,",
+    "*yapay* *zekâ* markasını ve modelini tanısın."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Fotoğraftan tanı · AI",
+     "screen_title": "Kettle&Hob",
+     "steps": [
+      "Saatinin fotoğrafını çek",
+      "Yapay zekâ saati tanısın",
+      "Marka, model, çap otomatik dolsun"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Koleksiyonunu kendi kasanda düzenle, bakım ve servis zamanlarını hatırlatmalarla kaçırma.",
+   "captions": [
+    "Koleksiyonun *kasanda*,",
+    "bakım zamanı *hatırlatmada*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Senin kasan",
+     "items": [
+      {
+       "title": "Koleksiyon kasası",
+       "sub": "tüm saatlerin tek ekranda",
+       "icon": "folder"
+      },
+      {
+       "title": "Hatırlatmalar",
+       "sub": "bakım ve servis zamanı",
+       "icon": "clock"
+      },
+      {
+       "title": "Fotoğraftan tanıma",
+       "sub": "bilgiler otomatik dolar",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Seyahatte GMT asistanı, her gün saat dünyasından yeni haberler.",
+   "captions": [
+    "Seyahatte *GMT* *asistanı*,",
+    "her gün *saat* *haberleri*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "GMT asistanı",
+     "right": "Saat haberleri",
+     "chips": [
+      "seyahat",
+      "her gün yeni",
+      "tek uygulama"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ay sonunda da bileğinde en çok hangi saatin olduğunu Bilek Özeti'nde gör ve paylaş.",
+   "captions": [
+    "Ay sonunda *Bilek* *Özeti*:",
+    "en çok hangi saati taktın?"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "BİLEK",
+      "ÖZETİN",
+      "HAZIR"
+     ],
+     "highlight": "özetin",
+     "stamp": "PAYLAŞ"
+    }
+   }
+  },
+  {
+   "say": "Karmaşık tablolar yok; açık ya da karanlık modda, sade ve şık bir arayüz.",
+   "captions": [
+    "Karmaşık *tablo* yok,",
+    "*sade* ve *şık* bir arayüz."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YOL",
+     "strike": "Excel tablosu",
+     "good": "Kettle&Hob",
+     "good_sub": "sade ve şık",
+     "good_items": [
+      "Karanlık mod",
+      "Açık mod",
+      "Widget",
+      "Çoklu dil"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Yorumlara SAAT yaz, Kettle and Hob'un linkini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *SAAT* yaz,",
+    "linki *DM'den* göndereyim!"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "SAAT",
+     "line": "Linki DM'den atayım",
+     "pills": [
+      "Kettle&Hob"
+     ]
+    }
+   }
+  }
+ ]
+}

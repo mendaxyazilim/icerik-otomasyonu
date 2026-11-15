@@ -1,0 +1,61 @@
+name: Reklam videosu
+
+# reklam/ klasörüne bir storyboard (.json) eklenince sesi Gemini'yle üretir, videoyu render eder
+# ve sonucu "reklam-video" dalına koyar. Hiçbir yere yayınlamaz.
+on:
+  push:
+    branches: [main]
+    paths: ['reklam/*.json', '.github/workflows/reklam.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Bağımlılıklar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+      - name: Ses + video
+        run: |
+          set -e
+          mkdir -p rk
+          for f in reklam/*.json; do
+            n=$(basename "$f" .json)
+            python -u - "$f" "rk/$n" <<'PY'
+          import sys, json
+          from studio.main import load_cfg, do_render
+          from studio.llm import tts
+          sb = json.load(open(sys.argv[1], encoding='utf-8'))
+          cfg = load_cfg()
+          wav = sys.argv[2] + '.wav'
+          for i in range(3):
+              try:
+                  tts('\n'.join(s['say'] for s in sb['segments']), cfg, wav); break
+              except Exception as e:
+                  print('TTS hata:', e)
+                  if i == 2: raise
+                  import time; time.sleep(120)
+          import os
+          mp4, meta = do_render(sb, wav, os.path.dirname(sys.argv[2]), cfg, os.path.basename(sys.argv[2]))
+          print('Hazır:', mp4, meta['duration'])
+          PY
+          done
+      - name: reklam-video dalına koy
+        run: |
+          git config --global user.name "icerik-bot"
+          git config --global user.email "icerik-bot@users.noreply.github.com"
+          cd rk && rm -f *.wav && git init -q -b reklam-video && git add -A && git commit -q -m "reklam videoları" \
+            && git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" reklam-video
