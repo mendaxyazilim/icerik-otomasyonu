@@ -11,13 +11,13 @@
   "Yapay zekâ ile haftalık içerik takvimini 10 dakikada çıkarmak",
   "Higgsfield ile tek bir metin komutunu Kling ve Veo modellerinde aynı anda çalıştırıp en iyi sinematik sonucu seçmek.",
   "ElevenLabs Video Dubbing ile yabancı dildeki bir videoyu kendi ses tonunu koruyarak saniyeler içinde Türkçeye çevirmek",
-  "Submagic ile ham konuşma videondaki sessizlikleri tek tıkla kesip kelimeleri otomatik B-roll görselleri ve dinamik altyazılarla zenginleştirmek"
+  "Submagic ile ham konuşma videondaki sessizlikleri tek tıkla kesip kelimeleri otomatik B-roll görselleri ve dinamik altyazılarla zenginleştirmek",
+  "OpusClip ile 1 saatlik podcast kaydını tek tıkla virallik puanına göre sıralanmış ve dinamik altyazılı 10 kısa videoya dönüştürmek."
  ],
  "filled_slots": [
-  "2026-11-15T06:00:00.000Z",
-  "2026-11-15T12:00:00.000Z",
   "2026-11-16T06:00:00.000Z",
-  "2026-11-16T12:00:00.000Z"
+  "2026-11-16T12:00:00.000Z",
+  "2026-11-17T06:00:00.000Z"
  ],
- "tool_i": 3
+ "tool_i": 4
 }
