@@ -142,7 +142,8 @@ def build_meta(sb, cfg, vid):
         dm += '\n\n' + '\n'.join(f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values())
     if cfg['dm'].get('disclosure'):
         dm += '\n\n' + cfg['dm']['disclosure']
-    ig_cta = cfg['cta']['ig_line'].format(kw=kw)
+    send = cfg['cta'].get('mode') == 'send'
+    ig_cta = cfg['cta']['send_ig_line'] if send else cfg['cta']['ig_line'].format(kw=kw)
     links = '\n'.join(f"{v['name']}: {v['url']}" for v in cfg['affiliates'].values())
     disclosure = cfg['disclosure']
     ig = '\n\n'.join(x for x in [caption, ig_cta, disclosure, tags] if x)
@@ -150,7 +151,8 @@ def build_meta(sb, cfg, vid):
     has_links = any(v['url'] in caption for v in cfg['affiliates'].values())
     yt = '\n\n'.join(x for x in [caption, '' if has_links else '🔗 ' + links, disclosure, yt_tags] if x)
     return {'id': vid, 'title': sb.get('title', vid), 'youtube_title': sb.get('youtube_title', sb.get('title', vid)),
-            'instagram_text': ig[:2150], 'youtube_text': yt[:4900], 'keyword': kw, 'dm': dm[:950],
+            'instagram_text': ig[:2150], 'youtube_text': yt[:4900], 'keyword': '' if send else kw, 'dm': dm[:950],
+            'first_comment': (dm[:900] + ('\n\n#reklam · ortaklık linki' if any(v['url'] in dm for v in cfg['affiliates'].values()) else '')) if send else '',
             'segments': sb['segments']}
 
 

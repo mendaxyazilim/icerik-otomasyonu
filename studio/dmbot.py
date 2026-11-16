@@ -63,8 +63,43 @@ def norm(s):
 KW_RE = re.compile(r'Yorumlara\s+([A-Za-zÇĞİÖŞÜçğıöşü]+)\s+yaz', re.I)
 
 
+FIRST = []  # (açıklama başlangıcı, ilk yorum metni)
+MARKER = 'Linkler ilk yorumda'
+
+
+def _key(caption):
+    return re.sub(r'\s+', ' ', norm(caption or ''))[:60]
+
+
+def post_first_comments(media, uname, now):
+    """'Linkler ilk yorumda' diyen yeni gönderilere bilgi/link yorumunu bir kez yazar."""
+    done = 0
+    for m in media:
+        cap = m.get('caption') or ''
+        if MARKER.lower() not in cap.lower():
+            continue
+        ts = dt.datetime.fromisoformat(m['timestamp'].replace('+0000', '+00:00'))
+        if now - ts > dt.timedelta(days=3):
+            continue
+        text = next((t for k, t in FIRST if k and k == _key(cap)), None)
+        if not text:
+            print(f"- gönderi {m['id']}: ilk yorum metni bulunamadı")
+            continue
+        comments = _get(f"{m['id']}/comments", fields='id,username,from', limit=50).get('data', [])
+        if any((c.get('username') or (c.get('from') or {}).get('username')) == uname for c in comments):
+            continue
+        try:
+            _post(f"{m['id']}/comments", message=text)
+            done += 1
+            print(f"İlk yorum yazıldı → gönderi {m['id']}")
+        except RuntimeError as e:
+            print('İlk yorum yazılamadı:', e)
+    return done
+
+
 def load_dm_texts():
     """keyword -> dm text, from meta files on the media branch (last videos)."""
+    FIRST.clear()
     repo = os.environ.get('GITHUB_REPOSITORY')
     out = {}
     if not repo:
@@ -75,6 +110,8 @@ def load_dm_texts():
         for f in r.json():
             if isinstance(f, dict) and f.get('name', '').endswith('.json'):
                 m = requests.get(MEDIA_BRANCH_RAW.format(repo=repo, name=f['name']), timeout=30).json()
+                if m.get('first_comment') and m.get('instagram_text'):
+                    FIRST.append((_key(m['instagram_text']), m['first_comment']))
                 if m.get('keyword') and m.get('dm'):
                     txt = m['dm'].replace('(Bazı linkler ortaklık linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.)', '').strip()
                     out[norm(m['keyword'])] = txt
@@ -140,6 +177,7 @@ def run(cfg):
     now = dt.datetime.now(dt.timezone.utc)
     max_age = dt.timedelta(days=cfg['dm'].get('max_age_days', 7))
     media = _get(f'{uid}/media', fields='id,caption,timestamp,permalink', limit=15).get('data', [])
+    post_first_comments(media, uname, now)
     sent = failed = 0
     for m in media:
         cap = m.get('caption') or ''

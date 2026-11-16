@@ -120,8 +120,8 @@ KURALLAR (çok önemli):
 - "captions": o segmentin ekranda görünen altyazısı; 1-3 parça, her parça en fazla 42 karakter, "say" metniyle
   aynı kelimeler (sayılar rakamla yazılabilir). Her parçada 1-3 vurgulu kelimeyi *yıldız* içine al (her kelime ayrı: *kanca* *kalıpları*).
 - Videoya uygun TEK kelimelik, büyük harfli bir yorum anahtar kelimesi seç ("cta_keyword"; örn. SİSTEM, ARAÇ, SES, PROMPT; en fazla 8 harf).
-- Son segment kapanış çağrısıdır: "Yorumlara <ANAHTAR KELİME> yaz, {cta_say}" cümlesi; sahnesi "cta" olmalı.
-- "dm": Yorum yazan kişiye DM'den gidecek kısa, samimi mesaj (2-5 satır). Konuyla ilgili araç linklerini yer tutucuyla ver (örn. {{ELEVENLABS}}).
+- Son segment kapanış çağrısıdır (metnini sistem kendisi yazar); sahnesi "cta" olmalı.
+- "dm": Videonun altına İLK YORUM olarak yazılacak kısa bilgi notu (2-5 satır): videodaki adımların kısa özeti ve araç linki. Konuyla ilgili araç linklerini yer tutucuyla ver (örn. {{ELEVENLABS}}).
   DM'de olmayan bir şeyi (şablon, PDF, rehber, prompt dosyası vb.) "hazır", "ekte" diye VAAT ETME; videoda anlatılan adımları 1-3 kısa maddeyle özetleyebilirsin.
 - Ardışık iki segmentte aynı sahne tipini kullanma; en az 6 farklı sahne tipi kullan.
 - Sahne metinleri kısa olsun (etiketler 1-4 kelime).
@@ -246,14 +246,16 @@ def validate(sb, cfg):
     # anahtar kelime + sabit kapanış tasarımı
     kw = re.sub(r'[^A-ZÇĞİÖŞÜ]', '', str(sb.get('cta_keyword', '')).replace('i', 'İ').upper())[:10] or cfg['cta']['default_keyword']
     sb['cta_keyword'] = kw
-    out[-1]['say'] = f"Yorumlara {kw} yaz, {cfg['cta']['say']}"
-    params = dict(cfg['cta']['scene'])
-    params['word'] = kw
+    send = cfg['cta'].get('mode') == 'send'
+    out[-1]['say'] = cfg['cta']['send_say'] if send else f"Yorumlara {kw} yaz, {cfg['cta']['say']}"
+    params = dict(cfg['cta']['send_scene'] if send else cfg['cta']['scene'])
+    if not send:
+        params['word'] = kw
     focus = sb.get('_focus_name')
     if not params.get('pills') and focus:
         params['pills'] = [focus]
     out[-1]['scene'] = {'type': 'cta', 'params': params}
-    out[-1]['captions'] = [f'Yorumlara *{kw}* yaz']
+    out[-1]['captions'] = list(cfg['cta']['send_captions']) if send else [f'Yorumlara *{kw}* yaz']
     words = sum(len(s['say'].split()) for s in out)
     if words > 200:
         raise ValueError(f'metin çok uzun ({words} kelime)')

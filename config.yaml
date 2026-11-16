@@ -16,6 +16,17 @@ avatar:
 
 # Kapanış çağrısı: "Yorumlara <KELİME> yaz, ..." — kelimeyi her video için senaryo modeli seçer
 cta:
+  # mode: send  -> "Arkadaşına gönder" çağrısı + bilgiler/linkler videonun altına ilk yorum olarak yazılır
+  # mode: comment -> eski sistem: "Yorumlara X yaz" + DM
+  mode: send
+  send_say: "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!"
+  send_captions: ["*Arkadaşına* gönder,", "linkler *aşağıda*"]
+  send_ig_line: "📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda"
+  send_scene:
+    top: "Linkler ilk yorumda"
+    word: "GÖNDER"
+    line: "İhtiyacı olan arkadaşına"
+    pills: []
   default_keyword: SİSTEM
   say: "kullanılan araçların linklerini DM'den göndereyim!"
   ig_line: "💬 Yorumlara {kw} yaz, linkleri DM'den göndereyim 👇"
