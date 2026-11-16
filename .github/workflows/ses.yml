@@ -7,6 +7,13 @@ on:
     branches: [main]
     paths: ['ses/*.json', '.github/workflows/ses.yml']
   workflow_dispatch:
+    inputs:
+      files:
+        description: 'Seslendirilecek dosyalar (glob)'
+        default: 'ses/*.json'
+      model:
+        description: 'TTS modeli (boşsa config)'
+        default: ''
 
 permissions:
   contents: write
@@ -29,16 +36,21 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -r requirements.txt
       - name: Seslendir
+        env:
+          TTS_MODEL: ${{ inputs.model }}
         run: |
           set -e
           mkdir -p out
-          for f in ses/*.json; do
+          for f in ${{ inputs.files || 'ses/*.json' }}; do
             n=$(basename "$f" .json); mkdir -p "out/$n"
             python -u - "$f" "out/$n" <<'PY'
           import sys, json, time
           from studio.main import load_cfg
           from studio.llm import tts
           cfg = load_cfg()
+          import os
+          if os.environ.get('TTS_MODEL'):
+              cfg['models']['tts'] = os.environ['TTS_MODEL']; cfg['models']['tts_fallbacks'] = []
           lines = json.load(open(sys.argv[1], encoding='utf-8'))['lines']
           for i, t in enumerate(lines):
               for k in range(3):
@@ -50,6 +62,19 @@ jobs:
                       time.sleep(60)
           PY
           done
+      - name: Kontrol (Whisper ile yazıya dök)
+        continue-on-error: true
+        run: |
+          pip install -q faster-whisper
+          python - <<'PY'
+          import glob
+          from faster_whisper import WhisperModel
+          m = WhisperModel('small', device='cpu', compute_type='int8')
+          for f in sorted(glob.glob('out/*/*.wav')):
+              segs, _ = m.transcribe(f, language='tr', word_timestamps=True)
+              words = [(w.word.strip(), round(w.start, 2), round(w.end, 2)) for s in segs for w in s.words]
+              print('METIN', f, ' '.join(w[0] for w in words), words)
+          PY
       - name: ses-cikti dalına koy
         run: |
           git config --global user.name "icerik-bot"
