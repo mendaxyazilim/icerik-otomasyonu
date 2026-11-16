@@ -1,0 +1,63 @@
+name: Örnek video (yayınlamaz)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tool:
+        description: 'Araç anahtarı (ör. SUBMAGIC)'
+        default: 'SUBMAGIC'
+
+permissions:
+  contents: write
+
+jobs:
+  ornek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      TOOL: ${{ github.event.inputs.tool }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Bağımlılıklar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+      - name: Üret
+        run: |
+          mkdir -p rk
+          python -u - <<'PY'
+          import os, json, time
+          from studio.main import load_cfg, do_render, pick_style, STATE
+          from studio.llm import new_topic, make_storyboard, tts
+          cfg = load_cfg()
+          tool = os.environ.get('TOOL') or None
+          hist = json.load(open(STATE, encoding='utf-8')).get('history', [])
+          topic = new_topic(hist, cfg, tool=tool)
+          print('Konu:', topic)
+          style = pick_style(None)
+          sb = make_storyboard(topic, cfg, tool=tool, fmt=style['format'])
+          sb['focus_tool'] = tool
+          sb['style'] = style
+          print('Stil:', style)
+          for i in range(3):
+              try:
+                  tts('\n'.join(s['say'] for s in sb['segments']), cfg, 'rk/ornek.wav'); break
+              except Exception as e:
+                  print('TTS hata:', e); time.sleep(90)
+          mp4, meta = do_render(sb, 'rk/ornek.wav', 'rk', cfg, 'ornek')
+          meta['style'] = style; meta['topic'] = topic
+          json.dump(meta, open('rk/ornek.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print('Hazır', meta['duration'])
+          PY
+      - name: reklam-video dalına koy
+        run: |
+          git config --global user.name "icerik-bot"
+          git config --global user.email "icerik-bot@users.noreply.github.com"
+          git clone -q --depth 1 --branch reklam-video "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" out
+          cp rk/ornek.mp4 rk/ornek.json out/ && cd out && git add -A && git commit -q -m "örnek video" && git push -q origin reklam-video
