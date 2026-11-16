@@ -101,6 +101,9 @@ taktikleri anlatan, yüzünü göstermeyen, 2D avatarlı bir anlatıcı. Ton: en
 
 KONU: {topic}
 
+VİDEO FORMATI (bu videonun akışı buna göre kurulsun, diğer videolardan farklı olsun):
+{fmt}
+
 KURALLAR (çok önemli):
 - Sadece genel olarak bilinen, doğrulanabilir özelliklerden bahset. Fiyat, indirim, kampanya, "X gün ücretsiz",
   süreli teklif, kesin kullanıcı sayısı veya uydurma istatistik YAZMA. Emin olmadığın özelliği anlatma.
@@ -146,7 +149,17 @@ SAHNE TİPLERİ (type ve params):
 }}"""
 
 
-def make_storyboard(topic, cfg, tool=None):
+FORMATS = {
+    'liste': "LİSTE: Kancada kaç madde olduğunu söyle ('3 şey'). Her madde ayrı segment ve ayrı sahne (list, checklist, bigtext, stat, icon'lu sahneler). Maddeler numaralı ilerlesin.",
+    'once_sonra': "ÖNCE / SONRA: Önce eski, zahmetli yolu anlat (crossed, compare, crowd), sonra aracın getirdiği yeni yolu göster (app, chat, terminal, steps) ve sonucu söyle.",
+    'mit': "YANLIŞ BİLİNEN: 'Çoğu kişi X sanıyor' diye başla, neden yanlış olduğunu açıkla, sonra doğrusunu adım adım göster (bigtext, crossed, compare, steps).",
+    'tutorial': "ADIM ADIM: Kancada sonucu göster, sonra 3-5 net adımı tek tek anlat (steps, terminal, chat, checklist). Her adım bir segment.",
+    'hata': "YAPILAN HATALAR: 'Bunu yapıyorsan dur' tarzı başla, 2-3 yaygın hatayı ve her birinin doğrusunu anlat (crossed, compare, bigtext, list).",
+    'senaryo': "KULLANIM HİKÂYESİ: 'Bir içerik üreticisi düşün…' diye üçüncü şahısla başla; sorun → araçla çözüm → sonuç (crowd, chat, app, calendar, connector).",
+}
+
+
+def make_storyboard(topic, cfg, tool=None, fmt=None):
     affs = {k: v for k, v in cfg.get('affiliates', {}).items() if (v.get('url') or '').strip()}
     if tool and tool in affs:
         v = affs[tool]
@@ -155,7 +168,7 @@ def make_storyboard(topic, cfg, tool=None):
     else:
         tools = ', '.join(f'{k} ({v["name"]}) -> yer tutucu {{{k}}}' for k, v in affs.items())
     prompt = STORY_PROMPT.format(topic=topic, templates=TEMPLATE_DOC, tools=tools or 'yok',
-                                 cta_say=cfg['cta']['say'])
+                                 cta_say=cfg['cta']['say'], fmt=FORMATS.get(fmt, FORMATS['tutorial']))
     models = pick_models([cfg['models']['text']] + cfg['models'].get('text_fallbacks', []), 'text')[:5]
     print('Senaryo modelleri:', models)
     gen_variants = [

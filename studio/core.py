@@ -235,24 +235,96 @@ def icon(d, kind, cx, cy, s, col, a):
 
 ICONS = ['spark', 'check', 'play', 'bolt', 'chat', 'gear', 'folder', 'mic', 'clock', 'star', 'chart', 'lock']
 
-# ---------------- background ----------------
+# ---------------- themes & background ----------------
+# Her video farklı bir görsel tema + arka plan deseni + yerleşim ile çıkar (apply_style).
+THEMES = {
+    'gece':     dict(OR=(255, 122, 26), YEL=(255, 210, 50), CARD=(31, 27, 24), CARD2=(42, 36, 32), LINE=(66, 57, 50),
+                     DARK=(20, 14, 8), top=(16, 19, 23), bot=(10, 11, 13), part=(60, 90, 140)),
+    'neon':     dict(OR=(64, 214, 255), YEL=(255, 92, 205), CARD=(22, 22, 44), CARD2=(32, 32, 62), LINE=(60, 60, 110),
+                     DARK=(8, 10, 26), top=(18, 14, 42), bot=(6, 6, 18), part=(150, 80, 200)),
+    'mint':     dict(OR=(80, 230, 160), YEL=(220, 255, 120), CARD=(18, 30, 26), CARD2=(26, 42, 36), LINE=(44, 74, 62),
+                     DARK=(6, 16, 12), top=(10, 24, 20), bot=(4, 10, 8), part=(70, 150, 120)),
+    'gunbatimi': dict(OR=(255, 110, 120), YEL=(255, 196, 120), CARD=(40, 22, 30), CARD2=(54, 30, 40), LINE=(90, 52, 66),
+                     DARK=(22, 8, 14), top=(44, 16, 34), bot=(14, 6, 12), part=(200, 90, 120)),
+    'okyanus':  dict(OR=(255, 200, 60), YEL=(120, 230, 255), CARD=(14, 30, 40), CARD2=(20, 42, 56), LINE=(40, 74, 92),
+                     DARK=(4, 14, 20), top=(8, 30, 44), bot=(4, 10, 16), part=(70, 160, 200)),
+}
+PATTERNS = ['dots', 'grid', 'rings', 'stripes']
+LAYOUTS = ['sag', 'kucuk']        # avatar normal / küçük ve köşede
+CAPTIONS = ['ust', 'kutu']        # altyazı: üstte sola dayalı / ortalanmış kutu
+STYLE = {'theme': 'gece', 'pattern': 'dots', 'layout': 'sag', 'caption': 'ust'}
+
 _yy, _xx = np.mgrid[0:H, 0:W].astype(np.float32)
 _BG = np.zeros((H, W, 3), np.float32)
-_top = np.array([16, 19, 23], np.float32)
-_bot = np.array([10, 11, 13], np.float32)
-_BG[:] = _top + (_bot - _top) * (_yy / H)[..., None]
 _PR = np.random.default_rng(11)
 _PART = [(_PR.uniform(0, W), _PR.uniform(0, H), _PR.uniform(6, 22), _PR.uniform(1, 2.5)) for _ in range(40)]
 
 
-def background(t, glowc=OR):
-    g = np.exp(-(((_xx - 360) / 330) ** 2 + ((_yy - 560 - 20 * math.sin(t * 0.7)) / 380) ** 2))
+def _set_bg(top, bot):
+    t = np.array(top[::-1], np.float32)
+    b = np.array(bot[::-1], np.float32)
+    _BG[:] = t + (b - t) * (_yy / H)[..., None]
+
+
+def apply_style(style=None):
+    """Temayı tüm modüllerin renk sabitlerine uygular (scenes/render renkleri çağrı anında okur)."""
+    import sys
+    st = dict(STYLE)
+    st.update(style or {})
+    th = THEMES.get(st['theme'], THEMES['gece'])
+    for modname in (__name__, __package__ + '.scenes', __package__ + '.render'):
+        mod = sys.modules.get(modname)
+        if mod is None:
+            continue
+        for k in ('OR', 'YEL', 'CARD', 'CARD2', 'LINE', 'DARK'):
+            if hasattr(mod, k):
+                setattr(mod, k, th[k])
+    _set_bg(th['top'], th['bot'])
+    STYLE.clear()
+    STYLE.update(st)
+    STYLE['_part'] = th['part']
+    st.pop('_part', None)
+    return st
+
+
+def background(t, glowc=None):
+    glowc = glowc or OR
+    gx = 360
+    g = np.exp(-(((_xx - gx) / 330) ** 2 + ((_yy - 560 - 20 * math.sin(t * 0.7)) / 380) ** 2))
     fr = _BG + g[..., None] * np.array(glowc, np.float32)[None, None, ::-1] * 0.16
     fr = fr.astype(np.uint8)
-    for (px, py, sp, r) in _PART:
-        y = (py - t * sp) % H
-        cv2.circle(fr, (int(px), int(y)), int(r), (60, 90, 140), -1, cv2.LINE_AA)
+    pc = tuple(int(v) for v in STYLE.get('_part', (60, 90, 140))[::-1])
+    pat = STYLE.get('pattern', 'dots')
+    if pat == 'dots':
+        for (px, py, sp, r) in _PART:
+            y = (py - t * sp) % H
+            cv2.circle(fr, (int(px), int(y)), int(r), pc, -1, cv2.LINE_AA)
+    elif pat == 'grid':
+        ov = fr.copy()
+        off = (t * 18) % 60
+        for i in range(-1, H // 60 + 2):
+            y = int(i * 60 + off)
+            cv2.line(ov, (0, y), (W, y), pc, 1, cv2.LINE_AA)
+        for i in range(0, W // 60 + 2):
+            cv2.line(ov, (i * 60, 0), (i * 60, H), pc, 1, cv2.LINE_AA)
+        fr = cv2.addWeighted(ov, 0.35, fr, 0.65, 0)
+    elif pat == 'rings':
+        ov = fr.copy()
+        for k in range(7):
+            r = int((k * 110 + t * 40) % 770)
+            cv2.circle(ov, (360, 560), r, pc, 2, cv2.LINE_AA)
+        fr = cv2.addWeighted(ov, 0.3, fr, 0.7, 0)
+    elif pat == 'stripes':
+        ov = fr.copy()
+        off = int((t * 25) % 90)
+        for i in range(-20, 30):
+            x = i * 90 + off
+            cv2.line(ov, (x, 0), (x + 700, H), pc, 14, cv2.LINE_AA)
+        fr = cv2.addWeighted(ov, 0.12, fr, 0.88, 0)
     return fr
+
+
+_set_bg(THEMES['gece']['top'], THEMES['gece']['bot'])
 
 
 # ---------------- avatar ----------------
@@ -303,7 +375,10 @@ class Avatar:
         ang = 1.3 * math.sin(2 * math.pi * t / 3.3) + 1.2 * o * math.sin(2 * math.pi * t / 0.9)
         rgba = self.frame(o, self.is_blink(t))
         ent = eo(t / 0.6)
-        x = W - self.w + 30
+        small = STYLE.get('layout') == 'kucuk'
+        if small:
+            rgba = cv2.resize(rgba, (int(rgba.shape[1] * 0.74), int(rgba.shape[0] * 0.74)), interpolation=cv2.INTER_AREA)
+        x = W - rgba.shape[1] + (14 if small else 30)
         y = H - rgba.shape[0] + 40 + bob + (1 - ent) * 300
         h, w = rgba.shape[:2]
         M = cv2.getRotationMatrix2D((w / 2, h), ang, 1.0)
@@ -357,10 +432,19 @@ def layout_caption(text, maxw=630):
     return lines
 
 
-def draw_caption(pil, cap, t, accent=OR):
+def draw_caption(pil, cap, t, accent=None):
     """cap = dict(start, end, lines). Words reveal progressively."""
+    accent = accent or OR
     sans, serif = _cap_fonts()
     d = ImageDraw.Draw(pil, 'RGBA')
+    boxed = STYLE.get('caption') == 'kutu'
+    widths = [(ln[-1][2] + (serif if ln[-1][1] else sans).getlength(ln[-1][0])) for ln in cap['lines']] if cap['lines'] else [0]
+    kb = clamp((t - cap['start']) / 0.15)
+    if boxed and kb > 0:
+        bw = max(widths) + 44
+        bh = len(cap['lines']) * 56 + 26
+        x0 = (W - bw) / 2
+        d.rounded_rectangle((x0, 150, x0 + bw, 150 + bh), 22, fill=(0, 0, 0, int(150 * kb)))
     flat = [w for ln in cap['lines'] for w in ln]
     total = sum(len(w[0]) + 1 for w in flat) or 1
     s, e = cap['start'], cap['end']
@@ -374,8 +458,9 @@ def draw_caption(pil, cap, t, accent=OR):
                 continue
             k = min(1, k)
             a = int(255 * k)
-            y = 178 + li * 56 + (1 - k) * 10
+            y = 178 + li * 56 + (1 - k) * 10 - (14 if boxed else 0)
+            x0 = (W - widths[li]) / 2 if boxed else 44
             if acc:
-                d.text((44 + x, y - 4), wd, font=serif, fill=tuple(accent) + (a,))
+                d.text((x0 + x, y - 4), wd, font=serif, fill=tuple(accent) + (a,))
             else:
-                d.text((44 + x, y), wd, font=sans, fill=(255, 255, 255, a))
+                d.text((x0 + x, y), wd, font=sans, fill=(255, 255, 255, a))

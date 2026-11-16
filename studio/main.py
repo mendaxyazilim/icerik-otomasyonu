@@ -156,9 +156,26 @@ def build_meta(sb, cfg, vid):
             'segments': sb['segments']}
 
 
+def pick_style(st):
+    """Her videoda tema, desen, yerleşim, altyazı ve içerik formatı bir öncekinden farklı seçilir."""
+    import random
+    from .core import THEMES, PATTERNS, LAYOUTS, CAPTIONS
+    from .llm import FORMATS
+    last = (st or {}).get('last_style') or {}
+    opts = {'theme': list(THEMES), 'pattern': PATTERNS, 'layout': LAYOUTS, 'caption': CAPTIONS, 'format': list(FORMATS)}
+    style = {}
+    for k, vals in opts.items():
+        pool = [v for v in vals if v != last.get(k)] or list(vals)
+        style[k] = random.choice(pool)
+    if st is not None:
+        st['last_style'] = style
+    return style
+
+
 def do_render(sb, audio, out, cfg, vid):
     from .render import build_timeline, render
-    from .core import Avatar
+    from .core import Avatar, apply_style
+    print('Stil:', apply_style(sb.get('style')))
     tl = build_timeline(sb, audio)
     av = Avatar(width=cfg.get('avatar', {}).get('width', 420))
     mp4 = os.path.join(out, f'{vid}.mp4')
@@ -219,8 +236,10 @@ def main():
         topic, st = (a.topic, None) if a.topic else pick_topic(cfg)
         print('Konu:', topic)
         tool = (st or {}).get('_tool') if st else None
-        sb = make_storyboard(topic, cfg, tool=tool)
+        style = pick_style(st)
+        sb = make_storyboard(topic, cfg, tool=tool, fmt=style['format'])
         sb['focus_tool'] = tool
+        sb['style'] = style
         vid = dt.date.today().isoformat() + '-' + slug(sb.get('title', topic))
         json.dump(sb, open(os.path.join(a.out, f'{vid}.storyboard.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         text = '\n'.join(s['say'] for s in sb['segments'])

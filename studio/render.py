@@ -104,7 +104,7 @@ def build_timeline(sb, audio_path):
     return {'scenes': scenes, 'captions': fixed, 'duration': end, 'audio': (a, sr)}
 
 
-def render(tl, audio_path, out_mp4, avatar=None, cta_accent=YEL):
+def render(tl, audio_path, out_mp4, avatar=None, cta_accent=None):
     avatar = avatar or Avatar()
     a, sr = tl['audio']
     scenes, caps = tl['scenes'], tl['captions']
