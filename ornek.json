@@ -1,0 +1,195 @@
+{
+ "id": "ornek",
+ "title": "submagic-magic-zooms",
+ "youtube_title": "Düz Konuşma Videolarını Tek Tıkla Dinamik Yap 🎬",
+ "instagram_text": "Yapay zekâ ile video kurgusu artık tek tıkla otomatik kamera hareketleri ve ses efektleri kazanıyor.\n\nKamera karşısında konuşurken sahnenin sabit kalması izleyicinin dikkatini hızla dağıtır. https://submagic.co/?via=egemen-161849 ile karmaşık kurgu programlarıyla saatlerce uğraşmadan konuşma videolarına dinamik yakınlaşmalar ve geçiş sesleri ekleyebilirsin.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #submagic #içeriküretimi",
+ "youtube_text": "Yapay zekâ ile video kurgusu artık tek tıkla otomatik kamera hareketleri ve ses efektleri kazanıyor.\n\nKamera karşısında konuşurken sahnenin sabit kalması izleyicinin dikkatini hızla dağıtır. https://submagic.co/?via=egemen-161849 ile karmaşık kurgu programlarıyla saatlerce uğraşmadan konuşma videolarına dinamik yakınlaşmalar ve geçiş sesleri ekleyebilirsin.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #submagic #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videolarını otomatik olarak hareketlendirmek için:\n1. Konuşma videonu https://submagic.co/?via=egemen-161849 içine yükle.\n2. Magic Zooms ve ses efektleri seçeneğini aç.\n3. Tek tıkla dinamik kurgunu dışa aktar.",
+ "first_comment": "Selam! 👋 Videolarını otomatik olarak hareketlendirmek için:\n1. Konuşma videonu https://submagic.co/?via=egemen-161849 içine yükle.\n2. Magic Zooms ve ses efektleri seçeneğini aç.\n3. Tek tıkla dinamik kurgunu dışa aktar.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Kamera karşısında saatlerce konuşup sonra kurguda kayboluyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Kamera* *karşısında* konuşup",
+    "kurguda kayboluyorsan *zaman* *kaybediyorsun*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SAATLERCE KURGU",
+      "YAPMAKTAN SIKILDIN MI?"
+     ],
+     "highlight": "KURGU",
+     "stamp": "ZAMAN KAYBI"
+    }
+   }
+  },
+  {
+   "say": "Bir içerik üreticisi düşün, harika fikirleri var ama videoları dümdüz ve hareketsiz duruyor.",
+   "captions": [
+    "Bir *içerik* *üreticisi* düşün,",
+    "videoları *dümdüz* ve hareketsiz."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "DÜZ VE HAREKETSİZ VİDEOLAR",
+     "highlight": "DİKKAT ÇEKMİYOR"
+    }
+   }
+  },
+  {
+   "say": "Tek tek kare kesip yakınlaşma vermek ve efekt sesi aramak saatlerini alıyor.",
+   "captions": [
+    "Kare kesip *yakınlaşma* vermek",
+    "ve *efekt* *sesi* aramak saatler alıyor."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Konuşma videosunu dinamik yap",
+     "command": "/manuel kurgu",
+     "tag": "Klasik Kurgu",
+     "wait": "Manuel keyframe ekleniyor...",
+     "done": "İki saat sürdü",
+     "result": "Yorucu Süreç"
+    }
+   }
+  },
+  {
+   "say": "İşte tam bu noktada Submagic sahneye çıkıyor.",
+   "captions": [
+    "İşte tam bu noktada",
+    "*Submagic* sahneye çıkıyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Video Editör",
+     "button": "Otomatik Kurgu",
+     "sticker_top": "YENİ NESİL",
+     "sticker_big": "AI",
+     "sticker_bottom": "HIZLI EDİT"
+    }
+   }
+  },
+  {
+   "say": "Aracın içindeki sihirli yakınlaşma özelliği, konuşmanın ritmine göre kamerayı otomatik olarak içeri ve dışarı kaydırıyor.",
+   "captions": [
+    "*Sihirli* *yakınlaşma* özelliği,",
+    "kamerayı *otomatik* içeri dışarı kaydırıyor."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Sabit Çekim",
+     "right": "Dinamik Zoom",
+     "chips": [
+      "Ritim Takibi",
+      "Otomatik Açı",
+      "Akıcı Geçiş"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üstelik her kamera hareketine uygun geçiş sesleri de kendiliğinden videoya ekleniyor.",
+   "captions": [
+    "Kamera hareketine uygun *ses* *efektleri*",
+    "kendiliğinden *ekleniyor*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Otomatik Özellikler",
+     "items": [
+      {
+       "title": "Dinamik Yakınlaşma",
+       "sub": "Vurgu anında açı değişimi",
+       "icon": "play"
+      },
+      {
+       "title": "Geçiş Sesleri",
+       "sub": "Harekete uyumlu efektler",
+       "icon": "mic"
+      },
+      {
+       "title": "Sıfır Kurgu Emeği",
+       "sub": "Zaman kazandıran akış",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bir ay sonra geriye baktığında düz bir çekimin nasıl profesyonel bir kurguya dönüştüğünü göreceksin.",
+   "captions": [
+    "Düz bir çekim,",
+    "*profesyonel* *bir* *kurguya* dönüşüyor."
+   ],
+   "scene": {
+    "type": "calendar",
+    "params": {
+     "top": "HIZLI ÜRETİM",
+     "big": "1",
+     "unit": "AY SONRA",
+     "note": "Akıcı içerik akışı",
+     "banner": "Dinamik Kurgu Rutini"
+    }
+   }
+  },
+  {
+   "say": "Kurgu programlarıyla vakit kaybetmek yerine tüm süreci dakikalar içine sığdırabilirsin.",
+   "captions": [
+    "Vakit kaybetmek yerine",
+    "süreci *dakikalar* içine sığdır."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ZAMAN KAYBI",
+     "strike": "Manuel Yakınlaşma Ayarları",
+     "good": "OTOMATİK ÇÖZÜM",
+     "good_sub": "Submagic İle",
+     "good_items": [
+      "Hızlı",
+      "Dinamik",
+      "Ses Efektli",
+      "Zahmetsiz"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 46.92,
+ "style": {
+  "theme": "mint",
+  "pattern": "rings",
+  "layout": "sag",
+  "caption": "kutu",
+  "format": "senaryo"
+ },
+ "topic": "Submagic’in \"Magic Zooms\" ve ses efekti özelliğiyle düz bir konuşma videosuna kurgu programı açmadan otomatik kamera yakınlaşmaları ve geçiş sesleri eklemek."
+}
