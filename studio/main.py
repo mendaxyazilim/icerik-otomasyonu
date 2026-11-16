@@ -131,7 +131,11 @@ def build_meta(sb, cfg, vid):
         cfg = dict(cfg)
         cfg['affiliates'] = {k: v for k, v in affs.items() if (v.get('url') or '').strip()}
     caption = fill_links(sb.get('caption', ''), cfg)
-    tags = ' '.join(h if h.startswith('#') else '#' + h for h in sb.get('hashtags', [])[:10])
+    # model açıklamaya kendi çağrısını eklediyse sil: tek çağrı olsun (sistem ig_line ekliyor)
+    caption = '\n'.join(l for l in caption.split('\n')
+                         if not re.search(r'yorumlara\s+\S+\s+yaz|takip\s+et|beğenmeyi\s+unutma', l, re.I)).strip()
+    caption = re.sub(r'\n{3,}', '\n\n', caption)
+    tags = ' '.join(h if h.startswith('#') else '#' + h for h in sb.get('hashtags', [])[:5])
     kw = sb.get('cta_keyword', cfg['cta']['default_keyword'])
     dm = fill_links(sb.get('dm') or cfg['dm']['default'], cfg).strip()
     if not any(v['url'] in dm for v in (cfg.get('affiliates') or {}).values()):

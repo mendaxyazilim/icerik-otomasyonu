@@ -107,8 +107,14 @@ KURALLAR (çok önemli):
 - Başka bir kişinin başarısını anlatıyorsan "bazı hesaplar/kişiler" diye genel konuş; anlatıcı kendine ait olmayan
   başarı iddia etmesin ("ben 47 bin takipçi yaptım" gibi şeyler YOK).
 - Gerçek kullanıcı adı, @hesap, kişi adı geçmesin.
-- İlk cümle güçlü bir kanca olsun (ilk 2 saniyede merak).
-- Toplam seslendirme 120-160 kelime (yaklaşık 50-70 saniye). 8-13 segment.
+- KANCA (en önemli kısım, izleyici ilk 1-3 saniyede kalıyor ya da kaydırıyor):
+  * İlk cümle en fazla 12 kelime; selam, "bugün size", "bu videoda" gibi ısınma cümleleri YASAK.
+  * Somut bir isim/nesne/durum içersin ("Excel tablon", "yorum kutusu", "kamera karşısı"); muğlak merak ("inanamayacaksın") YOK.
+  * Şu kalıplardan birini seç: karşıt görüş ("X yapıyorsan zaman kaybediyorsun"), sorun ("Her gün ne paylaşacağını düşünmekten yoruldun mu?"),
+    sonuç önizlemesi ("Bu videoyu baştan sona yapay zekâ yaptı"), yanlış bilinen ("Çoğu kişi X'i yanlış kullanıyor").
+  * İlk segmentin sahnesi "bigtext" olsun ve sesi kapalı izleyen de konuyu anlasın: 2-5 kelimelik net başlık.
+  * Kanca neyi vaat ediyorsa video onu GERÇEKTEN versin; abartılı vaat yok.
+- Toplam seslendirme 100-140 kelime (yaklaşık 40-55 saniye). 8-12 segment. Her segment bir öncekinden yeni bir şey söylesin; dolgu cümle yok.
 - Her segment tek cümle (veya çok kısa iki cümle). "say" alanı sesli okunacak metindir: sayıları okunuşuyla yaz
   (örn. "yüzde altmış", "üç gün"), kısaltma/emoji/URL kullanma.
 - "captions": o segmentin ekranda görünen altyazısı; 1-3 parça, her parça en fazla 42 karakter, "say" metniyle
@@ -131,8 +137,8 @@ SAHNE TİPLERİ (type ve params):
 {{
  "title": "dosya için kısa başlık",
  "youtube_title": "YouTube başlığı (en fazla 90 karakter, merak uyandıran, 1 emoji olabilir)",
- "caption": "Instagram/YouTube açıklaması: 3-6 kısa paragraf, emoji olabilir. Konuyla ilgili araç geçiyorsa linki yer tutucuyla ver (örn. {{HIGGSFIELD}}). En sonda kapanış çağrısı.",
- "hashtags": ["#yapayzeka", "... 6-10 etiket"],
+ "caption": "Açıklama: İLK SATIR en fazla 120 karakter ve aranacak anahtar kelimeyi içersin (örn. 'Yapay zekâ ile otomatik altyazı...'), videodaki kancanın aynısı olmasın. Sonra 1-3 kısa paragraf bağlam. Konuyla ilgili araç geçiyorsa linki yer tutucuyla ver (örn. {{HIGGSFIELD}}). 'Yorumlara yaz', 'takip et', 'beğen' gibi çağrı YAZMA (sistem kendisi ekliyor).",
+ "hashtags": ["#yapayzeka", "... toplam 3-5 konuyla ilgili Türkçe etiket"],
  "tools": ["açıklamada linki verilen araçların anahtarları, örn. HIGGSFIELD"],
  "cta_keyword": "SİSTEM",
  "dm": "Selam! 👋 ... {{HIGGSFIELD}} ...",
