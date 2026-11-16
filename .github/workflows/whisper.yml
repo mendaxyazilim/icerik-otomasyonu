@@ -1,0 +1,28 @@
+name: Ses kontrol (Whisper)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ses-cikti
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q faster-whisper numpy
+      - run: |
+          python - <<'PY'
+          import glob, wave, numpy as np
+          from faster_whisper import WhisperModel
+          m = WhisperModel('medium', device='cpu', compute_type='int8')
+          for f in sorted(glob.glob('**/*.wav', recursive=True)):
+              w = wave.open(f); sr = w.getframerate(); x = np.frombuffer(w.readframes(w.getnframes()), '<i2').astype(np.float32) / 32768
+              x = np.interp(np.arange(int(len(x) * 16000 / sr)) * sr / 16000, np.arange(len(x)), x).astype(np.float32)
+              segs, _ = m.transcribe(x, language='tr', word_timestamps=True, beam_size=5)
+              words = [(w.word.strip(), round(w.start, 2), round(w.end, 2)) for s in segs for w in s.words]
+              print('METIN', f, '|', ' '.join(w[0] for w in words), '|', words)
+          PY
