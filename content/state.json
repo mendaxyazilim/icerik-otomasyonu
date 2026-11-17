@@ -15,19 +15,20 @@
   "OpusClip ile 1 saatlik podcast kaydını tek tıkla virallik puanına göre sıralanmış ve dinamik altyazılı 10 kısa videoya dönüştürmek.",
   "Higgsfield'ın \"Inpaint\" özelliğiyle videondaki istenmeyen bir nesneyi fırçayla boyayıp tek tıkla bambaşka bir sinematik objeyle değiştirmek.",
   "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek.",
-  "Submagic'in \"AI Zooms\" ve \"Sound Effects\" özellikleriyle düz konuşma videona doğru kelimelerde otomatik kamera yakınlaşması ve geçiş ses efektleri eklemek."
+  "Submagic'in \"AI Zooms\" ve \"Sound Effects\" özellikleriyle düz konuşma videona doğru kelimelerde otomatik kamera yakınlaşması ve geçiş ses efektleri eklemek.",
+  "OpusClip'in \"AI Co-Pilot\" özelliğiyle uzun bir videodan sadece seçtiğin anahtar kelimelere odaklanan en vurucu anları saniyeler içinde kestirmek."
  ],
  "filled_slots": [
-  "2026-11-17T12:00:00.000Z",
   "2026-11-18T06:00:00.000Z",
-  "2026-11-18T12:00:00.000Z"
+  "2026-11-18T12:00:00.000Z",
+  "2026-11-19T06:00:00.000Z"
  ],
- "tool_i": 7,
+ "tool_i": 8,
  "last_style": {
-  "theme": "neon",
-  "pattern": "dots",
-  "layout": "sag",
-  "caption": "ust",
-  "format": "mit"
+  "theme": "gunbatimi",
+  "pattern": "grid",
+  "layout": "kucuk",
+  "caption": "kutu",
+  "format": "liste"
  }
 }
