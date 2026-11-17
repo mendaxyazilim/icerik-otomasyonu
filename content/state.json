@@ -14,18 +14,20 @@
   "Submagic ile ham konuşma videondaki sessizlikleri tek tıkla kesip kelimeleri otomatik B-roll görselleri ve dinamik altyazılarla zenginleştirmek",
   "OpusClip ile 1 saatlik podcast kaydını tek tıkla virallik puanına göre sıralanmış ve dinamik altyazılı 10 kısa videoya dönüştürmek.",
   "Higgsfield'ın \"Inpaint\" özelliğiyle videondaki istenmeyen bir nesneyi fırçayla boyayıp tek tıkla bambaşka bir sinematik objeyle değiştirmek.",
-  "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek."
+  "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek.",
+  "Submagic'in \"AI Zooms\" ve \"Sound Effects\" özellikleriyle düz konuşma videona doğru kelimelerde otomatik kamera yakınlaşması ve geçiş ses efektleri eklemek."
  ],
  "filled_slots": [
   "2026-11-17T12:00:00.000Z",
-  "2026-11-18T06:00:00.000Z"
+  "2026-11-18T06:00:00.000Z",
+  "2026-11-18T12:00:00.000Z"
  ],
- "tool_i": 6,
+ "tool_i": 7,
  "last_style": {
-  "theme": "okyanus",
-  "pattern": "stripes",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "senaryo"
+  "theme": "neon",
+  "pattern": "dots",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "mit"
  }
 }
