@@ -13,13 +13,19 @@
   "ElevenLabs Video Dubbing ile yabancı dildeki bir videoyu kendi ses tonunu koruyarak saniyeler içinde Türkçeye çevirmek",
   "Submagic ile ham konuşma videondaki sessizlikleri tek tıkla kesip kelimeleri otomatik B-roll görselleri ve dinamik altyazılarla zenginleştirmek",
   "OpusClip ile 1 saatlik podcast kaydını tek tıkla virallik puanına göre sıralanmış ve dinamik altyazılı 10 kısa videoya dönüştürmek.",
-  "Higgsfield'ın \"Inpaint\" özelliğiyle videondaki istenmeyen bir nesneyi fırçayla boyayıp tek tıkla bambaşka bir sinematik objeyle değiştirmek."
+  "Higgsfield'ın \"Inpaint\" özelliğiyle videondaki istenmeyen bir nesneyi fırçayla boyayıp tek tıkla bambaşka bir sinematik objeyle değiştirmek.",
+  "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek."
  ],
  "filled_slots": [
-  "2026-11-16T06:00:00.000Z",
-  "2026-11-16T12:00:00.000Z",
-  "2026-11-17T06:00:00.000Z",
-  "2026-11-17T12:00:00.000Z"
+  "2026-11-17T12:00:00.000Z",
+  "2026-11-18T06:00:00.000Z"
  ],
- "tool_i": 5
+ "tool_i": 6,
+ "last_style": {
+  "theme": "okyanus",
+  "pattern": "stripes",
+  "layout": "kucuk",
+  "caption": "kutu",
+  "format": "senaryo"
+ }
 }
