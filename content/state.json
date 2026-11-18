@@ -16,19 +16,19 @@
   "Higgsfield'ın \"Inpaint\" özelliğiyle videondaki istenmeyen bir nesneyi fırçayla boyayıp tek tıkla bambaşka bir sinematik objeyle değiştirmek.",
   "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek.",
   "Submagic'in \"AI Zooms\" ve \"Sound Effects\" özellikleriyle düz konuşma videona doğru kelimelerde otomatik kamera yakınlaşması ve geçiş ses efektleri eklemek.",
-  "OpusClip'in \"AI Co-Pilot\" özelliğiyle uzun bir videodan sadece seçtiğin anahtar kelimelere odaklanan en vurucu anları saniyeler içinde kestirmek."
+  "OpusClip'in \"AI Co-Pilot\" özelliğiyle uzun bir videodan sadece seçtiğin anahtar kelimelere odaklanan en vurucu anları saniyeler içinde kestirmek.",
+  "Higgsfield'ın \"Motion Control\" özelliğiyle karakterinin ve kameranın hareket yönünü ekranda çizerek sinematik aksiyon sahnelerini sıfırdan yönetmek."
  ],
  "filled_slots": [
-  "2026-11-18T06:00:00.000Z",
-  "2026-11-18T12:00:00.000Z",
-  "2026-11-19T06:00:00.000Z"
+  "2026-11-19T06:00:00.000Z",
+  "2026-11-19T12:00:00.000Z"
  ],
- "tool_i": 8,
+ "tool_i": 9,
  "last_style": {
-  "theme": "gunbatimi",
-  "pattern": "grid",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "liste"
+  "theme": "mint",
+  "pattern": "stripes",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "hata"
  }
 }
