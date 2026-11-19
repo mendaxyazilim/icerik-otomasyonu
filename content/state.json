@@ -17,18 +17,20 @@
   "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek.",
   "Submagic'in \"AI Zooms\" ve \"Sound Effects\" özellikleriyle düz konuşma videona doğru kelimelerde otomatik kamera yakınlaşması ve geçiş ses efektleri eklemek.",
   "OpusClip'in \"AI Co-Pilot\" özelliğiyle uzun bir videodan sadece seçtiğin anahtar kelimelere odaklanan en vurucu anları saniyeler içinde kestirmek.",
-  "Higgsfield'ın \"Motion Control\" özelliğiyle karakterinin ve kameranın hareket yönünü ekranda çizerek sinematik aksiyon sahnelerini sıfırdan yönetmek."
+  "Higgsfield'ın \"Motion Control\" özelliğiyle karakterinin ve kameranın hareket yönünü ekranda çizerek sinematik aksiyon sahnelerini sıfırdan yönetmek.",
+  "ElevenLabs'in \"Voice Design\" özelliğiyle cinsiyet, yaş ve aksan parametrelerini seçerek sıfırdan ve sana özel yepyeni bir yapay zekâ karakter sesi tasarlamak."
  ],
  "filled_slots": [
   "2026-11-19T06:00:00.000Z",
-  "2026-11-19T12:00:00.000Z"
+  "2026-11-19T12:00:00.000Z",
+  "2026-11-20T06:00:00.000Z"
  ],
- "tool_i": 9,
+ "tool_i": 10,
  "last_style": {
-  "theme": "mint",
-  "pattern": "stripes",
-  "layout": "sag",
-  "caption": "ust",
-  "format": "hata"
+  "theme": "neon",
+  "pattern": "rings",
+  "layout": "kucuk",
+  "caption": "kutu",
+  "format": "mit"
  }
 }
