@@ -40,7 +40,7 @@ jobs:
       - name: Bağımlılıklar
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q requests pyyaml
+          pip install -q -r requirements.txt
           git config --global user.name "icerik-bot"
           git config --global user.email "icerik-bot@users.noreply.github.com"
       - name: Botu çalıştır
