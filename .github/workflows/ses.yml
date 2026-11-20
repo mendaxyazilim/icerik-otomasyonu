@@ -76,6 +76,7 @@ jobs:
               print('METIN', f, ' '.join(w[0] for w in words), words)
           PY
       - name: ses-cikti dalına koy
+        if: always()
         run: |
           git config --global user.name "icerik-bot"
           git config --global user.email "icerik-bot@users.noreply.github.com"
