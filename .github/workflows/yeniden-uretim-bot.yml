@@ -1,5 +1,6 @@
 name: Video yeniden üretim botu
 
+# Buffer anahtarı: BUFFER_API_KEY_REMAKE (Mendax'tan ayrı hesaplar).
 # Telegram botuna gönderilen videoları Türkçe anlatım + yeniden kurgu ile yeniden üretip Buffer'dan hemen yayınlar.
 # Bot her başladığında ~5,5 saat açık kalır ve mesajları anında dinler; saatlik zamanlayıcı kapanınca yenisini başlatır.
 on:
@@ -27,7 +28,7 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY_REMAKE }}
       GH_TOKEN: ${{ github.token }}
       REMAKE_PUBLISH: ${{ vars.REMAKE_PUBLISH || 'true' }}
       REMAKE_LOOP_MINUTES: '330'
@@ -46,4 +47,6 @@ jobs:
       - name: Botu çalıştır
         run: |
           if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo "TELEGRAM_BOT_TOKEN secret'ı eklenmemiş, bot başlatılmadı."; exit 0; fi
+          # Ayrı Buffer anahtarı (BUFFER_API_KEY_REMAKE) yoksa yayınlama, videoyu sadece Telegram'a gönder
+          if [ -z "$BUFFER_API_KEY" ]; then export REMAKE_PUBLISH=false; echo "BUFFER_API_KEY_REMAKE yok: yayın kapalı"; fi
           python -u -m studio.main remake-bot
