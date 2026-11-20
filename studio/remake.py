@@ -506,6 +506,13 @@ def run_bot(cfg, minutes):
     except Exception:  # noqa
         pass
     owner = _owner()
+    if os.environ.get('BUFFER_API_KEY'):
+        try:
+            from .publish import channels
+            for c in channels():
+                print(f"Buffer kanalı: {c['service']} | {c.get('displayName') or c['name']} | duraklatılmış={c['isQueuePaused']}")
+        except Exception as e:  # noqa
+            print('Buffer kanalları okunamadı:', e)
     end = time.time() + minutes * 60
     offset = None
     while time.time() < end:
