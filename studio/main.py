@@ -4,6 +4,7 @@ python -m studio.main produce  --out out          # konu seç -> senaryo -> ses 
 python -m studio.main render   --storyboard sb.json --audio vo.wav --out out   # API'siz render (test)
 python -m studio.main publish  --meta out/<id>.json --url <public mp4 url>
 python -m studio.main channels                    # Buffer'daki kanalları listele
+python -m studio.main remake-bot                  # Telegram → Türkçe yeniden üretim → Buffer botu
 """
 import argparse
 import datetime as dt
@@ -188,13 +189,15 @@ def do_render(sb, audio, out, cfg, vid):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('cmd', choices=['produce', 'render', 'publish', 'channels', 'dmbot', 'next-slot', 'mark-slot'])
+    ap.add_argument('cmd', choices=['produce', 'render', 'publish', 'channels', 'dmbot', 'next-slot', 'mark-slot', 'remake', 'remake-bot'])
     ap.add_argument('--out', default='out')
     ap.add_argument('--storyboard')
     ap.add_argument('--audio')
     ap.add_argument('--meta')
     ap.add_argument('--url')
     ap.add_argument('--topic')
+    ap.add_argument('--video')
+    ap.add_argument('--note', default='')
     ap.add_argument('slot', nargs='?', default='')
     ap.add_argument('--due', default='', help="'next' = config'teki bir sonraki yayın saati, ya da ISO zaman")
     a = ap.parse_args()
@@ -216,6 +219,17 @@ def main():
             run_loop(cfg, minutes, int(os.environ.get('DM_INTERVAL_SECONDS', '180')))
         else:
             run(cfg)
+        return
+
+    if a.cmd == 'remake-bot':
+        from .remake import run_bot
+        run_bot(cfg, int(os.environ.get('REMAKE_LOOP_MINUTES', '330') or 330))
+        return
+
+    if a.cmd == 'remake':
+        from .remake import remake
+        mp4, meta = remake(a.video, a.out, cfg, a.note)
+        print(mp4)
         return
 
     if a.cmd == 'channels':

@@ -102,3 +102,13 @@ publish:
   youtube_category: "28"          # Bilim ve Teknoloji
   # Videonun herkese açık adresi ({id} dosya adıdır). media dalı GitHub Actions tarafından güncellenir.
   media_url: "https://raw.githubusercontent.com/mendaxyazilim/icerik-otomasyonu/media/{id}.mp4"
+
+# Telegram'dan gönderilen videoları Türkçe yeniden üretip yayınlama (studio/remake.py, "Video yeniden üretim botu")
+yeniden_uretim:
+  services: [instagram, youtube]   # Buffer'da bu türdeki tüm kanallara gider
+  youtube_category: "24"           # Eğlence
+  hiz: 1.06                        # görüntü hızlandırma
+  zoom: 1.07                       # hafif yakınlaştırma (kenarlar kırpılır)
+  aynala: true                     # videoda yazı/logo yoksa görüntüyü aynala
+  orijinal_ses: 0.12               # orijinal sesin seviyesi (0 = tamamen kapalı)
+  kelime_saniye: 2.1               # anlatım uzunluğu ayarı (ses videodan uzun çıkarsa küçült)
