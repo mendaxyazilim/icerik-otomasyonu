@@ -1,0 +1,158 @@
+{
+ "id": "2026-11-17-elevenlabs-ai-sound-effects",
+ "title": "elevenlabs-ai-sound-effects",
+ "youtube_title": "Stok Sitelerde Ses Aramayı Bırakın: Tek Cümleyle Efekt Üretin! 🎧",
+ "instagram_text": "Yapay zekâ ile videonuza özel ses efektlerini saniyeler içinde üretin. Stok sitelerde saatlerce doğru kurgu sesini aramak yerine sahneyi metinle tarif edebilirsiniz. https://try.elevenlabs.io/ltkcv8jbeob1 ses efektleri aracıyla projelerinize tam uyan sesleri kolayca oluşturabilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #videokurgu #içeriküretimi",
+ "youtube_text": "Yapay zekâ ile videonuza özel ses efektlerini saniyeler içinde üretin. Stok sitelerde saatlerce doğru kurgu sesini aramak yerine sahneyi metinle tarif edebilirsiniz. https://try.elevenlabs.io/ltkcv8jbeob1 ses efektleri aracıyla projelerinize tam uyan sesleri kolayca oluşturabilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #videokurgu #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videolarına tam uyan ses efektlerini tek cümleyle üretmek için adımlar:\n1. https://try.elevenlabs.io/ltkcv8jbeob1 sitesinde Sound Effects sekmesine gir.\n2. Sahnedeki sesi detaylıca tarif eden bir prompt yaz.\n3. Çıkan alternatiflerden en uygun olanı seçip indir.",
+ "first_comment": "Selam! 👋 Videolarına tam uyan ses efektlerini tek cümleyle üretmek için adımlar:\n1. https://try.elevenlabs.io/ltkcv8jbeob1 sitesinde Sound Effects sekmesine gir.\n2. Sahnedeki sesi detaylıca tarif eden bir prompt yaz.\n3. Çıkan alternatiflerden en uygun olanı seçip indir.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Doğru ses efektini stok sitelerde arıyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Stok* *sitelerde* ses",
+    "arıyorsan *zaman* *kaybediyorsun*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "STOK SES",
+      "ARAMAYI BIRAK"
+     ],
+     "highlight": "ARAMAYI BIRAK"
+    }
+   }
+  },
+  {
+   "say": "Bir içerik üreticisi düşün, kurguladığı sahne için tam o anlık özel bir efekt arıyor.",
+   "captions": [
+    "Bir *içerik* *üreticisi* düşün,",
+    "sahneye *özel* *efekt* arıyor."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İÇERİK ÜRETİCİSİ",
+     "highlight": "ÖZEL SES ARIYOR"
+    }
+   }
+  },
+  {
+   "say": "Sayfalarca stok ses dinliyor ama hiçbiri istediği atmosfere tam oturmuyor.",
+   "captions": [
+    "*Sayfalarca* *ses* dinliyor,",
+    "hiçbiri *sahneye* *oturmuyor*."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Saatlerce Arama",
+      "Uymayan Efektler",
+      "Aynı Sıradan Sesler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Çözüm için ElevenLabs sitesindeki ses efektleri aracını açıyor.",
+   "captions": [
+    "Çözüm için *ElevenLabs*",
+    "ses *efektleri* *aracını* açıyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "AI Sound Effects",
+     "button": "Ses Üret",
+     "sticker_big": "YENİ"
+    }
+   }
+  },
+  {
+   "say": "Kutuya sadece eski bir kapının gıcırtıyla açılıp rüzgar sesi çıkarmasını yazıyor.",
+   "captions": [
+    "Kutuya *sahneyi* *tarif* *eden*",
+    "tek bir *cümle* *yazıyor*."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Eski tahta kapı gıcırtısı ve rüzgar",
+     "command": "Ses Üret",
+     "tag": "ElevenLabs",
+     "wait": "Ses tasarlanıyor...",
+     "done": "Efekt hazır!",
+     "result": "Tam Sahneye Göre"
+    }
+   }
+  },
+  {
+   "say": "Yapay zekâ saniyeler içinde sahneye birebir uyan dört farklı alternatif hazırlıyor.",
+   "captions": [
+    "*Saniyeler* *içinde*",
+    "dört farklı *seçenek* *hazır*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Üretilen Efektler",
+     "items": [
+      {
+       "title": "Gıcırtılı Kapı",
+       "sub": "Versiyon 1",
+       "icon": "mic"
+      },
+      {
+       "title": "Rüzgarlı Kapanış",
+       "sub": "Versiyon 2",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece saatler süren telifsiz ses araması tek tıkla bitiyor.",
+   "captions": [
+    "Saatler süren *ses* *araması*",
+    "artık *tek* *tıkla* bitiyor."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Yazılı Metin",
+     "right": "Özel Efekt",
+     "chips": [
+      "Hızlı",
+      "Özgün",
+      "Yüksek Kalite"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 37.44,
+ "topic": "ElevenLabs AI Sound Effects ile stok sitelerde aramadan videondaki sahneye özel ses efektlerini tek bir cümleyle üretmek."
+}

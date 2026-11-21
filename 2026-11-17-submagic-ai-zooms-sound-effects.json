@@ -1,0 +1,187 @@
+{
+ "id": "2026-11-17-submagic-ai-zooms-sound-effects",
+ "title": "submagic-ai-zooms-sound-effects",
+ "youtube_title": "Dinamik Reels Kurgusu Yapmanın En Kolay Yolu 🎬",
+ "instagram_text": "Yapay zekâ ile videolara otomatik yakınlaşma ve ses efektleri ekleme rehberi.\n\nKamera karşısında konuşurken videonun sıkıcı kalmaması için doğru anlarda yakınlaşma ve geçiş sesleri kullanmak gerekir. Tüm bunları tek tek elle kesip ayarlamak yerine yapay zekâya bırakabilirsiniz.\n\nSubmagic aracını denemek için bağlantı: https://submagic.co/?via=egemen-161849\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #içeriküretimi #reels #submagic",
+ "youtube_text": "Yapay zekâ ile videolara otomatik yakınlaşma ve ses efektleri ekleme rehberi.\n\nKamera karşısında konuşurken videonun sıkıcı kalmaması için doğru anlarda yakınlaşma ve geçiş sesleri kullanmak gerekir. Tüm bunları tek tek elle kesip ayarlamak yerine yapay zekâya bırakabilirsiniz.\n\nSubmagic aracını denemek için bağlantı: https://submagic.co/?via=egemen-161849\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #içeriküretimi #reels #submagic #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videolarına tek tıkla dinamik yakınlaşma ve ses efektleri eklemek için adımlar:\n\n1. Videonu https://submagic.co/?via=egemen-161849 içine yükle\n2. AI Zooms özelliğini aktif et\n3. Sound Effects seçeneğini açıp dışa aktar",
+ "first_comment": "Selam! 👋 Videolarına tek tıkla dinamik yakınlaşma ve ses efektleri eklemek için adımlar:\n\n1. Videonu https://submagic.co/?via=egemen-161849 içine yükle\n2. AI Zooms özelliğini aktif et\n3. Sound Effects seçeneğini açıp dışa aktar\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Çoğu kişi dinamik video kurgusunu saatlerce süren bir iş sanıyor.",
+   "captions": [
+    "Çoğu kişi *dinamik* *kurguyu*",
+    "*saatlerce* süren bir iş sanıyor."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "DİNAMİK VİDEO",
+      "SAATLER ALMAZ"
+     ],
+     "highlight": "DİNAMİK",
+     "stamp": "YANLIŞ BİLİNEN"
+    }
+   }
+  },
+  {
+   "say": "Oysa her kelimede tek tek yakınlaşma kesimi yapmak zorunda değilsiniz.",
+   "captions": [
+    "Oysa her kelimede *tek* *tek*",
+    "*yakınlaşma* *kesimi* yapmak",
+    "zorunda değilsiniz."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Manuel timeline kesimleri",
+      "Tek tek ses efekti arama",
+      "Uzun kurgu saatleri"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Elle yapılan kurgu yerine yapay zekâ temelli akıllı kurguyu kullanabilirsiniz.",
+   "captions": [
+    "Elle yapılan kurgu yerine",
+    "*akıllı* *kurguyu* kullanabilirsiniz."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Elle tek tek zoom yapmak",
+     "good": "SUBMAGIC",
+     "good_sub": "Otomatik kurgu motoru",
+     "good_items": [
+      "Akıllı yakınlaşma",
+      "Doğru zamanlama",
+      "Geçiş sesleri",
+      "Hızlı çıktı"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İlk adımda konuşma videonuzu doğrudan Submagic platformuna yüklüyorsunuz.",
+   "captions": [
+    "İlk adımda *videonuzu*",
+    "doğrudan *Submagic* platformuna",
+    "yüklüyorsunuz."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Video Editor",
+     "button": "Videoyu Yükle",
+     "sticker_top": "ADIM BİR",
+     "sticker_big": "YÜKLE",
+     "sticker_bottom": "Konuşma Videosu"
+    }
+   }
+  },
+  {
+   "say": "Araç konuşmanızı analiz edip önemli anları belirlerken siz sadece tek bir butona basıyorsunuz.",
+   "captions": [
+    "Araç konuşmanızı *analiz* ederken",
+    "siz sadece *tek* butona basıyorsunuz."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Kurgu Akışı · 1 dk",
+     "screen_title": "Submagic",
+     "steps": [
+      "Videoyu yükle",
+      "AI Zooms aç",
+      "Sound Effects ekle"
+     ]
+    }
+   }
+  },
+  {
+   "say": "AI Zooms özelliği vurgulu kelimeleri yakalayıp kamerayı tam o anda yaklaştırıyor.",
+   "captions": [
+    "*AI* *Zooms* özelliği",
+    "vurgulu kelimelerde",
+    "*kamerayı* *yaklaştırıyor*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Akıllı Yakınlaşma",
+     "items": [
+      {
+       "title": "Vurgu Tespiti",
+       "sub": "Kelimeleri analiz eder",
+       "icon": "spark"
+      },
+      {
+       "title": "Otomatik Zoom",
+       "sub": "Tam zamanında yakınlaşır",
+       "icon": "play"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Aynı anda Sound Effects seçeneği bu geçişlere otomatik olarak uygun ses efektleri yerleştiriyor.",
+   "captions": [
+    "*Sound* *Effects* seçeneği de",
+    "geçişlere *ses* *efektleri* ekliyor."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "AI Zooms",
+     "right": "Sound Effects",
+     "chips": [
+      "Otomatik Kesim",
+      "Geçiş Sesi",
+      "Dinamik Ritim"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece dümdüz konuşma videonuz saniyeler içinde baştan sona akıcı bir hale geliyor.",
+   "captions": [
+    "Düz videonuz *saniyeler* içinde",
+    "*akıcı* bir hale geliyor."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "SIRADAN VİDEO",
+     "highlight": "DİNAMİK KURGU"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 46.44,
+ "topic": "Submagic'in \"AI Zooms\" ve \"Sound Effects\" özellikleriyle düz konuşma videona doğru kelimelerde otomatik kamera yakınlaşması ve geçiş ses efektleri eklemek."
+}

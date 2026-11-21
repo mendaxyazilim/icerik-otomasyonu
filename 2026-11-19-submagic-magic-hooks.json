@@ -1,0 +1,165 @@
+{
+ "id": "2026-11-19-submagic-magic-hooks",
+ "title": "submagic-magic-hooks",
+ "youtube_title": "İlk 3 Saniyede İzleten Kanca Taktiği ⚡",
+ "instagram_text": "Videolarınızın ilk üç saniyesinde izleyiciyi tutmak için dinamik kancalar oluşturabilirsiniz.\n\nSubmagic platformunun Magic Hooks özelliği, videonuzun girişine animasyonlu başlıklar ve dikkat çekici şablonlar ekleyerek izleyicinin kaydırmasını engeller. Manuel animasyon hazırlamak yerine dakikalar içinde kurgunuzu tamamlayabilirsiniz.\n\nDetaylı bilgi ve aracı incelemek için: https://submagic.co/?via=egemen-161849\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #içeriküretimi #otomasyon",
+ "youtube_text": "Videolarınızın ilk üç saniyesinde izleyiciyi tutmak için dinamik kancalar oluşturabilirsiniz.\n\nSubmagic platformunun Magic Hooks özelliği, videonuzun girişine animasyonlu başlıklar ve dikkat çekici şablonlar ekleyerek izleyicinin kaydırmasını engeller. Manuel animasyon hazırlamak yerine dakikalar içinde kurgunuzu tamamlayabilirsiniz.\n\nDetaylı bilgi ve aracı incelemek için: https://submagic.co/?via=egemen-161849\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #içeriküretimi #otomasyon #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videolarda ilk saniyeleri yakalamak için kullandığımız yöntem:\n\n1. Videoyu Submagic içine aktar.\n2. Magic Hooks sekmesinden uygun şablonu seç.\n3. Otomatik animasyonlu kancayı videona ekle.\n\nAracı incelemek için link: https://submagic.co/?via=egemen-161849",
+ "first_comment": "Selam! 👋 Videolarda ilk saniyeleri yakalamak için kullandığımız yöntem:\n\n1. Videoyu Submagic içine aktar.\n2. Magic Hooks sekmesinden uygun şablonu seç.\n3. Otomatik animasyonlu kancayı videona ekle.\n\nAracı incelemek için link: https://submagic.co/?via=egemen-161849\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Videolarının ilk üç saniyesinde izleyicileri hemen kaybediyorsan zaman harcıyorsun.",
+   "captions": [
+    "İlk *üç* *saniyede*",
+    "izleyicileri hemen *kaybediyorsan*",
+    "*zaman* *harcıyorsun*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "İLK 3 SANİYE",
+      "KURALI"
+     ],
+     "highlight": "SANİYE",
+     "stamp": "DİKKAT"
+    }
+   }
+  },
+  {
+   "say": "Eski yöntemle saatlerce animasyonlu başlıklar tasarlayıp kurgu programlarında tek tek uğraşırdık.",
+   "captions": [
+    "Saatlerce *animasyonlu* *başlık*",
+    "tasarlayıp tek tek *uğraşırdık*."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Manuel Keyframe",
+      "Saatlerce Başlık Kurgusu",
+      "Sıkıcı Girişler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Hatta çoğu video girişinde hareketsiz kaldığı için anında yukarı kaydırılıyordu.",
+   "captions": [
+    "Hareketsiz *girişler* yüzünden",
+    "videolar anında *kaydırılıyordu*."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Hareketsiz düz metin",
+     "good": "YENİ YÖNTEM",
+     "good_sub": "Dinamik animasyon",
+     "good_items": [
+      "Yüksek tutunma",
+      "Hızlı giriş",
+      "Dinamik şablon"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Artık Submagic içindeki sihirli kanca özelliği bu süreci tamamen değiştiriyor.",
+   "captions": [
+    "Artık *Submagic* ile",
+    "bu süreç *tamamen* değişiyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Video Editor",
+     "button": "Magic Hooks",
+     "sticker_top": "YENİ",
+     "sticker_big": "HOOKS",
+     "sticker_bottom": "Otomatik Animasyon"
+    }
+   }
+  },
+  {
+   "say": "Videonuzu yüklüyorsunuz ve sistem giriş cümlenizi otomatik olarak analiz ediyor.",
+   "captions": [
+    "Videonuzu *yüklüyorsunuz*",
+    "giriş cümlesi *otomatik* analiz ediliyor."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Kanca Oluşturma",
+     "screen_title": "Submagic AI",
+     "steps": [
+      "Video yükle",
+      "Konuşmayı analiz et",
+      "Kanca şablonunu seç"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ekrandaki şablonlardan birini seçerek ilk saniyelere hareketli başlıklar ekliyorsunuz.",
+   "captions": [
+    "Şablonlardan *birini* *seçip*",
+    "ilk saniyelere *hareketli* *başlıklar* ekleyin."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kanca Seçenekleri",
+     "items": [
+      {
+       "title": "Viral Başlıklar",
+       "sub": "Hızlı geçiş efektleri",
+       "icon": "bolt"
+      },
+      {
+       "title": "Dinamik Animasyon",
+       "sub": "Otomatik vurgu",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece içerikleriniz kalabalık akışta ilk andan itibaren öne çıkıyor.",
+   "captions": [
+    "İçerikleriniz *kalabalık* *akışta*",
+    "ilk andan itibaren *öne* *çıkıyor*."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "AKIŞTA FARK EDİL",
+     "highlight": "DİKKAT ÇEKEN KANCA"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 39.56,
+ "topic": "Submagic'in \"Magic Hooks\" özelliğiyle videonun ilk 3 saniyesine dikkat çekici animasyonlu başlıklar ve viral şablonlar ekleyerek izleyiciyi anında yakalamak."
+}

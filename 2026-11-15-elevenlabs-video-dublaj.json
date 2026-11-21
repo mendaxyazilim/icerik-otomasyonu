@@ -1,0 +1,188 @@
+{
+ "id": "2026-11-15-elevenlabs-video-dublaj",
+ "title": "elevenlabs-video-dublaj",
+ "youtube_title": "Yabancı Videoları Kendi Sesiyle Türkçeye Çeviren Yapay Zekâ! 🎙️",
+ "instagram_text": "İngilizce veya başka bir dildeki harika bir videoyu, konuşmacının kendi ses tonunu hiç bozmadan Türkçeye çevirmek artık mümkün!\n\nElevenLabs Dubbing aracı sayesinde sadece videoyu yüklüyorsunuz ve sistem orijinal sesi klonlayarak arka plan seslerini de koruyup yeni dilde seslendiriyor.\n\nYabancı kaynaklardan içerik üretmek ya da kendi videolarınızı farklı dillere açmak isteyenler için inanılmaz pratik bir yöntem.\n\nKullandığım aracı denemek istersen yoruma DUBLAJ yaz, bağlantıyı DM'den göndereyim!\n\n💬 Yorumlara DUBLAJ yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #videodubbing #sesklonlama #içeriküretimi #otomasyon #teknoloji",
+ "youtube_text": "İngilizce veya başka bir dildeki harika bir videoyu, konuşmacının kendi ses tonunu hiç bozmadan Türkçeye çevirmek artık mümkün!\n\nElevenLabs Dubbing aracı sayesinde sadece videoyu yüklüyorsunuz ve sistem orijinal sesi klonlayarak arka plan seslerini de koruyup yeni dilde seslendiriyor.\n\nYabancı kaynaklardan içerik üretmek ya da kendi videolarınızı farklı dillere açmak isteyenler için inanılmaz pratik bir yöntem.\n\nKullandığım aracı denemek istersen yoruma DUBLAJ yaz, bağlantıyı DM'den göndereyim!\n\n🔗 ElevenLabs: https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #videodubbing #sesklonlama #içeriküretimi #otomasyon #teknoloji #shorts",
+ "keyword": "DUBLAJ",
+ "dm": "Selam! 👋 Videoda bahsettiğim ses klonlama ve video dublaj aracı burada: https://try.elevenlabs.io/ltkcv8jbeob1\n\nNasıl yapılır:\n1. Araca girip 'Dubbing' sekmesini aç.\n2. Videonu yükle ve hedef dili Türkçe seç.\n3. Orijinal ses tonu korunarak videon hazır!",
+ "segments": [
+  {
+   "say": "Yabancı dildeki bir videoyu konuşmacının kendi ses tonuyla Türkçeye çevirebileceğinizi biliyor muydunuz?",
+   "captions": [
+    "Yabancı dildeki *videoları*",
+    "kendi *orijinal* *sesiyle*",
+    "Türkçeye *çevirebilirsiniz!*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "YABANCI VİDEOYU",
+      "KENDİ SESİYLE",
+      "TÜRKÇE YAP!"
+     ],
+     "highlight": "KENDİ SESİYLE",
+     "stamp": "YENİ NESİL"
+    }
+   }
+  },
+  {
+   "say": "Geleneksel dublaj yöntemlerinde duygular ve arka plandaki sesler tamamen kaybolur.",
+   "captions": [
+    "Eski dublajda *duygular* ve",
+    "arka plan sesleri *kaybolur.*"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Mekanik robot sesleri",
+      "Kaybolan arka plan müziği",
+      "Uyumsuz dudak hareketleri"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İşte tam burada ElevenLabs Video Dubbing özelliği devreye giriyor.",
+   "captions": [
+    "*ElevenLabs* Dubbing özelliği",
+    "burada *devreye* *giriyor.*"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "AI Voice & Video Dubbing",
+     "button": "Dublajı Başlat",
+     "sticker_top": "GELİŞMİŞ SES",
+     "sticker_big": "DUBBING",
+     "sticker_bottom": "Yapay Zekâ"
+    }
+   }
+  },
+  {
+   "say": "Sistem sadece kelimeleri çevirmiyor, konuşmacının ses tonunu birebir klonluyor.",
+   "captions": [
+    "Yalnızca *çeviri* yapmıyor,",
+    "konuşmacının *sesini* *klonluyor.*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Orijinal Video",
+     "right": "Türkçe Dublaj",
+     "chips": [
+      "Ses Klonlama",
+      "Duygu Koruma",
+      "Doğal Ton"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ayrıca arkada çalan müzik ve ortam sesleri de olduğu gibi korunuyor.",
+   "captions": [
+    "Arkada çalan *müzik* ve",
+    "ortam sesleri de *korunuyor.*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Korunan Detaylar",
+     "items": [
+      {
+       "title": "Arka Plan Müziği",
+       "sub": "Orijinal kalır",
+       "icon": "spark"
+      },
+      {
+       "title": "Ortam Efektleri",
+       "sub": "Bozulmadan aktarılır",
+       "icon": "mic"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Kullanmak için videoyu yüklüyor ve hedef dili Türkçe olarak seçiyorsunuz.",
+   "captions": [
+    "Videoyu *yükleyin* ve",
+    "hedef dili *Türkçe* seçin."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Nasıl Yapılır?",
+     "screen_title": "Adım Adım",
+     "steps": [
+      "Videoyu araca yükle",
+      "Kaynak ve hedef dili seç",
+      "Dublajı oluştur"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Saniyeler içinde orijinal tonlaması bozulmamış Türkçe videonuz hazır hale geliyor.",
+   "captions": [
+    "Saniyeler içinde *hazır,*",
+    "orijinal *tonlama* *korunuyor.*"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "İngilizce videoyu Türkçeye çevir",
+     "command": "/dub_video",
+     "tag": "ElevenLabs",
+     "wait": "Ses analiz ediliyor...",
+     "done": "Dublaj tamamlandı!",
+     "result": "Türkçe Video"
+    }
+   }
+  },
+  {
+   "say": "Farklı dillerdeki içerikleri yerelleştirmek veya küresel videolar üretmek artık bu kadar kolay.",
+   "captions": [
+    "İçerikleri *yerelleştirmek*",
+    "artık bu kadar *kolay.*"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Saatlerce Seslendirme",
+     "good": "ELEVENLABS",
+     "good_sub": "Otomatik & Doğal",
+     "good_items": [
+      "Hızlı İşlem",
+      "Özgün Ses Tonu",
+      "Net Diksiyon",
+      "Yüksek Kalite"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Yorumlara DUBLAJ yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *DUBLAJ* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "DUBLAJ",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 45.0,
+ "topic": "ElevenLabs Video Dubbing ile yabancı dildeki bir videoyu kendi ses tonunu koruyarak saniyeler içinde Türkçeye çevirmek"
+}

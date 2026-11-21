@@ -1,0 +1,196 @@
+{
+ "id": "2026-11-20-higgsfield-kamera-hareketleri",
+ "title": "higgsfield-kamera-hareketleri",
+ "youtube_title": "Hollywood Kamera Açılarını Yapay Zekayla Tek Komutta Al 🎬",
+ "instagram_text": "Yapay zekâ video araçlarında kamera hareketlerini yönetmek artık çok daha kolay. Higgsfield platformundaki yeni özellikle FPV drone veya Matrix tarzı çekimleri saniyeler içinde oluşturabilirsiniz. https://higgsfield.ai?fpr=egemen-b32749 üzerinden tek tıkla sinematik efektler seçilebiliyor.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #higgsfield #yapayzekavideo",
+ "youtube_text": "Yapay zekâ video araçlarında kamera hareketlerini yönetmek artık çok daha kolay. Higgsfield platformundaki yeni özellikle FPV drone veya Matrix tarzı çekimleri saniyeler içinde oluşturabilirsiniz. https://higgsfield.ai?fpr=egemen-b32749 üzerinden tek tıkla sinematik efektler seçilebiliyor.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #higgsfield #yapayzekavideo #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim Hollywood tarzı kamera kontrolü Higgsfield platformunda yer alıyor.\n\n1. Görselini veya video fikrini yükle\n2. Prompt to Camera menüsünden açını seç (FPV, 360, vb.)\n3. Sinematik videonu oluştur\n\nPlatform linki: https://higgsfield.ai?fpr=egemen-b32749",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim Hollywood tarzı kamera kontrolü Higgsfield platformunda yer alıyor.\n\n1. Görselini veya video fikrini yükle\n2. Prompt to Camera menüsünden açını seç (FPV, 360, vb.)\n3. Sinematik videonu oluştur\n\nPlatform linki: https://higgsfield.ai?fpr=egemen-b32749\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Çoğu kişi yapay zekâ videolarında kamera açılarının rastgele çıktığını sanıyor.",
+   "captions": [
+    "Çoğu kişi *yapay* *zekâ* videolarında",
+    "kamera açılarının *rastgele* çıktığını sanıyor."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "Kamera Açıları",
+      "Rastgele Değil"
+     ],
+     "highlight": "Rastgele",
+     "stamp": "YANLIŞ BİLİNEN"
+    }
+   }
+  },
+  {
+   "say": "Eskiden kamerayı kontrol etmek için saatlerce uzun komutlar yazmak gerekiyordu.",
+   "captions": [
+    "Eskiden kamerayı *kontrol* etmek için",
+    "saatlerce *uzun* *komutlar* yazılırdı."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Karmaşık promptlar",
+      "Yüzlerce deneme",
+      "Boşa giden krediler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Sonuç genellikle kontrolsüz dönüşler veya bozuk bir perspektif oluyordu.",
+   "captions": [
+    "Sonuç genellikle *kontrolsüz* *dönüşler*",
+    "veya *bozuk* bir perspektifti."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Uzun prompt denemeleri",
+     "good": "YENİ NESİL",
+     "good_sub": "Tam kamera kontrolü",
+     "good_items": [
+      "Stabil",
+      "Hassas",
+      "Sinematik"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Artık Higgsfield platformunun kamera özelliğiyle bu kontrol tamamen değişti.",
+   "captions": [
+    "Artık *Higgsfield* platformunun",
+    "kamera özelliğiyle bu *tamamen* *değişti*."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Higgsfield",
+     "tagline": "Prompt to Camera",
+     "button": "Dene",
+     "sticker_top": "YENİ",
+     "sticker_big": "KAMERA",
+     "sticker_bottom": "KONTROLÜ"
+    }
+   }
+  },
+  {
+   "say": "İlk adımda videonuza kaynak olacak sahneyi veya görseli yüklüyorsunuz.",
+   "captions": [
+    "İlk adımda *kaynak* *sahneyi*",
+    "veya görselinizi *yüklüyorsunuz*."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Adım Adım Kurulum",
+     "screen_title": "Sahne Seçimi",
+     "steps": [
+      "Görseli yükle",
+      "Açı seç",
+      "Oluştur"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci adımda menüden hazır kamera hareketlerinden birini seçiyorsunuz.",
+   "captions": [
+    "İkinci adımda *hazır* *kamera*",
+    "hareketlerinden birini *seçiyorsunuz*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kamera Açıları",
+     "items": [
+      {
+       "title": "FPV Drone",
+       "sub": "Hızlı takip",
+       "icon": "bolt"
+      },
+      {
+       "title": "Bullet Time",
+       "sub": "360 derece donma",
+       "icon": "clock"
+      },
+      {
+       "title": "Crash Zoom",
+       "sub": "Ani odak",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Sistem komutunuzu doğrudan kamera koordinatlarına çevirip çekimi tamamlıyor.",
+   "captions": [
+    "Sistem komutunuzu *doğrudan*",
+    "kamera *koordinatlarına* çeviriyor."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Aksiyon sahnesi",
+     "command": "FPV Drone takibi uygula",
+     "tag": "Higgsfield",
+     "wait": "Kamera yörüngesi hesaplanıyor...",
+     "done": "Render hazır",
+     "result": "Sinematik Çekim"
+    }
+   }
+  },
+  {
+   "say": "Böylece Hollywood seviyesindeki profesyonel açıları tek tıkla videonuza ekliyorsunuz.",
+   "captions": [
+    "Böylece *Hollywood* seviyesindeki açıları",
+    "*tek* *tıkla* videonuza ekliyorsunuz."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "YAPAY ZEKA VİDEO",
+     "line1": "Hollywood Tarzı",
+     "line2": "Kamera Açıları",
+     "sub": "Tek komutla profesyonel sonuç",
+     "chips": [
+      "FPV",
+      "Bullet Time",
+      "Dolly Zoom"
+     ],
+     "button": "Keşfet",
+     "icon": "play"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 42.76,
+ "topic": "Higgsfield'ın \"Prompt to Camera\" özelliğiyle FPV drone veya Bullet Time gibi karmaşık Hollywood kamera açılarını tek komutla videona uygulamak."
+}

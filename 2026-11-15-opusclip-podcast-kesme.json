@@ -1,0 +1,189 @@
+{
+ "id": "2026-11-15-opusclip-podcast-kesme",
+ "title": "opusclip_podcast_kesme",
+ "youtube_title": "1 Saatlik Podcastten 10 Viral Video Nasıl Çıkarılır? 🎙️",
+ "instagram_text": "Uzun podcast veya YouTube videolarınızı tek tek kesip biçmekle saatlerinizi harcamayın.\n\nOpusClip sayesinde uzun bir video kaydını saniyeler içinde analiz edip en dikkat çekici anları yakalayabilirsiniz. Üstelik her klibe virallik skoru veriyor ve dinamik altyazıları otomatik ekliyor.\n\nAracı denemek için: https://opus.pro/?via=egemen\n\nDetaylı bağlantı için yorumlara KLİP yazın!\n\n💬 Yorumlara KLİP yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #videoyeditleme #içeriküretimi #reels #otomasyon #podcast",
+ "youtube_text": "Uzun podcast veya YouTube videolarınızı tek tek kesip biçmekle saatlerinizi harcamayın.\n\nOpusClip sayesinde uzun bir video kaydını saniyeler içinde analiz edip en dikkat çekici anları yakalayabilirsiniz. Üstelik her klibe virallik skoru veriyor ve dinamik altyazıları otomatik ekliyor.\n\nAracı denemek için: https://opus.pro/?via=egemen\n\nDetaylı bağlantı için yorumlara KLİP yazın!\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #videoyeditleme #içeriküretimi #reels #otomasyon #podcast #shorts",
+ "keyword": "KLİP",
+ "dm": "Selam! 👋 Podcast ve uzun videoları otomatik olarak kısa videolara dönüştüren OpusClip bağlantısı burada:\n\nhttps://opus.pro/?via=egemen\n\nAdımlar çok basit:\n1. Uzun video linkini yapıştır\n2. Yapay zekanın virallik skorlarını incele\n3. Dinamik altyazılı klipleri indir!",
+ "segments": [
+  {
+   "say": "Bir saatlik podcast kaydını dakikalarca kesip biçmekle uğraşmaktan sıkılmadınız mı?",
+   "captions": [
+    "1 saatlik podcast kaydını",
+    "*kesip* *biçmekle* uğraşmaktan",
+    "sıkılmadınız mı?"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SAATLERCE EDİT",
+      "YAPMAKTAN SIKILMADIN MI?"
+     ],
+     "highlight": "SAATLERCE EDİT"
+    }
+   }
+  },
+  {
+   "say": "Bunun yerine tüm süreci tek bir yapay zeka aracına devredebilirsiniz.",
+   "captions": [
+    "Tüm süreci *tek* bir",
+    "*yapay* *zeka* aracına bırakın"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Manuel kesme",
+      "Tek tek altyazı yazma",
+      "Saatlerce render bekleme"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Aracımızın adı OpusClip.",
+   "captions": [
+    "Aracımızın adı *OpusClip*"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "AI Video Repurposing",
+     "button": "Klipleri Oluştur",
+     "sticker_top": "OTOMATİK",
+     "sticker_big": "VİRAL",
+     "sticker_bottom": "KLİPLER"
+    }
+   }
+  },
+  {
+   "say": "Tek yapmanız gereken uzun videonuzun bağlantısını sisteme yapıştırmak.",
+   "captions": [
+    "Uzun videonuzun *linkini*",
+    "sisteme *yapıştırmanız* yeterli"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Podcast linkini analiz et",
+     "command": "/clip video_url",
+     "tag": "OpusClip",
+     "wait": "En iyi anlar taranıyor...",
+     "done": "Analiz tamamlandı!",
+     "result": "10 Klip Hazır"
+    }
+   }
+  },
+  {
+   "say": "Yapay zeka konuşmanın en heyecanlı yerlerini bulup tam on farklı kısa klip oluşturuyor.",
+   "captions": [
+    "En heyecanlı yerleri bulup",
+    "tam *10* *farklı* klip üretiyor"
+   ],
+   "scene": {
+    "type": "stat",
+    "params": {
+     "value": 10,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " Klip",
+     "label": "Tek Tıkla Üretilen Kısa Video",
+     "badges": [
+      "Otomatik",
+      "Kısa Video"
+     ],
+     "icon": "play"
+    }
+   }
+  },
+  {
+   "say": "Üstelik her klibe virallik potansiyeline göre puan vererek en güçlü olanı öne çıkarıyor.",
+   "captions": [
+    "Her klibe *virallik* *puanı*",
+    "vererek en iyiyi seçiyor"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Virallik Sıralaması",
+     "items": [
+      {
+       "title": "Klip 1 · Skor 99",
+       "sub": "Yüksek kanca etkisi",
+       "icon": "star"
+      },
+      {
+       "title": "Klip 2 · Skor 92",
+       "sub": "Güçlü anlatım",
+       "icon": "bolt"
+      },
+      {
+       "title": "Klip 3 · Skor 85",
+       "sub": "Hızlı tempo",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Dinamik altyazıları ve konuşmacıya odaklanan kamera takibini de otomatik hallediyor.",
+   "captions": [
+    "*Dinamik* *altyazılar* ve",
+    "*kamera* *takibi* otomatik yapılıyor"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Yüz takibi ve kadrajlama",
+      "Renkli dinamik altyazı",
+      "B-roll ve görsel geçişler"
+     ],
+     "preview_title": "Podcast Özetleri"
+    }
+   }
+  },
+  {
+   "say": "Size sadece izleyip beğendiğiniz klipleri indirip paylaşmak kalıyor.",
+   "captions": [
+    "Size sadece indirip",
+    "*paylaşmak* *kalıyor*"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Süreç",
+     "screen_title": "OpusClip Paneli",
+     "steps": [
+      "Bağlantıyı yapıştır",
+      "Virallik puanlarını incele",
+      "Klibi indir ve paylaş"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Yorumlara KLİP yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *KLİP* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "KLİP",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 44.44,
+ "topic": "OpusClip ile 1 saatlik podcast kaydını tek tıkla virallik puanına göre sıralanmış ve dinamik altyazılı 10 kısa videoya dönüştürmek."
+}

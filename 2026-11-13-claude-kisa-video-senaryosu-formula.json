@@ -1,0 +1,188 @@
+{
+ "id": "2026-11-13-claude-kisa-video-senaryosu-formula",
+ "title": "claude-kisa-video-senaryosu-formula",
+ "youtube_title": "Claude ile 1 Cümleden Video Senaryosu Yazma Formülü 🚀",
+ "instagram_text": "Yazacak konu bulamıyor veya senaryo yazarken saatler mi harcıyorsunuz? 💡\n\nClaude kullanarak tek bir fikirden saniyeler içinde kanca, akış ve görsel detayları olan eksiksiz bir video senaryosu üretebilirsiniz.\n\nİhtiyacınız olan tek şey beş adımlı doğru komut yapısı. Rol tanımından görsel sahne planına kadar her adımı uyguladığınızda içerik üretim hızınız beş katına çıkacak.\n\nVideolarda profesyonel seslendirme için https://try.elevenlabs.io/ltkcv8jbeob1 aracından da faydalanabilirsiniz.\n\nYorumlara SENARYO yaz, kullandığım Claude komut şablonunu ve araç linklerini DM'den göndereyim!\n\n💬 Yorumlara SENARYO yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #claude #senaryo #icerikureticisi #otomasyon #reels #shorts #yapayzekaaraclari",
+ "youtube_text": "Yazacak konu bulamıyor veya senaryo yazarken saatler mi harcıyorsunuz? 💡\n\nClaude kullanarak tek bir fikirden saniyeler içinde kanca, akış ve görsel detayları olan eksiksiz bir video senaryosu üretebilirsiniz.\n\nİhtiyacınız olan tek şey beş adımlı doğru komut yapısı. Rol tanımından görsel sahne planına kadar her adımı uyguladığınızda içerik üretim hızınız beş katına çıkacak.\n\nVideolarda profesyonel seslendirme için https://try.elevenlabs.io/ltkcv8jbeob1 aracından da faydalanabilirsiniz.\n\nYorumlara SENARYO yaz, kullandığım Claude komut şablonunu ve araç linklerini DM'den göndereyim!\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #claude #senaryo #icerikureticisi #otomasyon #reels #shorts #yapayzekaaraclari",
+ "keyword": "SENARYO",
+ "dm": "Selam! 👋 Tek cümleyle kusursuz video senaryoları yazmanı sağlayacak Claude prompt şablonu hazır!\n\nSeslendirme tarafında işini kolaylaştıracak araç: https://try.elevenlabs.io/ltkcv8jbeob1\n\nHarika içerikler üretmen dileğiyle! 🚀\n\n(Bazı linkler ortaklık linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.)",
+ "segments": [
+  {
+   "say": "Tek bir cümleden saniyeler içinde viral kısa video senaryosu yazmak ister misiniz?",
+   "captions": [
+    "Tek bir *cümleden* saniyeler içinde",
+    "viral *video* *senaryosu* yazın!"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "TEK CÜMLELELE",
+      "VİRAL SENARYO"
+     ],
+     "highlight": "VİRAL",
+     "stamp": "HIZLI SİSTEM"
+    }
+   }
+  },
+  {
+   "say": "Çoğu kişi yapay zekaya sadece video senaryosu yaz yazıp sıradan sonuçlar alıyor.",
+   "captions": [
+    "Çoğu kişi *yapay* *zekaya*",
+    "sadece senaryo yaz diyor."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Bana senaryo yaz",
+      "Sıradan yanıtlar alma"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İşte Claude ile beş adımda kusursuz senaryo üretme formülü.",
+   "captions": [
+    "İşte *beş* *adımda*",
+    "kusursuz *senaryo* formülü!"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "5 Adımlı Formül",
+     "screen_title": "Claude Promptu",
+     "steps": [
+      "Rol Tanımla",
+      "Hedef Belirt",
+      "Kanca İste",
+      "Görsel Yazdır",
+      "Kapanış Ekle"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Birinci adım yapay zekaya uzman bir senarist rolü vermek.",
+   "captions": [
+    "Birinci adım yapay zekaya",
+    "uzman *senarist* *rolü* vermek."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Fikir: Yapay Zekayla Senaryo",
+     "command": "Sen uzman bir sosyal medya senaristisin",
+     "tag": "Claude 3.5",
+     "wait": "Rol işleniyor...",
+     "done": "Rol Tanımlandı",
+     "result": "SENARİST MODU"
+    }
+   }
+  },
+  {
+   "say": "İkinci ve üçüncü adımda hedef kitleni yazıp merak uyandıran ilk iki saniye kancası istersin.",
+   "captions": [
+    "Hedef *kitleyi* yazıp",
+    "güçlü bir *kanca* istersin."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "İçerik Yapısı",
+     "items": [
+      {
+       "title": "Hedef Kitle",
+       "sub": "İçerik üreticileri ve girişimciler",
+       "icon": "star"
+      },
+      {
+       "title": "Kanca Tasarımı",
+       "sub": "İlk 2 saniyede merak uyandır",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Dördüncü adımda sahne metinlerini ve ekranda görünecek görselleri iki sütun halinde böldürürsün.",
+   "captions": [
+    "Dördüncü adımda *görsel*",
+    "ve *metni* ikiye böldürürsün."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Seslendirme",
+     "right": "Görsel Sahne",
+     "chips": [
+      "Tam Uyum",
+      "Dinamik Akış"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Beşinci adımda ise izleyiciyi yoruma yönlendiren net bir çağrı eklersin.",
+   "captions": [
+    "Beşinci adımda *net*",
+    "bir *çağrı* eklersin."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Claude Otomasyonu",
+     "tagline": "Senaryo Üretici",
+     "button": "Kopyala",
+     "sticker_top": "ADIM 5",
+     "sticker_big": "CTA",
+     "sticker_bottom": "Yorum Çağrısı"
+    }
+   }
+  },
+  {
+   "say": "Bu yöntemle senaryo hazırlama süreniz beş kat daha hızlı hale gelir.",
+   "captions": [
+    "Bu sistemle *senaryo*",
+    "hazırlamak *beş* *kat* hızlı!"
+   ],
+   "scene": {
+    "type": "stat",
+    "params": {
+     "value": 5,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "X",
+     "label": "Daha Hızlı Üretim",
+     "badges": [
+      "Otomatik",
+      "Verimli"
+     ],
+     "icon": "bolt"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara SENARYO yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *SENARYO* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "SENARYO",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 53.68,
+ "topic": "Claude ile tek bir cümleden kısa video senaryosu yazdırmanın 5 adımlık formülü"
+}

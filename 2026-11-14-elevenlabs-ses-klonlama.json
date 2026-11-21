@@ -1,0 +1,181 @@
+{
+ "id": "2026-11-14-elevenlabs-ses-klonlama",
+ "title": "elevenlabs-ses-klonlama",
+ "youtube_title": "Mikrofon Olmadan Kendi Sesinle Video Üret! 🎙️",
+ "instagram_text": "Artık içerik üretirken saatlerce mikrofon başında konuşmak zorunda değilsin.\n\nYapay zekâ araçlarıyla kendi sesini bir kez kaydedip klonlayabiliyorsun. Sonrasında sadece metni yazıyorsun ve sistem senin ses tonunla okuyor.\n\nSes klonlama için kullandığımız temel araç: https://try.elevenlabs.io/ltkcv8jbeob1\n\nDetayları ve araç linkini almak için yoruma SES yazabilirsin!\n\n💬 Yorumlara SES yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #otomasyon #içeriküretimi #elevenlabs #sesklonlama #dijitaliçerik #üretkenyapayzeka",
+ "youtube_text": "Artık içerik üretirken saatlerce mikrofon başında konuşmak zorunda değilsin.\n\nYapay zekâ araçlarıyla kendi sesini bir kez kaydedip klonlayabiliyorsun. Sonrasında sadece metni yazıyorsun ve sistem senin ses tonunla okuyor.\n\nSes klonlama için kullandığımız temel araç: https://try.elevenlabs.io/ltkcv8jbeob1\n\nDetayları ve araç linkini almak için yoruma SES yazabilirsin!\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #otomasyon #içeriküretimi #elevenlabs #sesklonlama #dijitaliçerik #üretkenyapayzeka #shorts",
+ "keyword": "SES",
+ "dm": "Selam! 👋 Videoda bahsettiğim ses klonlama aracı burada:\n\nhttps://try.elevenlabs.io/ltkcv8jbeob1\n\nUygulama adımları:\n1. Sisteme girip ses örneğini yükle.\n2. Ses klonlama panelinden profilini oluştur.\n3. Metnini yaz ve kendi sesinle dışa aktar!",
+ "segments": [
+  {
+   "say": "Videolarını seslendirmek için artık mikrofon başına geçmene hiç gerek yok.",
+   "captions": [
+    "Videolarını *seslendirmek* için",
+    "artık *mikrofon* *başına*",
+    "geçmene hiç *gerek* *yok!*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "MIKROFONSUZ",
+      "SESLENDIRME"
+     ],
+     "highlight": "MIKROFONSUZ",
+     "stamp": "YENİ DÖNEM"
+    }
+   }
+  },
+  {
+   "say": "Tek bir ses kaydıyla kendi ses tonunu yapay zekâya öğretebiliyorsun.",
+   "captions": [
+    "Tek bir *ses* *kaydıyla*",
+    "kendi *ses* *tonunu*",
+    "yapay zekâya *öğretebiliyorsun.*"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Sesimi klonla",
+     "command": "/voice-clone",
+     "tag": "ElevenLabs",
+     "wait": "Ses profili işleniyor...",
+     "done": "Model hazır!",
+     "result": "Özel Ses Profili"
+    }
+   }
+  },
+  {
+   "say": "Sistem arkadaki nefes seslerini ve tonlamaları doğal bir şekilde yakalıyor.",
+   "captions": [
+    "Sistem arkadaki *nefes* *seslerini*",
+    "ve *doğal* *tonlamaları*",
+    "birebir *yakalıyor.*"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Robotik ve donuk sesler",
+     "good": "KLONLANMIŞ SES",
+     "good_sub": "Yapay zekâ modeli",
+     "good_items": [
+      "Doğal nefes",
+      "Duygu aktarımı",
+      "Akıcı ton",
+      "Kendi sesin"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Kurulum için sisteme temiz bir konuşma kaydı yüklemen yeterli oluyor.",
+   "captions": [
+    "Kurulum için sisteme",
+    "*temiz* bir konuşma kaydı",
+    "*yüklemen* *yeterli* oluyor."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Klonlama Adımları",
+     "screen_title": "Ses Klonu",
+     "steps": [
+      "Temiz ses kaydı al",
+      "Sisteme yükle",
+      "Modeli oluştur"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Daha sonra hazırladığın metni yazıyorsun ve saniyeler içinde çıktıyı alıyorsun.",
+   "captions": [
+    "Daha sonra hazırladığın",
+    "*metni* *yazıyorsun*",
+    "ve çıktıyı *anında* alıyorsun."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "Metinden Sese",
+     "button": "Seslendir",
+     "sticker_top": "Tek Tık",
+     "sticker_big": "METIN",
+     "sticker_bottom": "Doğrudan Ses"
+    }
+   }
+  },
+  {
+   "say": "Artık her video için yeniden kayıt alma zahmetinden tamamen kurtuluyorsun.",
+   "captions": [
+    "Artık her video için",
+    "*yeniden* *kayıt* alma",
+    "zahmetinden *kurtuluyorsun.*"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Saatlerce mikrofon kaydı",
+      "Tekrar tekrar okumalar",
+      "Dip gürültüsü temizleme"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Hatta aynı ses modelini farklı dillerdeki videolarında bile kullanabilirsin.",
+   "captions": [
+    "Hatta aynı *ses* *modelini*",
+    "*farklı* *dillerdeki*",
+    "videolarında bile *kullanabilirsin.*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Çoklu Dil Desteği",
+     "items": [
+      {
+       "title": "Türkçe",
+       "sub": "Ana ses tonun",
+       "icon": "mic"
+      },
+      {
+       "title": "İngilizce",
+       "sub": "Kendi sesinle çeviri",
+       "icon": "spark"
+      },
+      {
+       "title": "Global Erişim",
+       "sub": "Farklı pazarlar",
+       "icon": "play"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Yorumlara SES yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *SES* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "SES",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 42.96,
+ "topic": "ElevenLabs ile kendi sesini klonlayıp videolarını hiç mikrofon kullanmadan seslendirmek"
+}

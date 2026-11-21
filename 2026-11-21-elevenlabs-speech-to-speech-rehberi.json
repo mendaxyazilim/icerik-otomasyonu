@@ -1,0 +1,183 @@
+{
+ "id": "2026-11-21-elevenlabs-speech-to-speech-rehberi",
+ "title": "elevenlabs_speech_to_speech_rehberi",
+ "youtube_title": "Kendi Sesini Yapay Zekâ Sesine Dönüştür! (ElevenLabs Speech to Speech) 🎙️",
+ "instagram_text": "Yapay zekâ seslendirmelerinde robotik tonlamalara son verin. ElevenLabs'in Speech to Speech özelliği sayesinde kendi ses kaydınızdaki duygu, vurgu ve ritmi hedef yapay zekâ sesine birebir aktarabilirsiniz.\n\nİhtiyacınız olan araç: https://try.elevenlabs.io/ltkcv8jbeob1\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #seslendirme #otomasyon #icerikuretimi",
+ "youtube_text": "Yapay zekâ seslendirmelerinde robotik tonlamalara son verin. ElevenLabs'in Speech to Speech özelliği sayesinde kendi ses kaydınızdaki duygu, vurgu ve ritmi hedef yapay zekâ sesine birebir aktarabilirsiniz.\n\nİhtiyacınız olan araç: https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #seslendirme #otomasyon #icerikuretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 ElevenLabs Speech to Speech ile kendi ses vurgularını başka yapay zekâ seslerine dönüştürmek için adımlar:\n1. Telefonunla doğal vurgularla ham bir ses kaydı al.\n2. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Speech to Speech sekmesine yükle.\n3. Hedef ses karakterini seç ve dönüştür.\n\nAraç bağlantısı: https://try.elevenlabs.io/ltkcv8jbeob1",
+ "first_comment": "Selam! 👋 ElevenLabs Speech to Speech ile kendi ses vurgularını başka yapay zekâ seslerine dönüştürmek için adımlar:\n1. Telefonunla doğal vurgularla ham bir ses kaydı al.\n2. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Speech to Speech sekmesine yükle.\n3. Hedef ses karakterini seç ve dönüştür.\n\nAraç bağlantısı: https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Yapay zekaya seslendirme yaptırırken robotik tondan kurtulmanın tek bir yolu var.",
+   "captions": [
+    "*Yapay* *zekaya* seslendirme yaptırırken",
+    "*robotik* *tondan* kurtulmanın tek yolu var."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "ROBOTİK SESLERE",
+      "SON VERİN"
+     ],
+     "highlight": "SON VERİN",
+     "stamp": "SPEECH TO SPEECH"
+    }
+   }
+  },
+  {
+   "say": "Birinci adım, telefonunuzla kendi duygunuz ve doğal vurgularınızla ham bir ses kaydı alın.",
+   "captions": [
+    "*Birinci* *adım,* kendi duygunuz ve",
+    "doğal vurgularınızla *ham* *ses* *kaydı* alın."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Adım Adım Dönüştürme",
+     "screen_title": "1. Adım",
+     "steps": [
+      "Ham Ses Kaydı Al",
+      "ElevenLabs'e Yükle",
+      "Karakter Seç",
+      "Dönüştür"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci adım, ElevenLabs platformuna girip Speech to Speech sekmesini doğrudan açın.",
+   "captions": [
+    "*İkinci* *adım,* ElevenLabs platformuna girip",
+    "*Speech* *to* *Speech* sekmesini açın."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "Speech to Speech Teknolojisi",
+     "button": "Ses Yükle",
+     "sticker_top": "ADIM 2",
+     "sticker_big": "S2S",
+     "sticker_bottom": "Modül"
+    }
+   }
+  },
+  {
+   "say": "Kaydettiğiniz ham ses dosyasını paneldeki yükleme alanına hızlıca sürükleyip bırakın.",
+   "captions": [
+    "Kaydettiğiniz *ham* *ses* dosyasını",
+    "paneldeki *yükleme* *alanına* sürükleyip bırakın."
+   ],
+   "scene": {
+    "type": "terminal",
+    "params": {
+     "title": "ElevenLabs Panel",
+     "lines": [
+      "✓ Ses dosyası yüklendi: ham_kayit.mp3",
+      "✓ Frekans ve vurgu analizi yapılıyor"
+     ],
+     "typed": "speech-to-speech --input ham_kayit.mp3"
+    }
+   }
+  },
+  {
+   "say": "Üçüncü adım, vurgularınızı ve jestlerinizi korumasını istediğiniz hedef ses karakterini seçin.",
+   "captions": [
+    "*Üçüncü* *adım,* vurgularınızı korumasını",
+    "istediğiniz *hedef* *ses* karakterini seçin."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Duygumu hedef sese aktar",
+     "command": "/voice-transform",
+     "tag": "ElevenLabs",
+     "wait": "Vurgular işleniyor...",
+     "done": "Ses Aktarımı Tamam",
+     "result": "Yeni Karakter"
+    }
+   }
+  },
+  {
+   "say": "Dönüştür butonuna bastığınızda kendi ses oyunculuğunuz seçtiğiniz yeni sese birebir aktarılır.",
+   "captions": [
+    "*Dönüştür* butonuna bastığınızda",
+    "kendi *ses* *oyunculuğunuz*",
+    "yeni sese *birebir* *aktarılır.*"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Duygu ve Vurgu Aktarıldı",
+      "Robotik Ton Engellendi",
+      "Birebir Tonlama Başarılı"
+     ],
+     "preview_title": "Ses Çıktısı Hazır"
+    }
+   }
+  },
+  {
+   "say": "Sistem nefes aralarınızı ve ses tonundaki duygu değişimlerini otomatik olarak korur.",
+   "captions": [
+    "Sistem *nefes* *aralarınızı* ve",
+    "duygu değişimlerini *otomatik* *korur.*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Ham Ses Kaydı",
+     "right": "AI Karakter Sesi",
+     "chips": [
+      "Nefes Ayarı",
+      "Doğal Vurgu",
+      "Birebir Ton"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece dakikalarca metin tonlamasıyla uğraşmadan tamamen doğal ses içerikleri üretebilirsiniz.",
+   "captions": [
+    "Böylece *tonlamayla* *uğraşmadan*",
+    "tamamen *doğal* *ses* içerikleri üretebilirsiniz."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Metin Yazıp Tonlama Ayarlamak",
+     "good": "YENİ YÖNTEM",
+     "good_sub": "Speech to Speech",
+     "good_items": [
+      "Kendi Duygun",
+      "Doğal Vurgu",
+      "Hızlı Çıktı"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 53.4,
+ "topic": "ElevenLabs'in \"Speech to Speech\" özelliğiyle kendi ses tonun ve duygunla okuduğun ham bir ses kaydını başka bir yapay zekâ ses karakterine birebir dönüştürmek."
+}

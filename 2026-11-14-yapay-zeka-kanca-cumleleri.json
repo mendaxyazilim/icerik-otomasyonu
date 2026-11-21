@@ -1,0 +1,161 @@
+{
+ "id": "2026-11-14-yapay-zeka-kanca-cumleleri",
+ "title": "yapay_zeka_kanca_cumleleri",
+ "youtube_title": "İlk 2 Saniyede İzleten Kanca Cümlelerini Yapay Zekâya Yazdırın! 🎣",
+ "instagram_text": "Videonuz ne kadar kaliteli olursa olsun, ilk iki saniyede izleyiciyi durduramazsanız içeriğiniz kaybolup gider.\n\nYapay zekâyı sıradan fikirler yerine doğrudan merak uyandıran kancalar üretmesi için nasıl yönlendirebileceğinizi adım adım paylaştım.\n\nVideoda bahsettiğim adımları uygulayarak içeriklerinize güçlü girişler hazırlayabilirsiniz.\n\nYorumlara KANCA yaz, kullandığım araçların linklerini DM'den göndereyim!\n\n💬 Yorumlara KANCA yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #icerikureticiligi #reelsipucu #shortstaktik #videoediting #sosyalmedyayonetimi #otomasyon #kancacumleleri",
+ "youtube_text": "Videonuz ne kadar kaliteli olursa olsun, ilk iki saniyede izleyiciyi durduramazsanız içeriğiniz kaybolup gider.\n\nYapay zekâyı sıradan fikirler yerine doğrudan merak uyandıran kancalar üretmesi için nasıl yönlendirebileceğinizi adım adım paylaştım.\n\nVideoda bahsettiğim adımları uygulayarak içeriklerinize güçlü girişler hazırlayabilirsiniz.\n\nYorumlara KANCA yaz, kullandığım araçların linklerini DM'den göndereyim!\n\n🔗 Higgsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #icerikureticiligi #reelsipucu #shortstaktik #videoediting #sosyalmedyayonetimi #otomasyon #kancacumleleri",
+ "keyword": "KANCA",
+ "dm": "Selam! 👋 İstediğin kanca yazma taktikleri burada:\n\n1. Yapay zekâya genel konu vermek yerine hedef kitlenin yaşadığı spesifik bir sorunu ver.\n2. \"Bana ilk iki saniye için beş merak uyandırıcı soru ve beş şaşırtıcı giriş yaz\" komutunu kullan.\n3. Beğendiğin kancayı doğal bir dille videonun başına yerleştir.\n\nİyi üretimler!\n\nHiggsfield (AI video modelleri): https://higgsfield.ai?fpr=egemen-b32749\nElevenLabs (AI seslendirme): https://try.elevenlabs.io/ltkcv8jbeob1",
+ "segments": [
+  {
+   "say": "Harika bir video hazırladın ama kimse ilk iki saniyeyi geçemedi mi?",
+   "captions": [
+    "Harika bir video hazırladın",
+    "ama kimse ilk *iki* *saniyeyi*",
+    "geçemedi mi?"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "İLK 2 SANİYE",
+      "KAYDIRIP GEÇTİLER Mİ?"
+     ],
+     "highlight": "2 SANİYE",
+     "stamp": "DUR VE İZLE"
+    }
+   }
+  },
+  {
+   "say": "Kısa videolarda izleyicinin kalmasını sağlayan en kritik unsur kanca cümlesidir.",
+   "captions": [
+    "Kısa videolarda *kalmayı* *sağlayan*",
+    "en kritik unsur *kanca* *cümlesidir*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "Karar verme süresi"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Birçok içerik üreticisi yapay zekâdan genel fikirler isteyerek sıradan sonuçlar alıyor.",
+   "captions": [
+    "Birçok kişi genel fikirler isteyip",
+    "*sıradan* *sonuçlar* alıyor."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Bana video fikri ver",
+      "Giriş cümlesi yaz",
+      "Genel tavsiyeler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunun yerine modele tam olarak izleyicinin yaşadığı spesifik bir problemi anlatmalısın.",
+   "captions": [
+    "Bunun yerine modele izleyicinin",
+    "*spesifik* *problemini* anlatmalısın."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "GENEL İSTEK",
+     "strike": "Bana güzel bir giriş yaz",
+     "good": "HEDEF ODAKLI",
+     "good_sub": "Net sorun tanımı",
+     "good_items": [
+      "Spesifik kitle",
+      "Acı noktası",
+      "Merak unsuru"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İstemi yazarken ilk iki saniyede merak uyandıracak beş farklı soru kalıbı talep et.",
+   "captions": [
+    "İlk iki saniyede *merak* *uyandıracak*",
+    "beş farklı *soru* *kalıbı* iste."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "İçerik Üreticisi",
+     "command": "İlk 2 saniye için 5 merak sorusu yaz",
+     "tag": "Prompt",
+     "wait": "Kancalar hazırlanıyor...",
+     "done": "Girişler hazır!",
+     "result": "5 Merak Kancası"
+    }
+   }
+  },
+  {
+   "say": "Ayrıca ters köşe yapan iki adet zıtlık içeren başlangıç cümlesi eklet.",
+   "captions": [
+    "Ayrıca ters köşe yapan",
+    "iki *zıtlık* *içeren* başlangıç eklet."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kanca Türleri",
+     "items": [
+      {
+       "title": "Ters Köşe Giriş",
+       "sub": "Ezber bozan ifadeler",
+       "icon": "bolt"
+      },
+      {
+       "title": "Zıtlık Kurgusu",
+       "sub": "Beklenmeyen sonuç",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Gelen seçenekler arasından akışı doğrudan durduran en güçlü cümleyi seçip kullanabilirsin.",
+   "captions": [
+    "Gelenler içinden *akışı* *durduran*",
+    "en güçlü *cümleyi* *seç*."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "YÜZLERCE VİDEO İÇİNDE",
+     "highlight": "DİKKAT ÇEKEN GİRİŞ"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara KANCA yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *KANCA* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "KANCA",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Claude",
+      "ElevenLabs",
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 48.76,
+ "topic": "İlk 2 saniyede izleyiciyi yakalayan kanca cümleleri: yapay zekâya nasıl yazdırılır"
+}

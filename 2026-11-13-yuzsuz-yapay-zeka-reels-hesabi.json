@@ -1,0 +1,182 @@
+{
+ "id": "2026-11-13-yuzsuz-yapay-zeka-reels-hesabi",
+ "title": "Yuzsuz Yapay Zeka Reels Hesabi",
+ "youtube_title": "Yüzünü Göstermeden AI ile Reels Hesabı Büyütmek 🚀",
+ "instagram_text": "Kamera karşısına geçmeden içerik üretmek artık sandığından çok daha kolay. Yapay zekâ video ve ses teknolojileri sayesinde sıfırdan tamamen anonim kanallar kurulabiliyor.\n\nNeden şimdi başlamalısın? Çünkü yapay zekâ destekli içerik üretimi henüz erken aşamalarında ve kaliteli hikâye kurgulayan kanallar hızla öne çıkıyor.\n\nGörseller ve video sahneleri için https://higgsfield.ai?fpr=egemen-b32749 gibi yenilikçi modelleri, doğal Türkçe seslendirmeler içinse https://try.elevenlabs.io/ltkcv8jbeob1 aracını bir araya getirebilirsin.\n\nDaha fazla pratik otomasyon ve yapay zekâ ipucu için takip etmeyi unutma!\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #otomasyon #reelsbüyüme #içeriküretimi #faceless #üretkenyapayzeka #dijitaliçerik #videotaktikleri",
+ "youtube_text": "Kamera karşısına geçmeden içerik üretmek artık sandığından çok daha kolay. Yapay zekâ video ve ses teknolojileri sayesinde sıfırdan tamamen anonim kanallar kurulabiliyor.\n\nNeden şimdi başlamalısın? Çünkü yapay zekâ destekli içerik üretimi henüz erken aşamalarında ve kaliteli hikâye kurgulayan kanallar hızla öne çıkıyor.\n\nGörseller ve video sahneleri için https://higgsfield.ai?fpr=egemen-b32749 gibi yenilikçi modelleri, doğal Türkçe seslendirmeler içinse https://try.elevenlabs.io/ltkcv8jbeob1 aracını bir araya getirebilirsin.\n\nDaha fazla pratik otomasyon ve yapay zekâ ipucu için takip etmeyi unutma!\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #otomasyon #reelsbüyüme #içeriküretimi #faceless #üretkenyapayzeka #dijitaliçerik #videotaktikleri #shorts",
+ "segments": [
+  {
+   "say": "Kameraya tek bir saniye bile bakmadan yüz binlerce izlenen videolar yapabileceğinizi biliyor muydunuz?",
+   "captions": [
+    "Kameraya *tek* *bir* *saniye*",
+    "bile bakmadan *yüz* *binlerce*",
+    "izlenen videolar yapabilirsiniz"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "Kamera Yok",
+      "Yüzünü Gösterme"
+     ],
+     "highlight": "Kamera Yok",
+     "stamp": "MÜMKÜN"
+    }
+   }
+  },
+  {
+   "say": "Yüz göstermeyen içerik üreticiliği şu an altın çağının tam başında.",
+   "captions": [
+    "Yüz göstermeyen içerikler",
+    "şu an *altın* *çağının*",
+    "*tam* *başında*"
+   ],
+   "scene": {
+    "type": "chart",
+    "params": {
+     "now_label": "ERKEN DÖNEM",
+     "peak_label": "DOYGUNLUK",
+     "x_label": "zaman",
+     "y_label": "fırsat"
+    }
+   }
+  },
+  {
+   "say": "Eski usul stok video kurguları artık geride kaldı; şimdi sahne yapay zekâ animasyonlarının.",
+   "captions": [
+    "Eski usul *stok* videolar bitti",
+    "şimdi sahne *yapay* *zekâ*",
+    "animasyonlarının devri"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Sıkıcı Stok Videolar",
+      "Pahalı Stüdyolar",
+      "Yüzünü Göstermek"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İlk adımda merak uyandıran konsepti belirleyip kısa bir metin hazırlıyorsunuz.",
+   "captions": [
+    "İlk adımda *merak* *uyandıran*",
+    "konsepti seçip *kısa* *metni*",
+    "hazırlıyorsunuz"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "30 saniyelik gizemli hikâye yaz",
+     "command": "/senaryo",
+     "tag": "Metin Yazarı",
+     "wait": "kurgulanıyor...",
+     "done": "senaryo hazır",
+     "result": "Senaryo Taslağı"
+    }
+   }
+  },
+  {
+   "say": "Ardından oluşturduğunuz görsel karakterleri hareketli sahnelere dönüştürüyorsunuz.",
+   "captions": [
+    "Oluşturduğunuz *karakterleri*",
+    "*hareketli* sahnelere",
+    "dönüştürüyorsunuz"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Görsel Üretimi",
+     "screen_title": "Video Üretici",
+     "steps": [
+      "Karakter Tasarla",
+      "Hareketi Tanımla",
+      "Sahneyi Oluştur"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Doğal bir yapay zekâ seslendirmesi ekleyip dinamik altyazılarla ritmi yükseltin.",
+   "captions": [
+    "Doğal *yapay* *zekâ* sesi ekle",
+    "dinamik *altyazılarla*",
+    "*ritmi* yükselt"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Yapay Zeka Sesi",
+     "right": "Dinamik Altyazı",
+     "chips": [
+      "Doğal Ton",
+      "Yüksek Tempo",
+      "Akıcı Kurgu"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bazı yeni hesaplar sadece bu üç adımı tutarlı uygulayarak çok hızlı kitle ediniyor.",
+   "captions": [
+    "Bazı hesaplar sadece *üç* *adımla*",
+    "çok hızlı bir şekilde",
+    "*kitle* ediniyor"
+   ],
+   "scene": {
+    "type": "stat",
+    "params": {
+     "value": 100,
+     "decimals": 0,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "Tutarlı Üretimde Artış",
+     "badges": [
+      "Organik",
+      "Hızlı",
+      "Anonim"
+     ],
+     "icon": "chart"
+    }
+   }
+  },
+  {
+   "say": "Sıradan videolar yerine özgün hikâyeler kurgulayanlar her zaman öne fırlıyor.",
+   "captions": [
+    "Sıradan videolar yerine",
+    "*özgün* hikâyeler kuranlar",
+    "*öne* fırlıyor"
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "Benzer Videolar",
+     "highlight": "Özgün Yapay Zeka Formatı"
+    }
+   }
+  },
+  {
+   "say": "Daha fazlası için takip edin; kullandığım araçların bağlantıları açıklamada.",
+   "captions": [
+    "*Daha* *fazlası* için takip et",
+    "kullandığım araçlar *açıklamada*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yapay Zeka Otomasyonu",
+     "word": "TAKİPET",
+     "line": "Bağlantılar açıklamada",
+     "pills": [
+      "Higgsfield",
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 57.6,
+ "topic": "Yüzünü göstermeden yapay zekâ animasyonlu Reels hesabı açmak: neden şimdi erken ve nasıl başlanır"
+}

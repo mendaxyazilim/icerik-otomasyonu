@@ -1,0 +1,169 @@
+{
+ "id": "2026-11-18-higgsfield-motion-control",
+ "title": "higgsfield-motion-control",
+ "youtube_title": "Yapay Zekâ Videolarında Kamera Açısını Çizerek Yönetin! 🎬",
+ "instagram_text": "Yapay zekâ video üretiminde kamera ve karakter hareketlerini yönlendirmek artık çok kolay. Higgsfield platformundaki Motion Control özelliği sayesinde sahneleri rastgele üretmek yerine ekranda çizerek yönetebilirsiniz. https://higgsfield.ai?fpr=egemen-b32749 ile kendi sinematik sahnelerinizi kontrol edin.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #higgsfield #animasyon #içeriküretimi",
+ "youtube_text": "Yapay zekâ video üretiminde kamera ve karakter hareketlerini yönlendirmek artık çok kolay. Higgsfield platformundaki Motion Control özelliği sayesinde sahneleri rastgele üretmek yerine ekranda çizerek yönetebilirsiniz. https://higgsfield.ai?fpr=egemen-b32749 ile kendi sinematik sahnelerinizi kontrol edin.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #higgsfield #animasyon #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim adımları özetledim:\n\n1. Görselini veya karakterini yükle\n2. Motion Control ile kameranın ve karakterin rotasını çiz\n3. Sinematik sahneni tek tıkla üret\n\nAracı incelemek için: https://higgsfield.ai?fpr=egemen-b32749",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim adımları özetledim:\n\n1. Görselini veya karakterini yükle\n2. Motion Control ile kameranın ve karakterin rotasını çiz\n3. Sinematik sahneni tek tıkla üret\n\nAracı incelemek için: https://higgsfield.ai?fpr=egemen-b32749\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Yapay zekâya video ürettirirken sadece uzun metinler yazıyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Sadece* *metin* yazıyorsan",
+    "zaman *kaybediyorsun*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "METİNLE VİDEO",
+      "YÖNETİLMEZ"
+     ],
+     "highlight": "YÖNETİLMEZ",
+     "stamp": "HATA"
+    }
+   }
+  },
+  {
+   "say": "İlk hata, kamera açısını ve karakter yönünü şansa bırakıp sürekli sıfırdan denemek.",
+   "captions": [
+    "*Kamera* açısını şansa bırakıp",
+    "sürekli *yeniden* denemek."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Şansa prompt yazmak",
+      "Rastgele kamera açısı",
+      "Karakterin kayması"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci hata ise karmaşık komutlarla kamerayı sağa sola döndürmeye çalışmak.",
+   "captions": [
+    "Karmaşık *komutlarla*",
+    "kamerayı *döndürmeye* çalışmak."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "UZUN METİN",
+     "strike": "Sola dön ve hızla yaklaş",
+     "good": "HAREKET ÇİZİMİ",
+     "good_sub": "Motion Control",
+     "good_items": [
+      "Yön oku",
+      "Kamera rotası",
+      "Hız ayarı"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Doğru yöntem, Higgsfield içerisindeki hareket kontrolü özelliğini kullanmak.",
+   "captions": [
+    "Doğrusu: *Higgsfield* ile",
+    "*hareket* *kontrolü* kullanmak."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Higgsfield",
+     "tagline": "Sinematik Hareket Kontrolü",
+     "button": "Rotayı Çiz",
+     "sticker_top": "KONTROL",
+     "sticker_big": "YÖN",
+     "sticker_bottom": "Çizerek Yönet"
+    }
+   }
+  },
+  {
+   "say": "Görselini yüklüyorsun ve karakterin nereye koşacağını ekranda çizerek belirliyorsun.",
+   "captions": [
+    "Görseli *yükle*,",
+    "karakterin *rotasını* ekranda *çiz*."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Adım Adım",
+     "screen_title": "Sahne Tasarımı",
+     "steps": [
+      "Görseli ekle",
+      "Karakter rotasını çiz",
+      "Hareketi başlat"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Aynı şekilde kameranın nasıl yaklaşacağını ve döneceğini de oklarla işaretliyorsun.",
+   "captions": [
+    "Kameranın *dönüşünü*",
+    "*oklarla* ekranda işaretle."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kamera Seçenekleri",
+     "items": [
+      {
+       "title": "Yakınlaşma",
+       "sub": "İleri doğru hareket",
+       "icon": "play"
+      },
+      {
+       "title": "Pan Hareketi",
+       "sub": "Sağa sola kayma",
+       "icon": "bolt"
+      },
+      {
+       "title": "Açı Kontrolü",
+       "sub": "Dinamik dönüş",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece prompt tahminleriyle uğraşmadan tam istediğin sinematik sahneyi alıyorsun.",
+   "captions": [
+    "Tahminlerle *uğraşmadan*",
+    "tam *istediğin* sahneyi al."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "KONTROLLÜ ÜRETİM",
+     "highlight": "Sinematik Sahne"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 42.04,
+ "topic": "Higgsfield'ın \"Motion Control\" özelliğiyle karakterinin ve kameranın hareket yönünü ekranda çizerek sinematik aksiyon sahnelerini sıfırdan yönetmek."
+}

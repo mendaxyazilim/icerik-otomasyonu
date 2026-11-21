@@ -1,0 +1,167 @@
+{
+ "id": "2026-11-15-submagic-otomatik-video-kurgu",
+ "title": "submagic-otomatik-video-kurgu",
+ "youtube_title": "Ham Videoları Tek Tıkla Profesyonel İçeriğe Dönüştürün ✂️",
+ "instagram_text": "Kamera karşısına geçip konuşmak kolay ama o videoyu kesip biçmek saatler alabiliyor.\n\nDuraksadığınız yerleri tek tek aramak, B-roll bulup yerleştirmek ve altyazı yazmak yerine bunu yapay zekâya devredebilirsiniz.\n\nSubmagic, yüklediğiniz konuşma videosundaki sessizlikleri ve gereksiz 'ııı' seslerini otomatik temizliyor. Anlattığınız konuya göre aralara B-roll görselleri ekliyor ve kelimeleri dinamik altyazılarla vurguluyor.\n\nAracı hemen denemek için yorumlara KES yazabilirsiniz!\n\n💬 Yorumlara KES yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #submagic #içeriküretimi #otomasyon #reels #videoüretimi",
+ "youtube_text": "Kamera karşısına geçip konuşmak kolay ama o videoyu kesip biçmek saatler alabiliyor.\n\nDuraksadığınız yerleri tek tek aramak, B-roll bulup yerleştirmek ve altyazı yazmak yerine bunu yapay zekâya devredebilirsiniz.\n\nSubmagic, yüklediğiniz konuşma videosundaki sessizlikleri ve gereksiz 'ııı' seslerini otomatik temizliyor. Anlattığınız konuya göre aralara B-roll görselleri ekliyor ve kelimeleri dinamik altyazılarla vurguluyor.\n\nAracı hemen denemek için yorumlara KES yazabilirsiniz!\n\n🔗 Submagic: https://submagic.co/?via=egemen-161849\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #submagic #içeriküretimi #otomasyon #reels #videoüretimi #shorts",
+ "keyword": "KES",
+ "dm": "Selam! 👋 Videoda bahsettiğim Submagic bağlantısı burada:\n\nhttps://submagic.co/?via=egemen-161849\n\nKullanım adımları:\n1. Konuşma videonu yükle.\n2. Otomatik sessizlik kesme ve altyazı stilini seç.\n3. Yapay zekânın önerdiği B-roll ve efektleri onaylayıp indir!",
+ "segments": [
+  {
+   "say": "Kamera karşısında dakikalarca konuşup montajda kaybolmaktan sıkılmadınız mı?",
+   "captions": [
+    "*Kamera* *karşısında* dakikalarca",
+    "montajda *kaybolmaktan* sıkılmadınız mı?"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SAATLERCE SÜREN",
+      "VİDEO MONTAJI"
+     ],
+     "highlight": "MONTAJI",
+     "stamp": "ZAMAN KAYBI"
+    }
+   }
+  },
+  {
+   "say": "Artık ham videonuzdaki sessizlikleri tek tek kesmek zorunda değilsiniz.",
+   "captions": [
+    "*Sessizlikleri* tek tek",
+    "*kesmek* *zorunda* değilsiniz."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Manuel sessizlik kesimi",
+      "Kelime kelime altyazı",
+      "B-roll arama derdi"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Submagic adındaki bu araç, konuşmanızdaki tüm duraksamaları saniyeler içinde temizliyor.",
+   "captions": [
+    "*Submagic* tüm *duraksamaları*",
+    "*saniyeler* *içinde* temizliyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Video Editor",
+     "button": "Otomatik Kurgula",
+     "sticker_top": "TEK TIKLA",
+     "sticker_big": "KIRP",
+     "sticker_bottom": "Sessizlikleri Kaldır"
+    }
+   }
+  },
+  {
+   "say": "Yalnızca sessizlikleri kesmekle kalmıyor, konuştuğunuz kelimelerle eşleşen B-roll stok görsellerini sahneye yerleştiriyor.",
+   "captions": [
+    "Konuştuğunuz kelimelerle *eşleşen*",
+    "*B-roll* *görsellerini* yerleştiriyor."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Otomatik Eklenenler",
+     "items": [
+      {
+       "title": "B-roll Stok Görseller",
+       "sub": "Konuyla tam uyumlu",
+       "icon": "spark"
+      },
+      {
+       "title": "Ses Efektleri",
+       "sub": "Geçişleri canlandırır",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üstelik izleyicinin dikkatini toplayan dinamik altyazıları da otomatik olarak hazırlıyor.",
+   "captions": [
+    "*Dinamik* *altyazıları* da",
+    "*otomatik* olarak hazırlıyor."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Saatlerce altyazı yazmak",
+     "good": "SUBMAGIC",
+     "good_sub": "Yapay zekâ destekli kurgu",
+     "good_items": [
+      "Dinamik Altyazı",
+      "B-roll",
+      "Sessizlik Kesme",
+      "Geçişler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Tek yapmanız gereken ham videoyu sisteme yükleyip oluşturulan içeriği incelemek.",
+   "captions": [
+    "*Ham* *videoyu* yükleyin,",
+    "oluşturulan *içeriği* inceleyin."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "İş Akışı · 1 dk",
+     "screen_title": "Video Hazırlama",
+     "steps": [
+      "Ham videoyu yükle",
+      "Sessizlikleri otomatik kaldır",
+      "Altyazı ve B-roll stilini seç"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece saatler süren kurgu işini dakikalar içinde tamamlayıp üretime odaklanabilirsiniz.",
+   "captions": [
+    "*Kurgu* işini dakikalar içinde",
+    "tamamlayıp *üretime* *odaklanın*."
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "preview_title": "Kurgu Özeti",
+     "items": [
+      "Sessizlikler temizlendi",
+      "Altyazılar hazırlandı",
+      "B-roll sahneleri eklendi"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Yorumlara KES yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *KES* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "KES",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 43.6,
+ "topic": "Submagic ile ham konuşma videondaki sessizlikleri tek tıkla kesip kelimeleri otomatik B-roll görselleri ve dinamik altyazılarla zenginleştirmek"
+}
