@@ -21,20 +21,20 @@
   "ElevenLabs'in \"Voice Design\" özelliğiyle cinsiyet, yaş ve aksan parametrelerini seçerek sıfırdan ve sana özel yepyeni bir yapay zekâ karakter sesi tasarlamak.",
   "Submagic'in \"Magic Hooks\" özelliğiyle videonun ilk 3 saniyesine dikkat çekici animasyonlu başlıklar ve viral şablonlar ekleyerek izleyiciyi anında yakalamak.",
   "OpusClip'in \"Active Speaker Detection\" (Çoklu Konuşmacı Takibi) özelliğiyle iki kişilik yatay podcast videolarını konuşmacıya göre otomatik bölünen ve yüzü kadrajda tutan dikey Reels formatına dönüştürmek.",
-  "Higgsfield'ın \"Prompt to Camera\" özelliğiyle FPV drone veya Bullet Time gibi karmaşık Hollywood kamera açılarını tek komutla videona uygulamak."
+  "Higgsfield'ın \"Prompt to Camera\" özelliğiyle FPV drone veya Bullet Time gibi karmaşık Hollywood kamera açılarını tek komutla videona uygulamak.",
+  "ElevenLabs'in \"Speech to Speech\" özelliğiyle kendi ses tonun ve duygunla okuduğun ham bir ses kaydını başka bir yapay zekâ ses karakterine birebir dönüştürmek."
  ],
  "filled_slots": [
-  "2026-11-20T06:00:00.000Z",
-  "2026-11-20T12:00:00.000Z",
   "2026-11-21T06:00:00.000Z",
-  "2026-11-21T12:00:00.000Z"
+  "2026-11-21T12:00:00.000Z",
+  "2026-11-22T06:00:00.000Z"
  ],
- "tool_i": 13,
+ "tool_i": 14,
  "last_style": {
-  "theme": "mint",
-  "pattern": "rings",
-  "layout": "sag",
-  "caption": "ust",
-  "format": "mit"
+  "theme": "okyanus",
+  "pattern": "stripes",
+  "layout": "kucuk",
+  "caption": "kutu",
+  "format": "tutorial"
  }
 }
