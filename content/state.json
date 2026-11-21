@@ -22,19 +22,19 @@
   "Submagic'in \"Magic Hooks\" özelliğiyle videonun ilk 3 saniyesine dikkat çekici animasyonlu başlıklar ve viral şablonlar ekleyerek izleyiciyi anında yakalamak.",
   "OpusClip'in \"Active Speaker Detection\" (Çoklu Konuşmacı Takibi) özelliğiyle iki kişilik yatay podcast videolarını konuşmacıya göre otomatik bölünen ve yüzü kadrajda tutan dikey Reels formatına dönüştürmek.",
   "Higgsfield'ın \"Prompt to Camera\" özelliğiyle FPV drone veya Bullet Time gibi karmaşık Hollywood kamera açılarını tek komutla videona uygulamak.",
-  "ElevenLabs'in \"Speech to Speech\" özelliğiyle kendi ses tonun ve duygunla okuduğun ham bir ses kaydını başka bir yapay zekâ ses karakterine birebir dönüştürmek."
+  "ElevenLabs'in \"Speech to Speech\" özelliğiyle kendi ses tonun ve duygunla okuduğun ham bir ses kaydını başka bir yapay zekâ ses karakterine birebir dönüştürmek.",
+  "Submagic'in \"Magic Cuts\" özelliğiyle konuşurken yaptığın \"ııı\", \"şey\" gibi dolgu seslerini ve duraklamaları metin dökümü üzerinden tek tıkla silerek videonun temposunu akıcı hale getirmek."
  ],
  "filled_slots": [
-  "2026-11-21T06:00:00.000Z",
-  "2026-11-21T12:00:00.000Z",
-  "2026-11-22T06:00:00.000Z"
+  "2026-11-22T06:00:00.000Z",
+  "2026-11-22T12:00:00.000Z"
  ],
- "tool_i": 14,
+ "tool_i": 15,
  "last_style": {
-  "theme": "okyanus",
-  "pattern": "stripes",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "tutorial"
+  "theme": "gunbatimi",
+  "pattern": "rings",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "hata"
  }
 }
