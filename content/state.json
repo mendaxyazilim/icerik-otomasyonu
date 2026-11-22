@@ -24,19 +24,21 @@
   "Higgsfield'ın \"Prompt to Camera\" özelliğiyle FPV drone veya Bullet Time gibi karmaşık Hollywood kamera açılarını tek komutla videona uygulamak.",
   "ElevenLabs'in \"Speech to Speech\" özelliğiyle kendi ses tonun ve duygunla okuduğun ham bir ses kaydını başka bir yapay zekâ ses karakterine birebir dönüştürmek.",
   "Submagic'in \"Magic Cuts\" özelliğiyle konuşurken yaptığın \"ııı\", \"şey\" gibi dolgu seslerini ve duraklamaları metin dökümü üzerinden tek tıkla silerek videonun temposunu akıcı hale getirmek.",
-  "OpusClip'in \"AI B-Roll\" özelliğiyle uzun videondan çıkan kısa kliplerdeki anlatılan konuya uygun stok video ve görselleri konuşmayla senkronize şekilde tek tıkla aralara eklemek."
+  "OpusClip'in \"AI B-Roll\" özelliğiyle uzun videondan çıkan kısa kliplerdeki anlatılan konuya uygun stok video ve görselleri konuşmayla senkronize şekilde tek tıkla aralara eklemek.",
+  "Higgsfield'ın \"Character Consistency\" (Karakter Tutarlılığı) özelliğiyle aynı yapay zekâ karakterini farklı sahnelerde ve kamera açılarında tipi hiç bozulmadan oynatarak dizi veya reklam filmi çekmek."
  ],
  "filled_slots": [
   "2026-11-22T06:00:00.000Z",
   "2026-11-22T12:00:00.000Z",
-  "2026-11-23T06:00:00.000Z"
+  "2026-11-23T06:00:00.000Z",
+  "2026-11-23T12:00:00.000Z"
  ],
- "tool_i": 16,
+ "tool_i": 17,
  "last_style": {
-  "theme": "gece",
-  "pattern": "stripes",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "once_sonra"
+  "theme": "mint",
+  "pattern": "grid",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "mit"
  }
 }
