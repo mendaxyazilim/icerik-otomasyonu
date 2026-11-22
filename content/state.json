@@ -25,20 +25,20 @@
   "ElevenLabs'in \"Speech to Speech\" özelliğiyle kendi ses tonun ve duygunla okuduğun ham bir ses kaydını başka bir yapay zekâ ses karakterine birebir dönüştürmek.",
   "Submagic'in \"Magic Cuts\" özelliğiyle konuşurken yaptığın \"ııı\", \"şey\" gibi dolgu seslerini ve duraklamaları metin dökümü üzerinden tek tıkla silerek videonun temposunu akıcı hale getirmek.",
   "OpusClip'in \"AI B-Roll\" özelliğiyle uzun videondan çıkan kısa kliplerdeki anlatılan konuya uygun stok video ve görselleri konuşmayla senkronize şekilde tek tıkla aralara eklemek.",
-  "Higgsfield'ın \"Character Consistency\" (Karakter Tutarlılığı) özelliğiyle aynı yapay zekâ karakterini farklı sahnelerde ve kamera açılarında tipi hiç bozulmadan oynatarak dizi veya reklam filmi çekmek."
+  "Higgsfield'ın \"Character Consistency\" (Karakter Tutarlılığı) özelliğiyle aynı yapay zekâ karakterini farklı sahnelerde ve kamera açılarında tipi hiç bozulmadan oynatarak dizi veya reklam filmi çekmek.",
+  "ElevenLabs'in \"Projects\" özelliğiyle uzun bir e-kitap veya blog yazısını farklı yapay zekâ sesleriyle bölümlere ayırarak tek tıkla profesyonel bir sesli kitaba dönüştürmek."
  ],
  "filled_slots": [
-  "2026-11-22T06:00:00.000Z",
-  "2026-11-22T12:00:00.000Z",
   "2026-11-23T06:00:00.000Z",
-  "2026-11-23T12:00:00.000Z"
+  "2026-11-23T12:00:00.000Z",
+  "2026-11-24T06:00:00.000Z"
  ],
- "tool_i": 17,
+ "tool_i": 18,
  "last_style": {
-  "theme": "mint",
-  "pattern": "grid",
-  "layout": "sag",
-  "caption": "ust",
-  "format": "mit"
+  "theme": "gece",
+  "pattern": "rings",
+  "layout": "kucuk",
+  "caption": "kutu",
+  "format": "tutorial"
  }
 }
