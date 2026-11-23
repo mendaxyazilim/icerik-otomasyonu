@@ -26,19 +26,19 @@
   "Submagic'in \"Magic Cuts\" özelliğiyle konuşurken yaptığın \"ııı\", \"şey\" gibi dolgu seslerini ve duraklamaları metin dökümü üzerinden tek tıkla silerek videonun temposunu akıcı hale getirmek.",
   "OpusClip'in \"AI B-Roll\" özelliğiyle uzun videondan çıkan kısa kliplerdeki anlatılan konuya uygun stok video ve görselleri konuşmayla senkronize şekilde tek tıkla aralara eklemek.",
   "Higgsfield'ın \"Character Consistency\" (Karakter Tutarlılığı) özelliğiyle aynı yapay zekâ karakterini farklı sahnelerde ve kamera açılarında tipi hiç bozulmadan oynatarak dizi veya reklam filmi çekmek.",
-  "ElevenLabs'in \"Projects\" özelliğiyle uzun bir e-kitap veya blog yazısını farklı yapay zekâ sesleriyle bölümlere ayırarak tek tıkla profesyonel bir sesli kitaba dönüştürmek."
+  "ElevenLabs'in \"Projects\" özelliğiyle uzun bir e-kitap veya blog yazısını farklı yapay zekâ sesleriyle bölümlere ayırarak tek tıkla profesyonel bir sesli kitaba dönüştürmek.",
+  "Submagic'in \"Auto-Emojis\" özelliğiyle videondaki altyazılarda geçen anahtar kelimelere en uygun animasyonlu emojileri konuşmanın tam ritmine göre otomatik yerleştirmek."
  ],
  "filled_slots": [
-  "2026-11-23T06:00:00.000Z",
-  "2026-11-23T12:00:00.000Z",
-  "2026-11-24T06:00:00.000Z"
+  "2026-11-24T06:00:00.000Z",
+  "2026-11-24T12:00:00.000Z"
  ],
- "tool_i": 18,
+ "tool_i": 19,
  "last_style": {
-  "theme": "gece",
-  "pattern": "rings",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "tutorial"
+  "theme": "mint",
+  "pattern": "grid",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "senaryo"
  }
 }
