@@ -28,19 +28,21 @@
   "Higgsfield'ın \"Character Consistency\" (Karakter Tutarlılığı) özelliğiyle aynı yapay zekâ karakterini farklı sahnelerde ve kamera açılarında tipi hiç bozulmadan oynatarak dizi veya reklam filmi çekmek.",
   "ElevenLabs'in \"Projects\" özelliğiyle uzun bir e-kitap veya blog yazısını farklı yapay zekâ sesleriyle bölümlere ayırarak tek tıkla profesyonel bir sesli kitaba dönüştürmek.",
   "Submagic'in \"Auto-Emojis\" özelliğiyle videondaki altyazılarda geçen anahtar kelimelere en uygun animasyonlu emojileri konuşmanın tam ritmine göre otomatik yerleştirmek.",
-  "OpusClip'in \"AI Dynamic Hook\" özelliğiyle uzun videondan çıkarılan kliplerin en merak uyandıran 3 saniyesini otomatik tespit edip videonun en başına çarpıcı bir ön izleme kancası olarak eklemek."
+  "OpusClip'in \"AI Dynamic Hook\" özelliğiyle uzun videondan çıkarılan kliplerin en merak uyandıran 3 saniyesini otomatik tespit edip videonun en başına çarpıcı bir ön izleme kancası olarak eklemek.",
+  "Higgsfield'ın \"Image-to-Video\" modunda başlangıç ve bitiş karesi (First & Last Frame) belirleyerek iki farklı görsel arasında kusursuz ve sinematik bir geçiş videosu üretmek."
  ],
  "filled_slots": [
   "2026-11-24T06:00:00.000Z",
   "2026-11-24T12:00:00.000Z",
-  "2026-11-25T06:00:00.000Z"
+  "2026-11-25T06:00:00.000Z",
+  "2026-11-25T12:00:00.000Z"
  ],
- "tool_i": 20,
+ "tool_i": 21,
  "last_style": {
-  "theme": "gunbatimi",
-  "pattern": "stripes",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "once_sonra"
+  "theme": "neon",
+  "pattern": "rings",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "liste"
  }
 }
