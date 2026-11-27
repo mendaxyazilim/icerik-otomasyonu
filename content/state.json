@@ -31,19 +31,18 @@
   "OpusClip'in \"AI Dynamic Hook\" özelliğiyle uzun videondan çıkarılan kliplerin en merak uyandıran 3 saniyesini otomatik tespit edip videonun en başına çarpıcı bir ön izleme kancası olarak eklemek.",
   "Higgsfield'ın \"Image-to-Video\" modunda başlangıç ve bitiş karesi (First & Last Frame) belirleyerek iki farklı görsel arasında kusursuz ve sinematik bir geçiş videosu üretmek.",
   "ElevenLabs'in \"Voice Isolator\" özelliğiyle arkada rüzgar, trafik veya kalabalık gürültüsü olan bozuk bir telefon ses kaydını tek tıkla stüdyo kalitesinde tertemiz bir sese dönüştürmek.",
-  "Submagic'in \"Trending Templates\" özelliğiyle videona Alex Hormozi veya MrBeast gibi küresel içerik üreticilerinin popüler dinamik altyazı ve renk stillerini tek tıkla uygulamak."
+  "Submagic'in \"Trending Templates\" özelliğiyle videona Alex Hormozi veya MrBeast gibi küresel içerik üreticilerinin popüler dinamik altyazı ve renk stillerini tek tıkla uygulamak.",
+  "OpusClip'in \"Auto Post\" özelliğiyle uzun videondan üretilen viral kısa klipleri doğrudan TikTok, YouTube Shorts ve Instagram hesaplarına tek tıkla zamanlayıp otomatik paylaşmak."
  ],
  "filled_slots": [
-  "2026-11-25T12:00:00.000Z",
-  "2026-11-26T06:00:00.000Z",
-  "2026-11-26T12:00:00.000Z"
+  "2026-11-27T06:00:00.000Z"
  ],
- "tool_i": 23,
+ "tool_i": 24,
  "last_style": {
-  "theme": "mint",
-  "pattern": "dots",
-  "layout": "sag",
-  "caption": "ust",
-  "format": "liste"
+  "theme": "okyanus",
+  "pattern": "stripes",
+  "layout": "kucuk",
+  "caption": "kutu",
+  "format": "hata"
  }
 }
