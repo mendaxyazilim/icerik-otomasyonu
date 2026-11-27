@@ -32,17 +32,19 @@
   "Higgsfield'ın \"Image-to-Video\" modunda başlangıç ve bitiş karesi (First & Last Frame) belirleyerek iki farklı görsel arasında kusursuz ve sinematik bir geçiş videosu üretmek.",
   "ElevenLabs'in \"Voice Isolator\" özelliğiyle arkada rüzgar, trafik veya kalabalık gürültüsü olan bozuk bir telefon ses kaydını tek tıkla stüdyo kalitesinde tertemiz bir sese dönüştürmek.",
   "Submagic'in \"Trending Templates\" özelliğiyle videona Alex Hormozi veya MrBeast gibi küresel içerik üreticilerinin popüler dinamik altyazı ve renk stillerini tek tıkla uygulamak.",
-  "OpusClip'in \"Auto Post\" özelliğiyle uzun videondan üretilen viral kısa klipleri doğrudan TikTok, YouTube Shorts ve Instagram hesaplarına tek tıkla zamanlayıp otomatik paylaşmak."
+  "OpusClip'in \"Auto Post\" özelliğiyle uzun videondan üretilen viral kısa klipleri doğrudan TikTok, YouTube Shorts ve Instagram hesaplarına tek tıkla zamanlayıp otomatik paylaşmak.",
+  "Higgsfield'ın \"Text-to-Video\" modunda Seedance motorunu kullanarak sadece bir ürün görselinden saniyeler içinde viral TikTok tarzı dinamik UGC reklam videosu üretmek."
  ],
  "filled_slots": [
-  "2026-11-27T06:00:00.000Z"
+  "2026-11-27T06:00:00.000Z",
+  "2026-11-27T12:00:00.000Z"
  ],
- "tool_i": 24,
+ "tool_i": 25,
  "last_style": {
-  "theme": "okyanus",
-  "pattern": "stripes",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "hata"
+  "theme": "neon",
+  "pattern": "rings",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "liste"
  }
 }
