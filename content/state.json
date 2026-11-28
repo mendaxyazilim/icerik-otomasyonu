@@ -34,19 +34,18 @@
   "Submagic'in \"Trending Templates\" özelliğiyle videona Alex Hormozi veya MrBeast gibi küresel içerik üreticilerinin popüler dinamik altyazı ve renk stillerini tek tıkla uygulamak.",
   "OpusClip'in \"Auto Post\" özelliğiyle uzun videondan üretilen viral kısa klipleri doğrudan TikTok, YouTube Shorts ve Instagram hesaplarına tek tıkla zamanlayıp otomatik paylaşmak.",
   "Higgsfield'ın \"Text-to-Video\" modunda Seedance motorunu kullanarak sadece bir ürün görselinden saniyeler içinde viral TikTok tarzı dinamik UGC reklam videosu üretmek.",
-  "ElevenLabs'in \"Voice Changer\" özelliğiyle mikrofon başına geçip konuştuğun bir metni gerçek zamanlı olarak fısıltı, öfke veya heyecan gibi istediğin yoğun duygu durumuna sahip bir yapay zekâ sesine dönüştürmek."
+  "ElevenLabs'in \"Voice Changer\" özelliğiyle mikrofon başına geçip konuştuğun bir metni gerçek zamanlı olarak fısıltı, öfke veya heyecan gibi istediğin yoğun duygu durumuna sahip bir yapay zekâ sesine dönüştürmek.",
+  "Submagic'in \"AI Description & Hashtags\" özelliğiyle videonun içeriğini ve konusunu otomatik analiz ettirip TikTok, Reels ve Shorts için en uygun açıklama metnini ve viral etiketleri tek tıkla yazdırmak."
  ],
  "filled_slots": [
-  "2026-11-27T06:00:00.000Z",
-  "2026-11-27T12:00:00.000Z",
-  "2026-11-28T06:00:00.000Z"
+  "2026-11-28T12:00:00.000Z"
  ],
- "tool_i": 26,
+ "tool_i": 27,
  "last_style": {
-  "theme": "mint",
-  "pattern": "grid",
-  "layout": "kucuk",
-  "caption": "kutu",
-  "format": "once_sonra"
+  "theme": "gece",
+  "pattern": "rings",
+  "layout": "sag",
+  "caption": "ust",
+  "format": "senaryo"
  }
 }
