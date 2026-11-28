@@ -1,0 +1,196 @@
+{
+ "id": "2026-11-19-elevenlabs-voice-design-rehberi",
+ "title": "elevenlabs_voice_design_rehberi",
+ "youtube_title": "Kendi Sesini Kaydetmeden Yapay Zekâ Sesi Tasarla! 🎙️",
+ "instagram_text": "ElevenLabs Voice Design ile sıfırdan yapay zekâ sesi tasarlama rehberi. Kendi sesinizi klonlamadan cinsiyet, yaş ve aksan belirleyerek tamamen özgün ses karakterleri üretebilirsiniz.\n\nİçeriklerinizde herkesin kullandığı sıradan sesler yerine markanıza özel karakter sesleri kullanmak için https://try.elevenlabs.io/ltkcv8jbeob1 aracını kullanabilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #sestasarimi #otomasyon #icerikuretimi",
+ "youtube_text": "ElevenLabs Voice Design ile sıfırdan yapay zekâ sesi tasarlama rehberi. Kendi sesinizi klonlamadan cinsiyet, yaş ve aksan belirleyerek tamamen özgün ses karakterleri üretebilirsiniz.\n\nİçeriklerinizde herkesin kullandığı sıradan sesler yerine markanıza özel karakter sesleri kullanmak için https://try.elevenlabs.io/ltkcv8jbeob1 aracını kullanabilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #sestasarimi #otomasyon #icerikuretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Kendi sesini kaydetmeden sıfırdan karakter sesi tasarlama adımları:\n\n1. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Voice Design özelliğini açın.\n2. Cinsiyet, yaş ve aksan parametrelerini seçin.\n3. Sesin tonunu açıklayan kısa metni yazıp sesi üretin.\n\nKolay gelsin!",
+ "first_comment": "Selam! 👋 Kendi sesini kaydetmeden sıfırdan karakter sesi tasarlama adımları:\n\n1. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Voice Design özelliğini açın.\n2. Cinsiyet, yaş ve aksan parametrelerini seçin.\n3. Sesin tonunu açıklayan kısa metni yazıp sesi üretin.\n\nKolay gelsin!\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Çoğu kişi özel ses üretmek için kendi sesini kaydetmek şart sanıyor.",
+   "captions": [
+    "*Çoğu* *kişi* özel ses üretmek için",
+    "kendi sesini *kaydetmek* *şart* sanıyor."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "KENDİ SESİNİ",
+      "KAYDETMEK ŞART MI?"
+     ],
+     "highlight": "KAYDETMEK",
+     "stamp": "YANLIŞ BİLİNEN"
+    }
+   }
+  },
+  {
+   "say": "Oysa kendi sesinizi klonlamak zorunda kalmadan da sıfırdan tamamen size özel bir ses tasarlayabilirsiniz.",
+   "captions": [
+    "Oysa sesinizi *klonlamadan* da",
+    "sıfırdan *özel* *ses* tasarlayabilirsiniz."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Kendi Sesini Kaydetmek",
+      "Stüdyo Ekipmanı Almak",
+      "Ses Klonlama Yapmak"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Herkesin kullandığı aynı ses tonları içeriğinizi sıradanlaştırır ama özgün ses tasarımı markanızı öne çıkarır.",
+   "captions": [
+    "Aynı *sesler* *içeriği* *sıradanlaştırır*,",
+    "özgün ses markanızı *öne* *çıkarır*."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "HAZIR SESLER",
+     "strike": "Herkesle Aynı Ses",
+     "good": "VOICE DESIGN",
+     "good_sub": "Sıfırdan Karakter Sesi",
+     "good_items": [
+      "Özgün Ses Kimliği",
+      "Özel Yaş ve Aksan",
+      "Tamamen Benzersiz Ton"
+     ]
+    }
+   }
+  },
+  {
+   "say": "ElevenLabs panelindeki Voice Design yani Ses Tasarımı özelliğini açarak hemen işe başlayabilirsiniz.",
+   "captions": [
+    "ElevenLabs panelindeki *Voice* *Design*",
+    "özelliğini açarak *hemen* *başlayın*."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Yeni Ses Tasarla",
+     "command": "Voice Design",
+     "tag": "ElevenLabs",
+     "wait": "Parametreler oluşturuluyor...",
+     "done": "Ses Oluşturuldu",
+     "result": "Özgün Ses Kimliği"
+    }
+   }
+  },
+  {
+   "say": "İlk adımda oluşturmak istediğiniz karakterin cinsiyetini, yaş grubunu ve konuşma aksanını kolayca seçin.",
+   "captions": [
+    "Karakterinizin *cinsiyetini*, *yaşını*",
+    "ve *aksanını* *kolayca* *seçin*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Ana Parametreler",
+     "items": [
+      {
+       "title": "Cinsiyet",
+       "sub": "Kadın veya Erkek",
+       "icon": "gear"
+      },
+      {
+       "title": "Yaş Grubu",
+       "sub": "Genç, Orta Yaş veya Yaşlı",
+       "icon": "clock"
+      },
+      {
+       "title": "Aksan",
+       "sub": "Konuşma Şivesi ve Ton",
+       "icon": "mic"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ardından sesin tonunu, hızını ve vermek istediğiniz duyguyu açıklayan kısa bir metin tarifi ekleyin.",
+   "captions": [
+    "Sesin *tonunu*, *hızını* ve *duygusunu*",
+    "açıklayan *kısa* *tarif* ekleyin."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Ses Tasarım Adımları",
+     "screen_title": "Voice Design",
+     "steps": [
+      "Cinsiyet ve Yaş Belirle",
+      "Aksan Seçimini Yap",
+      "Ses Tarifini Yaz",
+      "Numuneleri Üret"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Yapay zekâ verdiğiniz parametrelere göre size saniyeler içinde farklı ses alternatifleri ve numuneleri üretecektir.",
+   "captions": [
+    "Yapay zekâ *saniyeler* *içinde*",
+    "farklı *ses* *alternatifleri* üretir."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "YAPAY ZEKÂ SESİ",
+     "line1": "Sıfırdan Ses Üretimi",
+     "line2": "Farklı Ses Numuneleri",
+     "sub": "Tek tıkla dinle ve seç",
+     "chips": [
+      "ElevenLabs",
+      "Voice Design"
+     ],
+     "button": "Sesi Üret",
+     "icon": "spark"
+    }
+   }
+  },
+  {
+   "say": "Beğendiğiniz sesi tek tıkla kütüphanenize ekleyip tüm videolarınızda kendi resmi karakter sesiniz olarak kullanın.",
+   "captions": [
+    "Beğendiğiniz sesi *kütüphaneye* *ekleyin*,",
+    "tüm *videolarda* *kullanın*."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "Yapay Zekâ Ses Kütüphanesi",
+     "button": "Kütüphaneye Kaydet",
+     "sticker_top": "ÖZEL SES",
+     "sticker_big": "KAYDET",
+     "sticker_bottom": "Videolarda Kullan"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 58.76,
+ "topic": "ElevenLabs'in \"Voice Design\" özelliğiyle cinsiyet, yaş ve aksan parametrelerini seçerek sıfırdan ve sana özel yepyeni bir yapay zekâ karakter sesi tasarlamak."
+}

@@ -1,0 +1,170 @@
+{
+ "id": "2026-11-25-elevenlabs-voice-isolator",
+ "title": "elevenlabs-voice-isolator",
+ "youtube_title": "Bozuk Ses Kayıtlarını Tek Tıkla Stüdyo Kalitesine Çevirin 🎙️",
+ "instagram_text": "Yapay zekâ ses temizleme araçlarıyla arka plan gürültüsünü saniyeler içinde yok edin.\n\nRüzgar, trafik veya kalabalık sesleri yüzünden telefonla aldığınız kayıtları çöpe atmanıza gerek yok. ElevenLabs Voice Isolator özelliğiyle dip sesleri anında ayıklayabilirsiniz.\n\nDetaylı bağlantı ve araç için: https://try.elevenlabs.io/ltkcv8jbeob1\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #sesdüzenleme #içeriküretimi",
+ "youtube_text": "Yapay zekâ ses temizleme araçlarıyla arka plan gürültüsünü saniyeler içinde yok edin.\n\nRüzgar, trafik veya kalabalık sesleri yüzünden telefonla aldığınız kayıtları çöpe atmanıza gerek yok. ElevenLabs Voice Isolator özelliğiyle dip sesleri anında ayıklayabilirsiniz.\n\nDetaylı bağlantı ve araç için: https://try.elevenlabs.io/ltkcv8jbeob1\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #sesdüzenleme #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim ElevenLabs Voice Isolator özelliğine buradan ulaşabilirsin:\n\nhttps://try.elevenlabs.io/ltkcv8jbeob1\n\n1. Sitenin ses araçları menüsünden Voice Isolator'ı seç.\n2. Bozuk veya gürültülü ses dosyanı yükle.\n3. Tek tıkla stüdyo kalitesindeki temiz kaydı indir.",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim ElevenLabs Voice Isolator özelliğine buradan ulaşabilirsin:\n\nhttps://try.elevenlabs.io/ltkcv8jbeob1\n\n1. Sitenin ses araçları menüsünden Voice Isolator'ı seç.\n2. Bozuk veya gürültülü ses dosyanı yükle.\n3. Tek tıkla stüdyo kalitesindeki temiz kaydı indir.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Çoğu kişi kaliteli bir ses için pahalı mikrofonlar gerektiğini sanıyor.",
+   "captions": [
+    "Çoğu kişi *kaliteli* *ses* için",
+    "pahalı mikrofonlar gerektiğini *sanıyor*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "PAHALI MİKROFON",
+      "ŞART DEĞİL"
+     ],
+     "highlight": "PAHALI",
+     "stamp": "YANLIŞ BİLİNEN"
+    }
+   }
+  },
+  {
+   "say": "Oysa rüzgarlı sokak kayıtlarını veya dip sesleri kurtarmak için saatlerce uğraşmak gerekmiyor.",
+   "captions": [
+    "Oysa *rüzgarlı* sokak kayıtlarını",
+    "kurtarmak için saatlerce *uğraşmayın*."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Pahalı Stüdyo Ekipmanı",
+      "Karmaşık Ses Programları",
+      "Saatlerce Dip Gürültüsü Silme"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Gürültülü telefon kayıtlarını ElevenLabs Voice Isolator ile stüdyo ortamına taşıyabilirsiniz.",
+   "captions": [
+    "Gürültülü kayıtları *ElevenLabs* ile",
+    "*stüdyo* ortamına taşıyabilirsiniz."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "BOZUK KAYIT",
+     "strike": "Rüzgar ve Trafik Sesi",
+     "good": "ELEVENLABS",
+     "good_sub": "Voice Isolator",
+     "good_items": [
+      "Kristal Netlik",
+      "Sıfır Dip Ses",
+      "Doğal Vokal",
+      "Yapay Zeka"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İlk olarak sitedeki ses araçlarından Voice Isolator sekmesini açın.",
+   "captions": [
+    "İlk olarak siteden",
+    "*Voice* *Isolator* sekmesini açın."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "İşlem Adımları",
+     "screen_title": "Voice Isolator",
+     "steps": [
+      "Aracı Seç",
+      "Kayıt Yükle",
+      "Gürültüyü Ayıkla",
+      "Tertemiz İndir"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Trafik veya kalabalık uğultusu içeren ses dosyanızı sisteme yükleyin.",
+   "captions": [
+    "Gürültülü ses dosyanızı",
+    "doğrudan sisteme *yükleyin*."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "bozuk_ses_kaydi.mp3",
+     "command": "/izole_et",
+     "tag": "ElevenLabs",
+     "wait": "Dip gürültü taranıyor...",
+     "done": "Gürültü yok edildi",
+     "result": "Net Vokal Hazır"
+    }
+   }
+  },
+  {
+   "say": "Yapay zekâ arka plandaki tüm karmaşayı saniyeler içinde temizliyor.",
+   "captions": [
+    "Yapay zekâ arka plandaki gürültüyü",
+    "saniyeler içinde *temizliyor*."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "AI Voice Isolator",
+     "button": "Temiz Sesi Dinle",
+     "sticker_top": "TEK TIKLA",
+     "sticker_big": "NET SES",
+     "sticker_bottom": "STÜDYO KALİTESİ"
+    }
+   }
+  },
+  {
+   "say": "Geriye yalnızca stüdyoda kaydedilmiş gibi berrak ve pürüzsüz vokaliniz kalıyor.",
+   "captions": [
+    "Geriye sadece *stüdyo* *kalitesinde*",
+    "berrak bir vokal kalıyor."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Elde Edilen Sonuç",
+     "items": [
+      {
+       "title": "Sıfır Uğultu",
+       "sub": "Rüzgar ve yankı silindi",
+       "icon": "mic"
+      },
+      {
+       "title": "Kristal Netlik",
+       "sub": "Doğal konuşma tonu korundu",
+       "icon": "spark"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 41.16,
+ "topic": "ElevenLabs'in \"Voice Isolator\" özelliğiyle arkada rüzgar, trafik veya kalabalık gürültüsü olan bozuk bir telefon ses kaydını tek tıkla stüdyo kalitesinde tertemiz bir sese dönüştürmek."
+}

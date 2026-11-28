@@ -1,0 +1,171 @@
+{
+ "id": "2026-11-25-submagic-trending-templates",
+ "title": "submagic-trending-templates",
+ "youtube_title": "Videolarınıza Tek Tıkla Viral Altyazı Ekleyin! 🎬",
+ "instagram_text": "Videolarınıza küresel içerik üreticilerinin dinamik altyazı stillerini saniyeler içinde ekleyin.\n\nKısa videolarda izleyicinin dikkatini tutmanın en etkili yolu doğru kurgulanmış dinamik altyazılardır. Saatlerce kelime kelime yazı düzenlemek yerine yapay zekâ destekli hazır trend stilleri kullanabilirsiniz.\n\nhttps://submagic.co/?via=egemen-161849 aracı videonuzu analiz ederek popüler şablonları, otomatik vurguları ve renk geçişlerini doğrudan uyguluyor.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #altyazı #içeriküretimi",
+ "youtube_text": "Videolarınıza küresel içerik üreticilerinin dinamik altyazı stillerini saniyeler içinde ekleyin.\n\nKısa videolarda izleyicinin dikkatini tutmanın en etkili yolu doğru kurgulanmış dinamik altyazılardır. Saatlerce kelime kelime yazı düzenlemek yerine yapay zekâ destekli hazır trend stilleri kullanabilirsiniz.\n\nhttps://submagic.co/?via=egemen-161849 aracı videonuzu analiz ederek popüler şablonları, otomatik vurguları ve renk geçişlerini doğrudan uyguluyor.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #altyazı #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim trend altyazı adımları:\n\n1. Videonu yükle ve yapay zekâ analizini başlat\n2. Trending Templates sekmesinden popüler bir stil seç\n3. Otomatik vurguları ve renkleri kontrol edip dışa aktar\n\nAracı incelemek için link: https://submagic.co/?via=egemen-161849",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim trend altyazı adımları:\n\n1. Videonu yükle ve yapay zekâ analizini başlat\n2. Trending Templates sekmesinden popüler bir stil seç\n3. Otomatik vurguları ve renkleri kontrol edip dışa aktar\n\nAracı incelemek için link: https://submagic.co/?via=egemen-161849\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Altyazıları tek tek renklendirmekle saatler kaybediyorsan bu üç adımı izle.",
+   "captions": [
+    "Altyazıları tek tek renklendirmekle",
+    "*saatler* *kaybediyorsan*",
+    "bu *üç* *adımı* izle."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SAATLERCE UĞRAŞMA",
+      "3 ADIMDA ALTYAZI"
+     ],
+     "highlight": "3 ADIMDA"
+    }
+   }
+  },
+  {
+   "say": "Birinci adım, videonu Submagic platformuna yükleyip transkripti otomatik oluşturmak.",
+   "captions": [
+    "*Birinci* *adım*,",
+    "videonu *Submagic* platformuna yükle",
+    "ve transkripti otomatik oluştur."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Adım 1",
+     "screen_title": "Video Yükleme",
+     "steps": [
+      "Dosyayı seç",
+      "Dili belirle",
+      "Yapay zekâ taraması"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Eski usul elle zamanlama yapmak yerine tüm konuşma saniyeler içinde yazıya dökülüyor.",
+   "captions": [
+    "Eski usul elle zamanlama yerine",
+    "tüm konuşma *saniyeler* *içinde*",
+    "yazıya dökülüyor."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ USUL",
+     "strike": "Elle Altyazı Ekleme",
+     "good": "YAPAY ZEKÂ",
+     "good_sub": "Otomatik Senkron",
+     "good_items": [
+      "Hızlı",
+      "Hatasız",
+      "Otomatik"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci adım, trending templates sekmesinden popüler üreticilerin dinamik stillerini seçmek.",
+   "captions": [
+    "*İkinci* *adım*,",
+    "*trend* *şablonlar* sekmesinden",
+    "dinamik bir *stil* seçmek."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Trend Şablonlar",
+     "items": [
+      {
+       "title": "Büyük Fontlar",
+       "sub": "Yüksek kontrast",
+       "icon": "spark"
+      },
+      {
+       "title": "Dinamik Renkler",
+       "sub": "Kelime vurgusu",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bu şablonlar önemli kelimeleri otomatik büyütüp dikkat çeken renklere boyuyor.",
+   "captions": [
+    "Bu şablonlar önemli kelimeleri",
+    "otomatik *büyütüp*",
+    "dikkat çeken *renklere* boyuyor."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "DİKKAT ÇEKEN KELİMELER",
+     "highlight": "Vurgulu Altyazı"
+    }
+   }
+  },
+  {
+   "say": "Üçüncü adım, otomatik eklenen efektleri tek panelden önizleyip videoyu kaydetmek.",
+   "captions": [
+    "*Üçüncü* *adım*,",
+    "efektleri tek panelden *önizle*",
+    "ve videoyu kaydet."
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Şablonu onayla",
+      "Vurguları kontrol et",
+      "Dışa aktar"
+     ],
+     "preview_title": "Son Kontrol"
+    }
+   }
+  },
+  {
+   "say": "Böylece kurgu yazılımlarında kaybolmadan profesyonel kısa videolar hazırlayabilirsin.",
+   "captions": [
+    "Kurgu yazılımlarında kaybolmadan",
+    "*profesyonel* kısa videolar",
+    "hazırlayabilirsin."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Video Editor",
+     "button": "Şablonu Uygula",
+     "sticker_top": "HIZLI",
+     "sticker_big": "TREND",
+     "sticker_bottom": "STİLLER"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 40.65,
+ "topic": "Submagic'in \"Trending Templates\" özelliğiyle videona Alex Hormozi veya MrBeast gibi küresel içerik üreticilerinin popüler dinamik altyazı ve renk stillerini tek tıkla uygulamak."
+}

@@ -1,0 +1,160 @@
+{
+ "id": "2026-11-28-submagic-otomatik-aciklama-ve-etiket",
+ "title": "Submagic Otomatik Aciklama ve Etiket",
+ "youtube_title": "Video Açıklaması ve Etiket Yazmaktan Kurtulun! ⚡",
+ "instagram_text": "Videolarınız için en uygun açıklama metnini ve etiketleri saniyeler içinde yapay zekâya yazdırabilirsiniz.\n\nKısa video üretirken içeriği kurgulamak kadar doğru açıklamayı ve aramalarda öne çıkaracak etiketleri bulmak da zaman alıyor. Submagic, videonuzun konusunu ve sesini analiz ederek tüm platformlara uygun açıklamalar hazırlıyor.\n\nDetayları incelemek için: https://submagic.co/?via=egemen-161849\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #içeriküretimi #videootomasyon #sosyalmedya",
+ "youtube_text": "Videolarınız için en uygun açıklama metnini ve etiketleri saniyeler içinde yapay zekâya yazdırabilirsiniz.\n\nKısa video üretirken içeriği kurgulamak kadar doğru açıklamayı ve aramalarda öne çıkaracak etiketleri bulmak da zaman alıyor. Submagic, videonuzun konusunu ve sesini analiz ederek tüm platformlara uygun açıklamalar hazırlıyor.\n\nDetayları incelemek için: https://submagic.co/?via=egemen-161849\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #içeriküretimi #videootomasyon #sosyalmedya #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim Submagic ile otomatik açıklama ve etiket oluşturma adımları:\n\n1. Videonu Submagic paneline yükle\n2. 'AI Description & Hashtags' sekmesine tıkla\n3. İçeriğine göre hazırlanan metin ve etiketleri doğrudan kopyala\n\nAracı incelemek için: https://submagic.co/?via=egemen-161849",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim Submagic ile otomatik açıklama ve etiket oluşturma adımları:\n\n1. Videonu Submagic paneline yükle\n2. 'AI Description & Hashtags' sekmesine tıkla\n3. İçeriğine göre hazırlanan metin ve etiketleri doğrudan kopyala\n\nAracı incelemek için: https://submagic.co/?via=egemen-161849\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Her videodan sonra dakikalarca açıklama metni düşünmekten yoruldun mu?",
+   "captions": [
+    "*Açıklama* *metni* yazmaktan",
+    "*yoruldun* *mu?*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "AÇIKLAMA YAZMAKTAN",
+      "YORULDUN MU?"
+     ],
+     "highlight": "YORULDUN"
+    }
+   }
+  },
+  {
+   "say": "Bir içerik üreticisi düşün, kurguyu bitirmiş ama paylaşım ekranında öylece kalmış.",
+   "captions": [
+    "Bir *içerik* *üreticisi* düşün,",
+    "kurgu bitti ama *ekranda* *kaldı*."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İÇERİK ÜRETİCİSİ",
+     "highlight": "Paylaşım Ekranı"
+    }
+   }
+  },
+  {
+   "say": "Hangi etiketler izletir, aramalarda çıkmak için açıklamaya ne yazılmalı bilmek zor.",
+   "captions": [
+    "Hangi *etiket* *izletir*,",
+    "*açıklamaya* ne yazılmalı?"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Bu video için en iyi açıklama ve etiketler ne?",
+     "command": "/generate-caption",
+     "tag": "Analiz",
+     "wait": "Video içeriği taranıyor...",
+     "done": "Etiketler hazır!",
+     "result": "Viral Açıklama"
+    }
+   }
+  },
+  {
+   "say": "İşte tam bu noktada Submagic videoyu baştan sona analiz ediyor.",
+   "captions": [
+    "İşte bu noktada *Submagic*",
+    "videoyu *baştan* *sona* analiz ediyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Description & Hashtags",
+     "button": "Analiz Et",
+     "sticker_top": "YAPAY ZEKÂ",
+     "sticker_big": "ANALİZ",
+     "sticker_bottom": "Otomatik Metin"
+    }
+   }
+  },
+  {
+   "say": "Konuşulanları ve konuyu anlayarak platformlara en uygun açıklamayı tek tıkla çıkartıyor.",
+   "captions": [
+    "Konuyu anlayarak",
+    "*tek* *tıkla* metni çıkarıyor."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Video Sesi",
+     "right": "Platform Metni",
+     "chips": [
+      "Hızlı",
+      "Doğru",
+      "Optimize"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üstelik içeriğe özel en popüler etiketleri de listenin sonuna kendisi ekliyor.",
+   "captions": [
+    "İçeriğe özel *popüler* *etiketleri*",
+    "kendisi *ekliyor*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Üretilen Parçalar",
+     "items": [
+      {
+       "title": "Video Açıklaması",
+       "sub": "Özet ve kanca",
+       "icon": "spark"
+      },
+      {
+       "title": "Viral Etiketler",
+       "sub": "Konuya uygun hashtag",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Artık paylaşım yaparken ne yazacağını düşünerek vakit kaybetmene gerek yok.",
+   "captions": [
+    "Artık *ne* *yazacağını*",
+    "düşünerek *vakit* *kaybetme*."
+   ],
+   "scene": {
+    "type": "calendar",
+    "params": {
+     "top": "YAYIN PLANI",
+     "big": "0",
+     "unit": "DAKİKA KAYIP",
+     "note": "Tek Tıkla Hazır",
+     "banner": "Hemen Paylaş"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 39.41,
+ "topic": "Submagic'in \"AI Description & Hashtags\" özelliğiyle videonun içeriğini ve konusunu otomatik analiz ettirip TikTok, Reels ve Shorts için en uygun açıklama metnini ve viral etiketleri tek tıkla yazdırmak."
+}

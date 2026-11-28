@@ -1,0 +1,149 @@
+{
+ "id": "2026-11-22-elevenlabs-projects-sesli-kitap",
+ "title": "elevenlabs-projects-sesli-kitap",
+ "youtube_title": "Uzun Yazıları Tek Tıkla Sesli Kitaba Dönüştürün 🎙️",
+ "instagram_text": "ElevenLabs Projects özelliğiyle uzun e-kitap ve blog yazılarınızı farklı yapay zekâ sesleriyle dakikalar içinde profesyonel bir sesli kitaba dönüştürebilirsiniz. Manuel bölümleme ve ses eşleştirme derdi olmadan tam otomatik bir süreç sunar. Detaylı bilgi için https://try.elevenlabs.io/ltkcv8jbeob1 aracını inceleyebilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #seslikitap #otomasyon",
+ "youtube_text": "ElevenLabs Projects özelliğiyle uzun e-kitap ve blog yazılarınızı farklı yapay zekâ sesleriyle dakikalar içinde profesyonel bir sesli kitaba dönüştürebilirsiniz. Manuel bölümleme ve ses eşleştirme derdi olmadan tam otomatik bir süreç sunar. Detaylı bilgi için https://try.elevenlabs.io/ltkcv8jbeob1 aracını inceleyebilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #seslikitap #otomasyon #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 ElevenLabs Projects ile sesli kitap oluşturma adımları:\n\n1. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Projects sekmesini açın.\n2. PDF veya metin dosyanızı yükleyin.\n3. Karakterlere farklı sesler atayıp tek tıkla sesli kitabınızı indirin.",
+ "first_comment": "Selam! 👋 ElevenLabs Projects ile sesli kitap oluşturma adımları:\n\n1. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Projects sekmesini açın.\n2. PDF veya metin dosyanızı yükleyin.\n3. Karakterlere farklı sesler atayıp tek tıkla sesli kitabınızı indirin.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Yüzlerce sayfalık e kitapları tek tek seslendirmekle zaman kaybetmeyin.",
+   "captions": [
+    "Yüzlerce sayfalık *e-kitapları*",
+    "tek tek seslendirmekle",
+    "*zaman* *kaybetmeyin*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "TEK TEK SESLENDİRMEYİN",
+      "OTOMATİK ÇEVİRİN"
+     ],
+     "highlight": "OTOMATİK",
+     "stamp": "PRATİK ÇÖZÜM"
+    }
+   }
+  },
+  {
+   "say": "İlk adım olarak ElevenLabs platformunda Projects sekmesine girin.",
+   "captions": [
+    "İlk adım olarak *ElevenLabs*",
+    "platformunda *Projects*",
+    "sekmesine girin"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Sesli Kitap Oluşturma",
+     "screen_title": "ElevenLabs Paneli",
+     "steps": [
+      "Projects sekmesini aç",
+      "Metin dosyasını yükle",
+      "Karakter seslerini seç",
+      "Dışa aktar"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Uzun metin dosyanızı veya e kitabınızı sisteme yükleyin.",
+   "captions": [
+    "Uzun metin dosyanızı",
+    "veya *e-kitabınızı*",
+    "sisteme *yükleyin*"
+   ],
+   "scene": {
+    "type": "terminal",
+    "params": {
+     "title": "İçerik Yükleme",
+     "lines": [
+      "Metin belgesi ayrıştırılıyor...",
+      "✓ Bölümler otomatik tespit edildi"
+     ],
+     "typed": "Upload ebook.pdf"
+    }
+   }
+  },
+  {
+   "say": "Yapay zekâ belgenizi otomatik olarak bölümlere ve paragraflara ayırır.",
+   "captions": [
+    "Yapay zekâ *belgenizi*",
+    "otomatik olarak *bölümlere*",
+    "ve paragraflara ayırır"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Metni bölümlere ayır ve düzenle",
+     "command": "/auto_parse",
+     "tag": "ElevenLabs",
+     "wait": "Bölümler taranıyor...",
+     "done": "Ayrıştırma tamamlandı",
+     "result": "On Sekiz Bölüm Hazır"
+    }
+   }
+  },
+  {
+   "say": "Farklı karakterler için farklı yapay zekâ sesleri atayabilirsiniz.",
+   "captions": [
+    "Farklı karakterler için",
+    "farklı *yapay* *zekâ*",
+    "*sesleri* atayabilirsiniz"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Anlatıcı Sesi",
+     "right": "Karakter Sesi",
+     "chips": [
+      "Farklı Tonlar",
+      "Otomatik Atama",
+      "Çoklu Dil"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Tüm ayarları yaptıktan sonra tek tıkla profesyonel sesli kitabınız hazır olur.",
+   "captions": [
+    "Tüm ayarları yaptıktan sonra",
+    "tek tıkla *profesyonel*",
+    "*sesli* *kitabınız* hazır"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Bölümler düzenlendi",
+      "Ses atamaları yapıldı",
+      "Ses dosyası üretildi"
+     ],
+     "preview_title": "Sesli Kitap Dosyası"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 31.84,
+ "topic": "ElevenLabs'in \"Projects\" özelliğiyle uzun bir e-kitap veya blog yazısını farklı yapay zekâ sesleriyle bölümlere ayırarak tek tıkla profesyonel bir sesli kitaba dönüştürmek."
+}

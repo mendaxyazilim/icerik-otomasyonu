@@ -1,0 +1,164 @@
+{
+ "id": "2026-11-19-opusclip-coklu-konusmaci-takibi",
+ "title": "OpusClip Coklu Konusmaci Takibi",
+ "youtube_title": "Yatay Podcast'leri Otomatik Dikey Reelse Çeviren Yapay Zekâ 🎙️",
+ "instagram_text": "Yatay podcast videolarını tek tıkla iki kişilik dikey Reels formatına dönüştürebilirsiniz. İki kişilik sohbetlerde kamerayı konuşan kişiye manuel kaydırmak saatler alır. https://opus.pro/?via=egemen konuşmacı takibi özelliğiyle kim konuşuyorsa yüzünü otomatik tespit edip ekranı dinamik olarak bölüyor.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #podcast #videoedit #icerikuretici",
+ "youtube_text": "Yatay podcast videolarını tek tıkla iki kişilik dikey Reels formatına dönüştürebilirsiniz. İki kişilik sohbetlerde kamerayı konuşan kişiye manuel kaydırmak saatler alır. https://opus.pro/?via=egemen konuşmacı takibi özelliğiyle kim konuşuyorsa yüzünü otomatik tespit edip ekranı dinamik olarak bölüyor.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #podcast #videoedit #icerikuretici #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 İki kişilik yatay videoları otomatik dikey Reels formatına dönüştürme adımları:\n1. https://opus.pro/?via=egemen paneline uzun podcast linkini yapıştır.\n2. Konuşmacı takibi düzenini seç.\n3. Yapay zekâ yüzleri otomatik kadraja alıp klibi çıkarsın.",
+ "first_comment": "Selam! 👋 İki kişilik yatay videoları otomatik dikey Reels formatına dönüştürme adımları:\n1. https://opus.pro/?via=egemen paneline uzun podcast linkini yapıştır.\n2. Konuşmacı takibi düzenini seç.\n3. Yapay zekâ yüzleri otomatik kadraja alıp klibi çıkarsın.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Yatay podcast videolarını dikey formata kırpmakla saatlerini harcıyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Yatay* *podcast* videolarını",
+    "dikey formata kırpmakla",
+    "*saatlerini* harcıyorsan *zaman* kaybediyorsun."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "PODCASTLERİ",
+      "ELLE KIRPMAYI",
+      "BIRAK"
+     ],
+     "highlight": "ELLE",
+     "stamp": "ZAMAN KAYBI"
+    }
+   }
+  },
+  {
+   "say": "Bir içerik üreticisi düşün, iki kişilik harika bir söyleşi kaydetmiş.",
+   "captions": [
+    "Bir *içerik* *üreticisi* düşün,",
+    "iki kişilik *harika* bir söyleşi kaydetmiş."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İKİ KİŞİLİK SÖYLEŞİ",
+     "highlight": "Yatay Podcast Kaydı"
+    }
+   }
+  },
+  {
+   "say": "Fakat yatay videoyu dikeye çevirirken kimin konuştuğunu takip edip ekranı kaydırmak tam bir çile.",
+   "captions": [
+    "Fakat yatay videoyu *dikeye* *çevirirken*",
+    "kimin konuştuğunu *takip* *etmek*",
+    "tam bir *çile*."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "İki konuşmacıyı dikey kadraja sığdır",
+     "command": "/manuel-kirpma",
+     "tag": "Video Editör",
+     "wait": "Kare kare kaydırma yapılıyor...",
+     "done": "Çok yavaş ilerliyor",
+     "result": "Saatler Sürdü"
+    }
+   }
+  },
+  {
+   "say": "Çözüm için uzun videoyu doğrudan OpusKlip sistemine yüklüyor.",
+   "captions": [
+    "Çözüm için *uzun* *videoyu*",
+    "doğrudan *OpusClip* sistemine yüklüyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "AI Video Yeniden Boyutlandırma",
+     "button": "Klibi Dönüştür",
+     "sticker_top": "OTOMASYON",
+     "sticker_big": "OPUS",
+     "sticker_bottom": "Aktif Konuşmacı Takibi"
+    }
+   }
+  },
+  {
+   "say": "Araç, konuşmacı takibi özelliğiyle aynı anda konuşan iki kişinin yüzünü otomatik algılıyor.",
+   "captions": [
+    "Araç, *konuşmacı* *takibi* özelliğiyle",
+    "aynı anda konuşan iki kişinin",
+    "*yüzünü* *otomatik* algılıyor."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Yatay Podcast",
+     "right": "Dikey Reels",
+     "chips": [
+      "Yüz Tanıma",
+      "Otomatik Bölme",
+      "Dinamik Kadraj"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Söz sırası kime geçerse ekranı anında bölüp kamerayı konuşana odaklıyor.",
+   "captions": [
+    "Söz sırası *kime* *geçerse*",
+    "ekranı anında bölüp",
+    "kamerayı *konuşana* *odaklıyor*."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "MANUEL",
+     "strike": "Kare kare kadraj kaydırma",
+     "good": "OPUSCLIP",
+     "good_sub": "Otomatik Odaklama",
+     "good_items": [
+      "Çoklu Konuşmacı",
+      "Akıllı Bölünmüş Ekran",
+      "Sıfır Manuel İş",
+      "Hızlı Çıktı"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece haftalar sürecek podcast kesitleri tek bir tıklamayla hazır hale geliyor.",
+   "captions": [
+    "Böylece *haftalar* *sürecek*",
+    "podcast kesitleri",
+    "*tek* *tıklamayla* hazır hale geliyor."
+   ],
+   "scene": {
+    "type": "calendar",
+    "params": {
+     "top": "DÜZENLİ İÇERİK",
+     "big": "1",
+     "unit": "AY BOYUNCA",
+     "note": "Podcast Kesitleri Hazır",
+     "banner": "Tek Tıkla Üretim"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 41.84,
+ "topic": "OpusClip'in \"Active Speaker Detection\" (Çoklu Konuşmacı Takibi) özelliğiyle iki kişilik yatay podcast videolarını konuşmacıya göre otomatik bölünen ve yüzü kadrajda tutan dikey Reels formatına dönüştürmek."
+}

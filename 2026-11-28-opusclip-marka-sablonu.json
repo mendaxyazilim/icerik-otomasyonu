@@ -1,0 +1,151 @@
+{
+ "id": "2026-11-28-opusclip-marka-sablonu",
+ "title": "OpusClip Marka Sablonu",
+ "youtube_title": "Kısa Videolarında Bu 3 Hatayı Yapmayı Bırak! 🛑",
+ "instagram_text": "OpusClip marka şablonu özelliğiyle kısa videolarınıza kurumsal kimlik kazandırın.\n\nYapay zekâ ile video üretirken her klibe baştan font, renk ve logo ayarlamak ciddi vakit kaybettirir. Marka renklerinizi ve logonuzu sisteme bir kez tanımlayarak tüm içeriklerde görsel tutarlılık sağlayabilirsiniz.\n\nUzun videolardan hızlıca profesyonel kısa klipler çıkarmak için https://opus.pro/?via=egemen aracını kullanabilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #icerikuretici #videootomasyonu",
+ "youtube_text": "OpusClip marka şablonu özelliğiyle kısa videolarınıza kurumsal kimlik kazandırın.\n\nYapay zekâ ile video üretirken her klibe baştan font, renk ve logo ayarlamak ciddi vakit kaybettirir. Marka renklerinizi ve logonuzu sisteme bir kez tanımlayarak tüm içeriklerde görsel tutarlılık sağlayabilirsiniz.\n\nUzun videolardan hızlıca profesyonel kısa klipler çıkarmak için https://opus.pro/?via=egemen aracını kullanabilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #icerikuretici #videootomasyonu #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Kısa videolarına tek tıkla kurumsal kimlik kazandırmak için adımlar:\n\n1. https://opus.pro/?via=egemen paneline girip Brand Template bölümünü aç.\n2. Marka fontunu, ana renklerini ve logonun konumunu kaydet.\n3. Çıkaracağın tüm yeni kliplere bu şablonu tek tıkla uygula.",
+ "first_comment": "Selam! 👋 Kısa videolarına tek tıkla kurumsal kimlik kazandırmak için adımlar:\n\n1. https://opus.pro/?via=egemen paneline girip Brand Template bölümünü aç.\n2. Marka fontunu, ana renklerini ve logonun konumunu kaydet.\n3. Çıkaracağın tüm yeni kliplere bu şablonu tek tıkla uygula.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Kısa videolarını yapay zekayla üretirken bu üç hatayı yapıyorsan hemen dur.",
+   "captions": [
+    "*Kısa* *videolarını* yapay zekayla üretirken",
+    "bu üç *hatayı* yapıyorsan hemen *dur*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "BU 3 HATAYI",
+      "YAPMAYI DURDUR"
+     ],
+     "highlight": "DURDUR",
+     "stamp": "DİKKAT"
+    }
+   }
+  },
+  {
+   "say": "İlk hata, sistemin standart yazı tiplerini ve rastgele renklerini olduğu gibi bırakmak.",
+   "captions": [
+    "İlk hata, sistemin *standart* *fontlarını*",
+    "ve rastgele *renklerini* bırakmak."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Standart fontlar",
+      "Rastgele renkler",
+      "Uyumsuz altyazı"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci hata ise her yeni kurguda logoyu ve renk paletini tek tek elle ayarlamaya çalışmak.",
+   "captions": [
+    "İkinci hata, her *kurguda*",
+    "logoyu ve renkleri *elle* *ayarlamak*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "ZAMAN KAYIPLARI",
+     "items": [
+      {
+       "title": "Manuel Logo Ekleme",
+       "sub": "Her videoda baştan yerleşim",
+       "icon": "clock"
+      },
+      {
+       "title": "Renk Kodu Arama",
+       "sub": "Farklı tonlarda kaybolma",
+       "icon": "gear"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Doğru yöntem, OpusKlip içindeki marka şablonu özelliğini kullanmak.",
+   "captions": [
+    "Doğru yöntem, *OpusClip* içindeki",
+    "*marka* *şablonu* özelliğini kullanmak."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "Brand Template Kurulumu",
+     "button": "Şablonu Seç",
+     "sticker_top": "OTOMATİK",
+     "sticker_big": "KİMLİK",
+     "sticker_bottom": "TEK TIKLA"
+    }
+   }
+  },
+  {
+   "say": "Kendi özel yazı tipini yüklüyor, kurumsal renk kodlarını giriyor ve logonun yerini seçiyorsun.",
+   "captions": [
+    "Kendi *özel* *fontunu* yüklüyor,",
+    "*kurumsal* *renklerini* ve logonun yerini seçiyorsun."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Şablon Kurulumu",
+     "screen_title": "Görsel Kimlik",
+     "steps": [
+      "Özel fontunu sisteme yükle",
+      "Ana ve vurgu renklerini gir",
+      "Logo konumunu sabitle"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece ürettiğin onlarca videonun tamamı tek tıkla aynı görsel kimliğe kavuşuyor.",
+   "captions": [
+    "Böylece ürettiğin onlarca *video*",
+    "tek tıkla aynı *görsel* *kimliğe* kavuşuyor."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "DAĞINIK",
+     "strike": "Her video farklı stil",
+     "good": "KURUMSAL",
+     "good_sub": "Otomatik Marka Kimliği",
+     "good_items": [
+      "Aynı font",
+      "Marka renkleri",
+      "Sabit logo",
+      "Tutarlı vitrin"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 38.98,
+ "topic": "OpusClip'in \"Brand Template\" (Marka Şablonu) özelliğiyle üretilen tüm kısa videolara kendi logo, özel yazı tipi ve marka renk paletini tek tıkla otomatik giydirerek kurumsal bir görsel kimlik oluşturmak."
+}

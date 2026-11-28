@@ -1,0 +1,196 @@
+{
+ "id": "2026-11-27-elevenlabs-voice-changer-ile-duygulu-yapay-zeka-se",
+ "title": "ElevenLabs Voice Changer ile Duygulu Yapay Zekâ Sesi",
+ "youtube_title": "Yapay Zekâ Sesine Duygu Katmanın En Kolay Yolu 🎤",
+ "instagram_text": "ElevenLabs Voice Changer özelliği sayesinde sesinize fısıltı ve heyecan katın. Yapay zekâ seslendirmelerinde robotik tonlardan kurtulup kendi vurgularınızı ve mimiklerinizi hedef sese aktarabilirsiniz. https://try.elevenlabs.io/ltkcv8jbeob1 ile konuşmanızı doğrudan duygu dolu bir yapay zekâ karakterine dönüştürmek artık çok basit.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #seslendirme #otomasyon #içeriküretimi",
+ "youtube_text": "ElevenLabs Voice Changer özelliği sayesinde sesinize fısıltı ve heyecan katın. Yapay zekâ seslendirmelerinde robotik tonlardan kurtulup kendi vurgularınızı ve mimiklerinizi hedef sese aktarabilirsiniz. https://try.elevenlabs.io/ltkcv8jbeob1 ile konuşmanızı doğrudan duygu dolu bir yapay zekâ karakterine dönüştürmek artık çok basit.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #elevenlabs #seslendirme #otomasyon #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim ElevenLabs Voice Changer adımları:\n1. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Voice Changer modülünü açın.\n2. Mikrofonla duygu vurgularınızı vererek konuşmanızı kaydedin.\n3. Hedef yapay zekâ sesini seçip dönüştürmeyi tamamlayın.",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim ElevenLabs Voice Changer adımları:\n1. https://try.elevenlabs.io/ltkcv8jbeob1 paneline girip Voice Changer modülünü açın.\n2. Mikrofonla duygu vurgularınızı vererek konuşmanızı kaydedin.\n3. Hedef yapay zekâ sesini seçip dönüştürmeyi tamamlayın.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Mikrofon karşısında yapay zeka seslendirmelerine duygu katmak için saatlerce uğraşıyor musunuz?",
+   "captions": [
+    "*Mikrofon* *karşısında* duygu katmak",
+    "için *saatlerce* uğraşıyor musunuz?"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SESİNİZE DUYGU",
+      "KATMAK ZOR MU?"
+     ],
+     "highlight": "DUYGU",
+     "stamp": "YENİ YÖNTEM"
+    }
+   }
+  },
+  {
+   "say": "Eskiden metni yazıp yapay zeka aracına yükler ardından doğru vurguyu yakalamak için onlarca deneme yapardınız.",
+   "captions": [
+    "Eskiden metni *yazıp* *yükler*",
+    "doğru vurgu için *onlarca*",
+    "*deneme* yapardınız."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Metin tabanlı seslendirme",
+      "Duygusuz yapay zeka tonu",
+      "Saatler süren denemeler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Fısıltı heyecan veya öfke gibi tonları sadece metin komutlarıyla almak neredeyse imkansızdı.",
+   "captions": [
+    "*Fısıltı* ve *heyecan* gibi tonları",
+    "metinle almak *imkansızdı*."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Metinden Sese",
+     "good": "Yeni Nesil",
+     "good_sub": "Ses Duygusu",
+     "good_items": [
+      "Düz Okuma",
+      "Yapay Ton",
+      "Duygu Eksikliği"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Robotik çıkan sesler yüzünden içerikleriniz kalabalığın arasında kaybolup gidiyordu.",
+   "captions": [
+    "*Robotik* çıkan *sesler* yüzünden",
+    "içerikleriniz *kaybolup* gidiyordu."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "ROBOTİK SESLER",
+     "highlight": "DİKKAT ÇEKMİYOR"
+    }
+   }
+  },
+  {
+   "say": "Artık ElevenLabs Voice Changer ile kendi konuşmanızı doğrudan hedef sese dönüştürebilirsiniz.",
+   "captions": [
+    "Artık *ElevenLabs* *Voice* *Changer* ile",
+    "kendi sesinizi *dönüştürün*."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "ElevenLabs",
+     "tagline": "Voice Changer Teknolojisi",
+     "button": "Dönüştür",
+     "sticker_top": "YENİ",
+     "sticker_big": "SES",
+     "sticker_bottom": "Gerçek Zamanlı"
+    }
+   }
+  },
+  {
+   "say": "Mikrofonu açıp istediğiniz duyguyla konuşmanız yeterli.",
+   "captions": [
+    "*Mikrofonu* açıp istediğiniz",
+    "*duyguyla* konuşmanız yeterli."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Kendi Ses Kaydın",
+     "command": "Fısıltılı ve Heyecanlı Ses",
+     "tag": "ElevenLabs",
+     "wait": "Duygu Analiz Ediliyor",
+     "done": "Dönüştürüldü",
+     "result": "Canlı Yapay Zeka Sesi"
+    }
+   }
+  },
+  {
+   "say": "Sistem sesinizdeki fısıltıyı heyecanı ve öfkeyi birebir analiz edip seçtiğiniz karaktere aktarır.",
+   "captions": [
+    "Sistem sesinizdeki *fısıltı* ve",
+    "*heyecanı* birebir *aktarır*."
+   ],
+   "scene": {
+    "type": "terminal",
+    "params": {
+     "title": "Speech to Speech AI",
+     "lines": [
+      "Audio input received",
+      "Analyzing pitch & emotion",
+      "✓ Voice transformed successfully"
+     ],
+     "typed": "apply emotion_transfer"
+    }
+   }
+  },
+  {
+   "say": "Tek yapmanız gereken sesinizi kaydetmek tonu seçmek ve üret butonuna basmak.",
+   "captions": [
+    "*Sesinizi* kaydetmek tonu *seçmek*",
+    "ve *üret* butonuna basmak."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Ses Dönüştürme · 1 dk",
+     "screen_title": "",
+     "steps": [
+      "Mikrofonla konuş",
+      "Yapay zeka sesini seç",
+      "Duygulu sesi indir"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece sıfırdan yapay ses üretmek yerine kendi mimik ve vurgularınızla doğal sonuçlar alırsınız.",
+   "captions": [
+    "Kendi *vurgularınızla* tamamen",
+    "*doğal* sonuçlar alırsınız."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Kendi Sesin",
+     "right": "Yapay Zeka",
+     "chips": [
+      "Duygu Transferi",
+      "Doğal Vurgu",
+      "Hızlı Üretim"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "ElevenLabs"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 57.0,
+ "topic": "ElevenLabs'in \"Voice Changer\" özelliğiyle mikrofon başına geçip konuştuğun bir metni gerçek zamanlı olarak fısıltı, öfke veya heyecan gibi istediğin yoğun duygu durumuna sahip bir yapay zekâ sesine dönüştürmek."
+}

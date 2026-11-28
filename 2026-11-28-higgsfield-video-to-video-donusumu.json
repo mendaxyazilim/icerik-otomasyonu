@@ -1,0 +1,172 @@
+{
+ "id": "2026-11-28-higgsfield-video-to-video-donusumu",
+ "title": "Higgsfield Video-to-Video Dönüşümü",
+ "youtube_title": "Sıradan Videoyu Tek Tıkla Animeye Dönüştür 🎬",
+ "instagram_text": "Sıradan sokak videolarınızı tek tıkla sinematik yapay zekâ sahnelerine dönüştürün. Higgsfield platformunun video-to-video özelliği sayesinde telefonla çektiğiniz basit bir yürüyüş kaydı bile anime veya siberpunk evrenine taşınabiliyor. Kamera hareketini ve vücut pozunu koruyan araç: https://higgsfield.ai?fpr=egemen-b32749\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videotovideo #animasyon",
+ "youtube_text": "Sıradan sokak videolarınızı tek tıkla sinematik yapay zekâ sahnelerine dönüştürün. Higgsfield platformunun video-to-video özelliği sayesinde telefonla çektiğiniz basit bir yürüyüş kaydı bile anime veya siberpunk evrenine taşınabiliyor. Kamera hareketini ve vücut pozunu koruyan araç: https://higgsfield.ai?fpr=egemen-b32749\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videotovideo #animasyon #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim dönüşüm adımları:\n1. Telefonla çektiğin ham videoyu yükle\n2. Higgsfield üzerinden stil seç (anime, siberpunk vb.)\n3. Hareketi koruyarak videonu üret.\nAraca buradan ulaşabilirsin: https://higgsfield.ai?fpr=egemen-b32749",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim dönüşüm adımları:\n1. Telefonla çektiğin ham videoyu yükle\n2. Higgsfield üzerinden stil seç (anime, siberpunk vb.)\n3. Hareketi koruyarak videonu üret.\nAraca buradan ulaşabilirsin: https://higgsfield.ai?fpr=egemen-b32749\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Sıradan sokak videonuzu animeye dönüştüren üç adımı anlatıyorum.",
+   "captions": [
+    "Sıradan sokak videonuzu",
+    "*animeye* *dönüştüren* *üç* *adımı*",
+    "anlatıyorum."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SIFIR ÇABA",
+      "SİNEMATİK VİDEO"
+     ],
+     "highlight": "SİNEMATİK",
+     "stamp": "3 ADIM"
+    }
+   }
+  },
+  {
+   "say": "Birinci adım, telefonunuzla çektiğiniz düz bir yürüyüş kaydı seçmek.",
+   "captions": [
+    "*Birinci* *adım*, telefonla çektiğiniz",
+    "*düz* *bir* *yürüyüş* kaydı seçmek."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Hazırlık",
+     "items": [
+      {
+       "title": "1. Ham Video",
+       "sub": "Telefon çekimi yürüyüş",
+       "icon": "play"
+      },
+      {
+       "title": "2. Net Hareket",
+       "sub": "Sabit kamera açısı",
+       "icon": "check"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci adım, Higgsfield platformuna girip video to video özelliğini açmak.",
+   "captions": [
+    "*İkinci* *adım*, *Higgsfield* platformuna",
+    "girip *video-to-video* özelliğini açmak."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Higgsfield",
+     "tagline": "Video to Video Stüdyosu",
+     "button": "Klibi Yükle",
+     "sticker_top": "AI MODELİ",
+     "sticker_big": "DÖNÜŞTÜR",
+     "sticker_bottom": "Saniyeler İçinde"
+    }
+   }
+  },
+  {
+   "say": "Sistem hareketinizi ve vücut pozisyonunuzu birebir takip ediyor.",
+   "captions": [
+    "Sistem hareketinizi ve",
+    "*vücut* *pozisyonunuzu* *birebir*",
+    "takip ediyor."
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Kamera açısı korunur",
+      "Vücut hareketleri kopyalanır",
+      "Karakter yeniden çizilir"
+     ],
+     "preview_title": "Hareket Takibi"
+    }
+   }
+  },
+  {
+   "say": "Üçüncü adım, siberpunk veya anime gibi dilediğiniz tarzı seçmek.",
+   "captions": [
+    "*Üçüncü* *adım*, *siberpunk* veya",
+    "*anime* gibi tarzı seçmek."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ÖNCESİ",
+     "strike": "Sıradan Sokak Çekimi",
+     "good": "SONRASI",
+     "good_sub": "Siberpunk ve Anime",
+     "good_items": [
+      "Neon Işıklar",
+      "Anime Çizgisi",
+      "Sinematik Doku",
+      "Aksiyon Havası"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Tek tıkla sıradan bir kaldırım yürüyüşü aksiyon sahnesine dönüşüyor.",
+   "captions": [
+    "Tek tıkla sıradan kaldırım yürüyüşü",
+    "*aksiyon* *sahnesine* dönüşüyor."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "YENİ NESİL ÇIKTI",
+     "line1": "Sıradan Kayıttan",
+     "line2": "Sinematik Dünyaya",
+     "sub": "Kurgu programı gerekmez",
+     "chips": [
+      "Anime",
+      "Siberpunk",
+      "Sinematik"
+     ],
+     "button": "Dönüştür",
+     "icon": "spark"
+    }
+   }
+  },
+  {
+   "say": "İhtiyacınız olan tek şey telefonunuzdaki herhangi bir video.",
+   "captions": [
+    "İhtiyacınız olan tek şey",
+    "telefonunuzdaki *herhangi* *bir* *video*."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İÇERİK ÜRETİCİLERİ İÇİN",
+     "highlight": "Kamera Ekipmanı Gerekmez"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 35.93,
+ "topic": "Higgsfield'ın \"Video-to-Video\" özelliğiyle telefonla çektiğin sıradan bir sokak yürüyüşü kaydını tek tıkla siberpunk veya anime evreninde geçen sinematik bir aksiyon sahnesine dönüştürmek."
+}

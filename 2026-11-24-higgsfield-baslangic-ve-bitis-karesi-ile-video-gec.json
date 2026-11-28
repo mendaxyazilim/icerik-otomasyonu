@@ -1,0 +1,184 @@
+{
+ "id": "2026-11-24-higgsfield-baslangic-ve-bitis-karesi-ile-video-gec",
+ "title": "Higgsfield Başlangıç ve Bitiş Karesi İle Video Geçişi",
+ "youtube_title": "İki Görsel Arasında Sinematik Geçiş Yapmanın 3 Yolu 🎬",
+ "instagram_text": "Higgsfield yapay zekâ aracıyla başlangıç ve bitiş karesi belirleyerek kusursuz geçiş videoları oluşturun. İki farklı resmi tek bir sinematik harekete dönüştürmek artık çok basit. https://higgsfield.ai?fpr=egemen-b32749 platformunda ilk ve son kare mantığını kullanarak videolarınızı üst seviyeye taşıyabilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videokurgu #tasarim",
+ "youtube_text": "Higgsfield yapay zekâ aracıyla başlangıç ve bitiş karesi belirleyerek kusursuz geçiş videoları oluşturun. İki farklı resmi tek bir sinematik harekete dönüştürmek artık çok basit. https://higgsfield.ai?fpr=egemen-b32749 platformunda ilk ve son kare mantığını kullanarak videolarınızı üst seviyeye taşıyabilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videokurgu #tasarim #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Higgsfield ile başlangıç ve bitiş karelerini birleştirerek yapay zekâ geçiş videoları hazırlamak için adımlar:\n1. https://higgsfield.ai?fpr=egemen-b32749 paneline gidin.\n2. Başlangıç ve bitiş görsellerini yükleyin.\n3. İki görseli birleştiren kamera hareketini tanımlayıp üretimi başlatın.",
+ "first_comment": "Selam! 👋 Higgsfield ile başlangıç ve bitiş karelerini birleştirerek yapay zekâ geçiş videoları hazırlamak için adımlar:\n1. https://higgsfield.ai?fpr=egemen-b32749 paneline gidin.\n2. Başlangıç ve bitiş görsellerini yükleyin.\n3. İki görseli birleştiren kamera hareketini tanımlayıp üretimi başlatın.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Düzeltme yapmadan iki resim arasında geçiş yapmaya çalışıyorsanız zaman kaybediyorsunuz.",
+   "captions": [
+    "Düzeltme yapmadan *iki* *resim*",
+    "arasında geçiş yapmaya *çalışıyorsanız*",
+    "*zaman* *kaybediyorsunuz*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "KUSURSUZ GEÇİŞ",
+      "SADECE 3 ADIMDA"
+     ],
+     "highlight": "KUSURSUZ",
+     "stamp": "HİGGSFİELD"
+    }
+   }
+  },
+  {
+   "say": "Higgsfield ile iki görsel arasında kusursuz geçiş yapmanın üç yolunu gösteriyorum.",
+   "captions": [
+    "Higgsfield ile *iki* *görsel*",
+    "arasında kusursuz geçiş yapmanın",
+    "*üç* *yolunu* gösteriyorum"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "3 ÖNEMLİ ADIM",
+     "items": [
+      {
+       "title": "1. Başlangıç Karesi",
+       "sub": "İlk resmi seç",
+       "icon": "folder"
+      },
+      {
+       "title": "2. Bitiş Karesi",
+       "sub": "Hedef resmi ekle",
+       "icon": "spark"
+      },
+      {
+       "title": "3. Kamera Hareketi",
+       "sub": "Geçiş stilini belirle",
+       "icon": "play"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Birinci adım, başlangıç karesi alanına videonun açılış görselini yüklemek.",
+   "captions": [
+    "*Birinci* *adım* başlangıç",
+    "karesi alanına *videonun*",
+    "açılış görselini *yüklemek*"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Açılış fotoğrafını seç",
+     "command": "/upload_first_frame",
+     "tag": "HIGGSFIELD",
+     "wait": "Görsel işleniyor...",
+     "done": "Görsel yüklendi",
+     "result": "BAŞLANGIÇ HAZIR"
+    }
+   }
+  },
+  {
+   "say": "İkinci adım, bitiş karesi alanına videonun sonlanacağı resmi eklemek.",
+   "captions": [
+    "*İkinci* *adım* bitiş",
+    "karesi alanına *videonun*",
+    "sonlanacağı resmi *eklemek*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "İlk Kare",
+     "right": "Son Kare",
+     "chips": [
+      "Görsel A",
+      "Yapay Zekâ",
+      "Görsel B"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üçüncü adım, iki resim arasındaki dönüşümü sağlayacak hareketi tanımlamak.",
+   "captions": [
+    "*Üçüncü* *adım* iki",
+    "resim arasındaki *dönüşümü*",
+    "sağlayacak *hareketi* tanımlamak"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Geçiş Oluşturma",
+     "screen_title": "Yapay Zekâ Akışı",
+     "steps": [
+      "Görselleri Yükle",
+      "Komut Metni Yaz",
+      "Geçiş Hızını Ayarla",
+      "Videoyu Üret"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bu yöntemle görseller arası atlama olmadan akıcı sahneler elde edersiniz.",
+   "captions": [
+    "Bu yöntemle *görseller*",
+    "arası atlama *olmadan*",
+    "*akıcı* *sahneler* elde edersiniz"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "KLASİK KESME",
+     "strike": "Sert Görsel Geçişleri",
+     "good": "HİGGSFİELD DÖNÜŞÜMÜ",
+     "good_sub": "Sinematik ve Akıcı",
+     "good_items": [
+      "Yumuşak",
+      "Doğal",
+      "Kusursuz",
+      "Sinematik"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Tek yapmanız gereken doğru iki resmi yan yana getirmek.",
+   "captions": [
+    "Tek yapmanız *gereken*",
+    "doğru iki *resmi*",
+    "yan yana *getirmek*"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "İlk kareyi yükle",
+      "Bitiş karesini seç",
+      "Dönüşüm komutunu yaz"
+     ],
+     "preview_title": "Sinematik Geçiş Hazır"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 36.68,
+ "topic": "Higgsfield'ın \"Image-to-Video\" modunda başlangıç ve bitiş karesi (First & Last Frame) belirleyerek iki farklı görsel arasında kusursuz ve sinematik bir geçiş videosu üretmek."
+}

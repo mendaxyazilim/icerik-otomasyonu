@@ -1,0 +1,178 @@
+{
+ "id": "2026-11-27-higgsfield-seedance-ugc-reklam",
+ "title": "higgsfield-seedance-ugc-reklam",
+ "youtube_title": "Tek Ürün Fotoğrafından Viral Reklam Videosu Üretin 📱",
+ "instagram_text": "Yapay zekâ ile tek bir ürün fotoğrafından saniyeler içinde dinamik reklam videoları oluşturabilirsiniz.\n\nHiggsfield platformu içindeki Seedance video motoru, durağan e-ticaret görsellerini hareketli TikTok ve Reels içeriklerine dönüştürür. Kamera karşısına geçmeden veya video prodüksiyonuyla uğraşmadan gerçekçi kullanıcı deneyimi videoları hazırlayabilirsiniz.\n\nPlatforma buradan göz atabilirsiniz: https://higgsfield.ai?fpr=egemen-b32749\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #eticaret #ugc #reklam",
+ "youtube_text": "Yapay zekâ ile tek bir ürün fotoğrafından saniyeler içinde dinamik reklam videoları oluşturabilirsiniz.\n\nHiggsfield platformu içindeki Seedance video motoru, durağan e-ticaret görsellerini hareketli TikTok ve Reels içeriklerine dönüştürür. Kamera karşısına geçmeden veya video prodüksiyonuyla uğraşmadan gerçekçi kullanıcı deneyimi videoları hazırlayabilirsiniz.\n\nPlatforma buradan göz atabilirsiniz: https://higgsfield.ai?fpr=egemen-b32749\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #eticaret #ugc #reklam #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim adımlarla ürün fotoğraflarını hareketli reklamlara dönüştürebilirsin:\n\n1. https://higgsfield.ai?fpr=egemen-b32749 platformuna gir.\n2. Model olarak Seedance seçeneğini belirle.\n3. Ürün görselini yükleyip dinamik kamera hareketini tarif et.",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim adımlarla ürün fotoğraflarını hareketli reklamlara dönüştürebilirsin:\n\n1. https://higgsfield.ai?fpr=egemen-b32749 platformuna gir.\n2. Model olarak Seedance seçeneğini belirle.\n3. Ürün görselini yükleyip dinamik kamera hareketini tarif et.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Ürün tanıtım videosu için kamera karşısına geçiyorsan zaman kaybediyorsun.",
+   "captions": [
+    "Ürün tanıtımı için *kamera* *karşısına*",
+    "geçiyorsan *zaman* kaybediyorsun."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "KAMERAYI",
+      "KAPAT"
+     ],
+     "highlight": "KAPAT",
+     "stamp": "YENİ YÖNTEM"
+    }
+   }
+  },
+  {
+   "say": "Sadece tek bir fotoğraftan reklam üretmenin üç adımını anlatıyorum.",
+   "captions": [
+    "Tek bir fotoğraftan *reklam* *üretmenin*",
+    "*üç* *adımını* anlatıyorum."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "ÜRETİM PLANI",
+     "items": [
+      {
+       "title": "Görsel Seçimi",
+       "sub": "Net ürün karesi",
+       "icon": "spark"
+      },
+      {
+       "title": "Model Tercihi",
+       "sub": "Seedance motoru",
+       "icon": "gear"
+      },
+      {
+       "title": "Dinamik Çıktı",
+       "sub": "TikTok formatı",
+       "icon": "play"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Birinci adım, Higgsfield platformuna girip ürün görselini içeri aktarmak.",
+   "captions": [
+    "*Birinci* *adım*, Higgsfield platformuna",
+    "girip *ürün* *görselini* aktarmak."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Kurulum · 1 dk",
+     "screen_title": "Higgsfield Giriş",
+     "steps": [
+      "Platformu aç",
+      "Ürün görselini yükle",
+      "Video moduna geç"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci adım, video motorları arasından Seedance seçeneğini aktif etmek.",
+   "captions": [
+    "*İkinci* *adım*, video motorlarından",
+    "*Seedance* seçeneğini aktif etmek."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "YAPAY ZEKA MOTORU",
+     "line1": "Seedance",
+     "line2": "Dinamik Hareket",
+     "sub": "Hızlı video üretimi",
+     "chips": [
+      "Seedance",
+      "Higgsfield"
+     ],
+     "button": "Seçildi",
+     "icon": "bolt"
+    }
+   }
+  },
+  {
+   "say": "Bu motor, durağan e-ticaret karelerine doğal kamera hareketleri ekliyor.",
+   "captions": [
+    "Durağan e-ticaret karelerine",
+    "*doğal* *kamera* hareketleri ekliyor."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "DURAĞAN",
+     "strike": "Hareketsiz Ürün Resmi",
+     "good": "DİNAMİK VİDEO",
+     "good_sub": "Seedance Motoru",
+     "good_items": [
+      "Açı Değişimi",
+      "Işık Oyunları",
+      "Akıcı Hareket"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üçüncü adım, videoya eklemek istediğin dinamik sahneyi komut olarak yazmak.",
+   "captions": [
+    "*Üçüncü* *adım*, eklemek istediğin",
+    "*dinamik* *sahneyi* komutla yazmak."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "E-ticaret Mağazası",
+     "command": "/animate hızlı geçişli dinamik reklam",
+     "tag": "Higgsfield",
+     "wait": "Kareler işleniyor...",
+     "done": "Video hazır",
+     "result": "Dinamik UGC Reklamı"
+    }
+   }
+  },
+  {
+   "say": "Saniyeler içinde dikey formatta viral içerik hazır hale geliyor.",
+   "captions": [
+    "Saniyeler içinde *dikey* *formatta*",
+    "*viral* *içerik* hazır."
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Fotoğraf Yüklendi",
+      "Seedance Seçildi",
+      "Komut Girildi"
+     ],
+     "preview_title": "Dinamik UGC Reklamı"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 36.46,
+ "topic": "Higgsfield'ın \"Text-to-Video\" modunda Seedance motorunu kullanarak sadece bir ürün görselinden saniyeler içinde viral TikTok tarzı dinamik UGC reklam videosu üretmek."
+}

@@ -1,0 +1,196 @@
+{
+ "id": "2026-11-22-higgsfield-karakter-tutarliligi",
+ "title": "Higgsfield Karakter Tutarlılığı",
+ "youtube_title": "Yapay Zekâ ile Aynı Karakteri Her Sahnede Oynatın! 🎬",
+ "instagram_text": "Yapay zekâ video üretiminde aynı karakteri korumak Higgsfield ile artık çok kolay. Farklı kamera açıları ve sahnelerde yüzün değişmesini engelleyerek tutarlı sinematik videolar oluşturabilirsiniz. Detaylar ve platform için: https://higgsfield.ai?fpr=egemen-b32749\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videoüretimi #sinema",
+ "youtube_text": "Yapay zekâ video üretiminde aynı karakteri korumak Higgsfield ile artık çok kolay. Farklı kamera açıları ve sahnelerde yüzün değişmesini engelleyerek tutarlı sinematik videolar oluşturabilirsiniz. Detaylar ve platform için: https://higgsfield.ai?fpr=egemen-b32749\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videoüretimi #sinema #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim adımlarla aynı yapay zekâ karakterini tüm sahnelerde tutarlı şekilde oynatabilirsin:\n\n1. Higgsfield platformuna gir: https://higgsfield.ai?fpr=egemen-b32749\n2. Karakter referans görselini yükle.\n3. Yeni açı veya eylemi yazıp tutarlı videoyu üret!",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim adımlarla aynı yapay zekâ karakterini tüm sahnelerde tutarlı şekilde oynatabilirsin:\n\n1. Higgsfield platformuna gir: https://higgsfield.ai?fpr=egemen-b32749\n2. Karakter referans görselini yükle.\n3. Yeni açı veya eylemi yazıp tutarlı videoyu üret!\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Çoğu kişi yapay zekayla dizi çekilemeyeceğini sanıyor.",
+   "captions": [
+    "Çoğu kişi *yapay* *zekayla*",
+    "dizi *çekilemeyeceğini* sanıyor."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "YAPAY ZEKAYLA",
+      "DİZİ ÇEKİLMEZ Mİ?"
+     ],
+     "highlight": "ÇEKİLMEZ Mİ?",
+     "stamp": "YANLIŞ BİLİNEN"
+    }
+   }
+  },
+  {
+   "say": "Çünkü her yeni sahnede karakterin yüzü tamamen değişiyordu.",
+   "captions": [
+    "Çünkü her yeni *sahnede*",
+    "karakterin *yüzü* *değişiyordu*."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Farklı yüzler",
+      "Bozulan mimikler",
+      "Kopuk sahneler"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Eski yöntemlerde her komutta bambaşka bir insan ortaya çıkıyordu.",
+   "captions": [
+    "Eski yöntemlerde *her* *komutta*",
+    "bambaşka bir *insan* çıkıyordu."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Rastgele yüz üretimi",
+     "good": "HİGGSFİELD",
+     "good_sub": "Karakter Tutarlılığı",
+     "good_items": [
+      "Aynı yüz",
+      "Farklı açılar",
+      "Aynı kıyafet",
+      "Tek karakter"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Artık Higgsfield ile tek bir karakteri sabitlemek mümkün.",
+   "captions": [
+    "Artık *Higgsfield* ile",
+    "tek bir *karakteri* *sabitlemek* mümkün."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Higgsfield",
+     "tagline": "Karakter Tutarlılığı",
+     "button": "Karakteri Sabitle",
+     "sticker_top": "YENİ ÖZELLİK",
+     "sticker_big": "AYNI YÜZ",
+     "sticker_bottom": "Sinematik Üretim"
+    }
+   }
+  },
+  {
+   "say": "İlk adımda karakterinizin net bir referans fotoğrafını sisteme yüklüyorsunuz.",
+   "captions": [
+    "İlk adımda *net* bir",
+    "*referans* *fotoğrafı* yüklüyorsunuz."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Üretim Adımları",
+     "screen_title": "Adım 1",
+     "steps": [
+      "Referans görseli yükle",
+      "Karakteri kilitle",
+      "Yeni sahneyi yaz"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ardından istediğiniz kamera açısını ve yeni sahne hareketini yazıyorsunuz.",
+   "captions": [
+    "İstediğiniz *kamera* *açısını*",
+    "ve *yeni* *hareketi* yazıyorsunuz."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Aynı karakter yağmurda koşsun",
+     "command": "/generate camera:side",
+     "tag": "Higgsfield",
+     "wait": "Karakter korunuyor...",
+     "done": "Sahne hazır",
+     "result": "Birebir Aynı Yüz"
+    }
+   }
+  },
+  {
+   "say": "Model karakterin yüzünü bozmadan farklı planlarda oynatıyor.",
+   "captions": [
+    "Model karakterin *yüzünü*",
+    "*bozmadan* farklı *planlarda* oynatıyor."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kamera Açıları",
+     "items": [
+      {
+       "title": "Yakın Plan",
+       "sub": "Yüz hatları birebir aynı",
+       "icon": "check"
+      },
+      {
+       "title": "Geniş Açı",
+       "sub": "Kıyafet ve beden tutarlı",
+       "icon": "spark"
+      },
+      {
+       "title": "Profil Çekimi",
+       "sub": "Doğal sinematik hareket",
+       "icon": "play"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece bütçe harcamadan reklam filmi veya mini diziler üretebilirsiniz.",
+   "captions": [
+    "Bütçe *harcamadan*",
+    "reklam veya *mini* *dizi* üretin."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "YAPIM GÜCÜ",
+     "line1": "Kendi Dizini",
+     "line2": "Baştan Sona Çek",
+     "sub": "Tek karakter, sınırsız sahne",
+     "chips": [
+      "Higgsfield",
+      "AI Video"
+     ],
+     "button": "Hemen Dene",
+     "icon": "star"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 38.76,
+ "topic": "Higgsfield'ın \"Character Consistency\" (Karakter Tutarlılığı) özelliğiyle aynı yapay zekâ karakterini farklı sahnelerde ve kamera açılarında tipi hiç bozulmadan oynatarak dizi veya reklam filmi çekmek."
+}

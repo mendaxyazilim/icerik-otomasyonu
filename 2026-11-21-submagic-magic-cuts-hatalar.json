@@ -1,0 +1,192 @@
+{
+ "id": "2026-11-21-submagic-magic-cuts-hatalar",
+ "title": "submagic-magic-cuts-hatalar",
+ "youtube_title": "Videolardaki Duraklamaları Silmenin Kolay Yolu ✂️",
+ "instagram_text": "Videolardaki gereksiz duraklamaları ve dolgu seslerini yapay zekâ ile saniyeler içinde temizleyin.\n\nKamera karşısında konuşurken istemsizce araya giren ııı ve şey gibi sesleri kurgu programında tek tek kesmek saatler alabiliyor. Submagic bünyesindeki Magic Cuts özelliği metin dökümü üzerinden tüm bu duraklamaları otomatik algılayıp temizliyor.\n\nDetaylar ve araç için: https://submagic.co/?via=egemen-161849\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #submagic #içeriküretimi",
+ "youtube_text": "Videolardaki gereksiz duraklamaları ve dolgu seslerini yapay zekâ ile saniyeler içinde temizleyin.\n\nKamera karşısında konuşurken istemsizce araya giren ııı ve şey gibi sesleri kurgu programında tek tek kesmek saatler alabiliyor. Submagic bünyesindeki Magic Cuts özelliği metin dökümü üzerinden tüm bu duraklamaları otomatik algılayıp temizliyor.\n\nDetaylar ve araç için: https://submagic.co/?via=egemen-161849\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #submagic #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videolarındaki duraklamaları ve dolgu seslerini otomatik temizlemek için adımlar:\n\n1. Videonu https://submagic.co/?via=egemen-161849 üzerine yükle\n2. Magic Cuts özelliğini aktifleştir\n3. Metin üzerinden istenmeyen kısımları tek tıkla sil!",
+ "first_comment": "Selam! 👋 Videolarındaki duraklamaları ve dolgu seslerini otomatik temizlemek için adımlar:\n\n1. Videonu https://submagic.co/?via=egemen-161849 üzerine yükle\n2. Magic Cuts özelliğini aktifleştir\n3. Metin üzerinden istenmeyen kısımları tek tıkla sil!\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Videolarındaki duraklamaları tek tek keserek zaman kaybediyorsun.",
+   "captions": [
+    "Videolarındaki *duraklamaları*",
+    "tek tek *keserek*",
+    "*zaman* *kaybediyorsun.*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "MANUEL KESMEYİ",
+      "BIRAK"
+     ],
+     "highlight": "BIRAK"
+    }
+   }
+  },
+  {
+   "say": "Birinci hata, zaman çizgisinde dalga boylarına bakıp sessiz yerleri elle silmeye çalışmak.",
+   "captions": [
+    "*Birinci* *hata,* zaman çizgisinde",
+    "sessiz yerleri *elle*",
+    "*silmeye* *çalışmak.*"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Elle ses dalgası kesmek",
+      "Dakikalarca duraksama aramak"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunun yerine yapay zekâ senin yerine tüm duraklamaları metin dökümü üzerinden bulmalı.",
+   "captions": [
+    "Bunun yerine *yapay* *zekâ*",
+    "duraklamaları *metin*",
+    "*dökümünden* *bulmalı.*"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YÖNTEM",
+     "strike": "Zaman Çizgisinde Manuel Kesim",
+     "good": "YAPAY ZEKÂ",
+     "good_sub": "Otomatik Analiz",
+     "good_items": [
+      "Metin dökümü",
+      "Hızlı tarama",
+      "Kusursuz tempo"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci hata ise konuşurken araya giren ııı veya şey gibi dolgu seslerini videoda bırakmak.",
+   "captions": [
+    "*İkinci* *hata* ise konuşurken",
+    "araya giren *dolgu* *seslerini*",
+    "videoda *bırakmak.*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "İzleyiciyi Sıkan Hatalar",
+     "items": [
+      {
+       "title": "Iıı ve Şey Sesleri",
+       "sub": "Dikkati dağıtır",
+       "icon": "mic"
+      },
+      {
+       "title": "Uzun Beklemeler",
+       "sub": "Videoyu yavaşlatır",
+       "icon": "clock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bu sesler videonun temposunu düşürür ve izleyicinin hemen kaydırmasına neden olur.",
+   "captions": [
+    "Bu sesler *videonun* *temposunu*",
+    "düşürür ve izleyicinin",
+    "*kaydırmasına* *yol* *açar.*"
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İZLEYİCİ KAYBI",
+     "highlight": "Düşük Tempo"
+    }
+   }
+  },
+  {
+   "say": "Çözüm için Submagic platformuna videonu yüklüyorsun.",
+   "captions": [
+    "Çözüm için *Submagic*",
+    "platformuna *videonu*",
+    "*yüklüyorsun.*"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Submagic",
+     "tagline": "AI Video Editör",
+     "button": "Videoyu Yükle",
+     "sticker_top": "OTOMASYON",
+     "sticker_big": "TEMPO",
+     "sticker_bottom": "Hızlı Kurgu"
+    }
+   }
+  },
+  {
+   "say": "Sistemdeki Magic Cuts özelliği konuşmanı yazıya döküp gereksiz her anı listeliyor.",
+   "captions": [
+    "*Magic* *Cuts* özelliği",
+    "konuşmanı *yazıya* *döküp*",
+    "gereksiz anları *listeler.*"
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Magic Cuts Süreci",
+     "screen_title": "Otomatik Algılama",
+     "steps": [
+      "Metin dökümünü çıkarır",
+      "Dolgu sesleri işaretler",
+      "Duraklamaları yakalar"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Tek tıkla tüm duraklamaları ve dolgu sözcükleri çıkarıp videoyu akıcı hale getirebiliyorsun.",
+   "captions": [
+    "*Tek* *tıkla* tüm duraklamaları",
+    "ve dolgu sözcükleri *çıkarıp*",
+    "videoyu *akıcı* *yap.*"
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "TEK TIKLA TEMİZLE",
+     "line1": "Sıfır Duraklama",
+     "line2": "Yüksek Dinamizm",
+     "sub": "Metin tabanlı hızlı video kurgusu",
+     "chips": [
+      "Sessizlik Sil",
+      "Dolgu Sesleri At"
+     ],
+     "button": "Temizle",
+     "icon": "bolt"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 43.6,
+ "topic": "Submagic'in \"Magic Cuts\" özelliğiyle konuşurken yaptığın \"ııı\", \"şey\" gibi dolgu seslerini ve duraklamaları metin dökümü üzerinden tek tıkla silerek videonun temposunu akıcı hale getirmek."
+}

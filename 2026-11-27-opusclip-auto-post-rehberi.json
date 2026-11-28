@@ -1,0 +1,195 @@
+{
+ "id": "2026-11-27-opusclip-auto-post-rehberi",
+ "title": "OpusClip Auto Post Rehberi",
+ "youtube_title": "Kısa Videoları Tek Tek Paylaşmayı Bırak! 🚀 Otomatik Zamanlama",
+ "instagram_text": "OpusClip Auto Post özelliğiyle uzun videolardan çıkan kısa klipleri tek tıkla sosyal medyada zamanlayın.\n\nYapay zekâ ile uzun videolarınızı dikey kliplere dönüştürdükten sonra her platforma tek tek video yüklemek büyük bir zaman kaybı yaratır.\n\nhttps://opus.pro/?via=egemen kullanarak hem viral anları tespit edebilir hem de üretilen videoları doğrudan hesaplarınıza otomatik olarak gönderebilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #içeriküretimi #otomasyon",
+ "youtube_text": "OpusClip Auto Post özelliğiyle uzun videolardan çıkan kısa klipleri tek tıkla sosyal medyada zamanlayın.\n\nYapay zekâ ile uzun videolarınızı dikey kliplere dönüştürdükten sonra her platforma tek tek video yüklemek büyük bir zaman kaybı yaratır.\n\nhttps://opus.pro/?via=egemen kullanarak hem viral anları tespit edebilir hem de üretilen videoları doğrudan hesaplarınıza otomatik olarak gönderebilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #içeriküretimi #otomasyon #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim adımlar kısaca şöyle:\n\n1. https://opus.pro/?via=egemen hesabına uzun videonu yükle ve viral klipleri al.\n2. Auto Post ekranından sosyal medya hesaplarını bağla.\n3. Paylaşım günlerini ve saatlerini seçip kuyruğu başlat.",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim adımlar kısaca şöyle:\n\n1. https://opus.pro/?via=egemen hesabına uzun videonu yükle ve viral klipleri al.\n2. Auto Post ekranından sosyal medya hesaplarını bağla.\n3. Paylaşım günlerini ve saatlerini seçip kuyruğu başlat.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Kısa videoları her platforma tek tek yüklüyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Kısa* *videoları* her platforma",
+    "tek tek *yüklüyorsan*",
+    "*zaman* *kaybediyorsun.*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "TEK TEK",
+      "YÜKLEME"
+     ],
+     "highlight": "YÜKLEME",
+     "stamp": "ZAMAN KAYBI"
+    }
+   }
+  },
+  {
+   "say": "İlk büyük hata, montajlanan her klibi manuel olarak telefona indirmek.",
+   "captions": [
+    "İlk büyük *hata,*",
+    "montajlanan klibi *telefona*",
+    "manuel *indirmek.*"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Cihaza indir",
+      "Galeride ara",
+      "Dosya aktar"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkincisi ise TikTok, Reels ve Shorts için ayrı ayrı paylaşım saati kovalamak.",
+   "captions": [
+    "İkincisi ise üç platform için",
+    "ayrı ayrı *paylaşım*",
+    "*saati* *kovalamak.*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Zaman Kayıpları",
+     "items": [
+      {
+       "title": "TikTok",
+       "sub": "Manuel yükleme",
+       "icon": "clock"
+      },
+      {
+       "title": "Instagram",
+       "sub": "Saat bekleme",
+       "icon": "clock"
+      },
+      {
+       "title": "Shorts",
+       "sub": "Ayrı başlık",
+       "icon": "clock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Doğru yöntem, tüm bu süreci tek bir merkezden otomasyona bağlamak.",
+   "captions": [
+    "Doğru *yöntem,* tüm bu süreci",
+    "tek *merkezden*",
+    "*otomasyona* *bağlamak.*"
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "MANUEL YÜKLEME",
+     "strike": "Saatlerce dosya yükleme",
+     "good": "OTOMATİK YAYIN",
+     "good_sub": "Tek tıkla planlama",
+     "good_items": [
+      "Hızlı",
+      "Zaman ayarlı",
+      "Çoklu kanal"
+     ]
+    }
+   }
+  },
+  {
+   "say": "OpusClip içindeki Auto Post özelliği tam olarak bu işi çözüyor.",
+   "captions": [
+    "*OpusClip* içindeki",
+    "*Auto* *Post* özelliği",
+    "bu işi *çözüyor.*"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "Auto Post Özelliği",
+     "button": "Planla",
+     "sticker_top": "YENİ",
+     "sticker_big": "AUTO",
+     "sticker_bottom": "ZAMANLAYICI"
+    }
+   }
+  },
+  {
+   "say": "Uzun videonuzdan çıkan viral kesitleri doğrudan sosyal medya hesaplarınıza bağlıyorsunuz.",
+   "captions": [
+    "Uzun videodan çıkan *klipleri*",
+    "doğrudan *hesaplarınıza*",
+    "*bağlıyorsunuz.*"
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "OpusClip",
+     "right": "Sosyal Medya",
+     "chips": [
+      "Reels",
+      "TikTok",
+      "Shorts"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Takviminizi ve paylaşım saatlerinizi belirleyin, klipler sırayla otomatik yayınlansın.",
+   "captions": [
+    "*Takvimi* ve *saatleri* belirleyin,",
+    "klipler *sırayla*",
+    "*otomatik* *yayınlansın.*"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Hesapları bağla",
+      "Saatleri seç",
+      "Otomatik paylaş"
+     ],
+     "preview_title": "Haftalık Video Akışı"
+    }
+   }
+  },
+  {
+   "say": "Saatlerce video yüklemek yerine sadece yeni içerik üretmeye odaklanın.",
+   "captions": [
+    "Video *yüklemek* yerine",
+    "sadece yeni *içerik*",
+    "*üretmeye* *odaklanın.*"
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İÇERİK PLANLAMASI",
+     "highlight": "OTOMATİK YAYINDA"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 44.54,
+ "topic": "OpusClip'in \"Auto Post\" özelliğiyle uzun videondan üretilen viral kısa klipleri doğrudan TikTok, YouTube Shorts ve Instagram hesaplarına tek tıkla zamanlayıp otomatik paylaşmak."
+}

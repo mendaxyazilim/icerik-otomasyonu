@@ -1,0 +1,179 @@
+{
+ "id": "2026-11-16-higgsfield-inpaint-video-duzenleme",
+ "title": "higgsfield-inpaint-video-duzenleme",
+ "youtube_title": "Videodaki İstenmeyen Nesneleri Tek Fırçayla Değiştir! 🎬",
+ "instagram_text": "Videolarınızdaki sıradan veya kötü görünen detaylardan kurtulmak artık düşündüğünüzden çok daha kolay.\n\nHiggsfield platformunun Inpaint özelliği sayesinde karmaşık kurgu programlarına saatler harcamanıza gerek kalmıyor. Tek yapmanız gereken değiştirmek istediğiniz objeyi fırçayla seçmek ve yerine ne gelmesini istediğinizi yazmak.\n\nFarklı video yapay zekâ modellerini tek bir çatı altında toplayan https://higgsfield.ai?fpr=egemen-b32749 ile sinematik dönüşümler yapabilirsiniz.\n\nDetayları ve platform linkini almak için yoruma FIRCA yazabilirsiniz!\n\n💬 Yorumlara FIRCA yaz, linkleri DM'den göndereyim 👇\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videoediting #videoproduksiyon #sinematik #icerikureticiligi #teknoloji #otomasyon",
+ "youtube_text": "Videolarınızdaki sıradan veya kötü görünen detaylardan kurtulmak artık düşündüğünüzden çok daha kolay.\n\nHiggsfield platformunun Inpaint özelliği sayesinde karmaşık kurgu programlarına saatler harcamanıza gerek kalmıyor. Tek yapmanız gereken değiştirmek istediğiniz objeyi fırçayla seçmek ve yerine ne gelmesini istediğinizi yazmak.\n\nFarklı video yapay zekâ modellerini tek bir çatı altında toplayan https://higgsfield.ai?fpr=egemen-b32749 ile sinematik dönüşümler yapabilirsiniz.\n\nDetayları ve platform linkini almak için yoruma FIRCA yazabilirsiniz!\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #higgsfield #videoediting #videoproduksiyon #sinematik #icerikureticiligi #teknoloji #otomasyon #shorts",
+ "keyword": "FIRCA",
+ "dm": "Selam! 👋 Videoda bahsettiğim Higgsfield aracına buradan ulaşabilirsin: https://higgsfield.ai?fpr=egemen-b32749\n\nKullanım adımları:\n1. Videonu platforma yükle.\n2. Inpaint fırçasıyla değiştirmek istediğin nesneyi boya.\n3. Yerine gelmesini istediğin yeni objeyi yazıp üretimi başlat!",
+ "segments": [
+  {
+   "say": "Videonda arka planda duran sıradan bir çöp kutusunu tek fırça darbesiyle parlayan bir hazine sandığına dönüştürebilirsin.",
+   "captions": [
+    "Videondaki *sıradan* *bir* *nesneyi*",
+    "tek fırçayla *hazine* *sandığına*",
+    "dönüştürmek *mümkün*!"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "VİDEODAKİ OBJEYİ",
+      "TEK TIKLA",
+      "DEĞİŞTİR"
+     ],
+     "highlight": "DEĞİŞTİR",
+     "stamp": "YENİ ÖZELLİK"
+    }
+   }
+  },
+  {
+   "say": "Saatlerce maskeleme yapıp iz sürmek yerine artık yapay zekâ video düzenleme araçları sahneyi senin yerine anlıyor.",
+   "captions": [
+    "Saatlerce *maskeleme* *yapmaya*",
+    "artık *gerek* *kalmadı*."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "GELENEKSEL",
+     "strike": "Kare kare maskeleme",
+     "good": "YAPAY ZEKA",
+     "good_sub": "Otomatik takip ve değişim",
+     "good_items": [
+      "Hızlı seçim",
+      "Doğal ışık uyumu",
+      "Fiziksel tutarlılık"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunun için Higgsfield platformundaki video boyama yani inpaint özelliğini kullanıyoruz.",
+   "captions": [
+    "*Higgsfield* platformundaki",
+    "*Inpaint* özelliğini kullanıyoruz."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Higgsfield",
+     "tagline": "AI Video Studio",
+     "button": "Inpaint Aracı",
+     "sticker_top": "VİDEO",
+     "sticker_big": "INPAINT",
+     "sticker_bottom": "SİNEMATİK DÖNÜŞÜM"
+    }
+   }
+  },
+  {
+   "say": "İlk adımda videonu yüklüyorsun ve istemediğin nesneyi dijital bir fırçayla kabaca boyuyorsun.",
+   "captions": [
+    "Videonu *yükle* ve",
+    "istemediğin nesneyi *fırçayla* *boya*."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Uygulama Adımları",
+     "screen_title": "Video Hazırlığı",
+     "steps": [
+      "Videoyu yükle",
+      "Fırçayla alanı seç",
+      "Yeni objeyi tarif et"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ardından yerine gelmesini istediğin yeni sinematik objeyi metin olarak kutuya yazıyorsun.",
+   "captions": [
+    "Yerine gelmesini istediğin",
+    "*yeni* *objeyi* *metinle* *yaz*."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Eski nesneyi değiştir",
+     "command": "vintage ahşap sandık",
+     "tag": "Higgsfield",
+     "wait": "Kareler işleniyor...",
+     "done": "Dönüşüm tamamlandı",
+     "result": "Sinematik Obje"
+    }
+   }
+  },
+  {
+   "say": "Yapay zekâ videodaki ışığı, gölgeleri ve kamera hareketini koruyarak yeni nesneyi sahneye kusursuzca yerleştiriyor.",
+   "captions": [
+    "Işık ve *gölgeleri* *koruyarak*",
+    "yeni nesneyi *kusursuzca* *yerleştirir*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Korunan Detaylar",
+     "items": [
+      {
+       "title": "Işık ve Yansıma",
+       "sub": "Ortam ışığına tam uyum",
+       "icon": "spark"
+      },
+      {
+       "title": "Kamera Hareketi",
+       "sub": "Perspektif kayması yok",
+       "icon": "play"
+      },
+      {
+       "title": "Doğal Gölgeler",
+       "sub": "Gerçekçi derinlik hissi",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Farklı gelişmiş video modellerini tek bir panelde bir araya getiren bu sistem video kurgusunu baştan tanımlıyor.",
+   "captions": [
+    "Farklı *video* *modelleri*",
+    "artık *tek* *panelde*."
+   ],
+   "scene": {
+    "type": "offer",
+    "params": {
+     "kicker": "HEPSİ BİR ARADA",
+     "line1": "Güçlü Video Modelleri",
+     "line2": "Hızlı Üretim Arayüzü",
+     "sub": "Kapsamlı video üretimi",
+     "chips": [
+      "Inpaint",
+      "Sinematik AI",
+      "Hareket Takibi"
+     ],
+     "button": "Keşfet",
+     "icon": "star"
+    }
+   }
+  },
+  {
+   "say": "Yorumlara FIRCA yaz, kullanılan araçların linklerini DM'den göndereyim!",
+   "captions": [
+    "Yorumlara *FIRCA* yaz"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Yorumlara yaz",
+     "word": "FIRCA",
+     "line": "Linkleri DM'den atayım",
+     "pills": [
+      "Higgsfield"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 50.8,
+ "topic": "Higgsfield'ın \"Inpaint\" özelliğiyle videondaki istenmeyen bir nesneyi fırçayla boyayıp tek tıkla bambaşka bir sinematik objeyle değiştirmek."
+}

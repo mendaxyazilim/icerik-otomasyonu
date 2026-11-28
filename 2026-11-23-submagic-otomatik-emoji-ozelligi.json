@@ -1,0 +1,205 @@
+{
+ "id": "2026-11-23-submagic-otomatik-emoji-ozelligi",
+ "title": "Submagic Otomatik Emoji Özelliği",
+ "youtube_title": "Videolarına Otomatik Animasyonlu Emoji Ekle! 🚀",
+ "instagram_text": "Videolardaki altyazılara otomatik animasyonlu emoji ekleyerek izlenme sürelerini artırın. Submagic yapay zekâ editörü, konuşmanızdaki anahtar kelimeleri tespit eder ve tam ritme uygun emojileri otomatik yerleştirir. Manuel kurguyla zaman kaybetmeden profesyonel dinamik altyazılar oluşturabilirsiniz. Detaylar ve kullanım için https://submagic.co/?via=egemen-161849 aracını inceleyebilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #submagic #videootomasyonu #içeriküretimi",
+ "youtube_text": "Videolardaki altyazılara otomatik animasyonlu emoji ekleyerek izlenme sürelerini artırın. Submagic yapay zekâ editörü, konuşmanızdaki anahtar kelimeleri tespit eder ve tam ritme uygun emojileri otomatik yerleştirir. Manuel kurguyla zaman kaybetmeden profesyonel dinamik altyazılar oluşturabilirsiniz. Detaylar ve kullanım için https://submagic.co/?via=egemen-161849 aracını inceleyebilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #submagic #videootomasyonu #içeriküretimi #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim otomatik altyazı ve emoji otomasyonu için adımlar:\n1. https://submagic.co/?via=egemen-161849 platformuna videonu yükle.\n2. Altyazı stilini seç ve Auto-Emojis seçeneğini aktif et.\n3. Yapay zekânın ritme göre yerleştirdiği animasyonlu emojileri saniyeler içinde dışa aktar!",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim otomatik altyazı ve emoji otomasyonu için adımlar:\n1. https://submagic.co/?via=egemen-161849 platformuna videonu yükle.\n2. Altyazı stilini seç ve Auto-Emojis seçeneğini aktif et.\n3. Yapay zekânın ritme göre yerleştirdiği animasyonlu emojileri saniyeler içinde dışa aktar!\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Altyazılarına tek tek manuel emoji eklemekle zaman kaybediyorsun.",
+   "captions": [
+    "Altyazılarına *tek* *tek*",
+    "manuel *emoji* *eklemekle*",
+    "*zaman* *kaybediyorsun*."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "MANUEL EMOCİ",
+      "ZAMAN KAYBI"
+     ],
+     "highlight": "KAYBI",
+     "stamp": "HATA"
+    }
+   }
+  },
+  {
+   "say": "Bir içerik üreticisi düşün, her paylaştığı videoda yüksek izlenme ve etkileşim yakalamak istiyor.",
+   "captions": [
+    "*Bir* *içerik* *üreticisi* düşün,",
+    "her paylaştığı videoda *yüksek*",
+    "*izlenme* ve etkileşim istiyor."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İÇERİK ÜRETİCİSİ",
+     "highlight": "ETKİLEŞİM ARAYIŞI"
+    }
+   }
+  },
+  {
+   "say": "Ancak izleyicinin dikkatini tutacak hareketli ikonları tek tek kurgularken saatlerini harcıyor.",
+   "captions": [
+    "Ancak *izleyicinin* *dikkatini*",
+    "tutacak ikonları *tek* *tek*",
+    "kurgularken *saatlerini* *harcıyor*."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "Kurgu Editörü",
+     "tagline": "Zorlu Düzenleme",
+     "button": "Zaman Harca",
+     "sticker_top": "",
+     "sticker_big": "YAVAŞ",
+     "sticker_bottom": ""
+    }
+   }
+  },
+  {
+   "say": "Sırf daha dinamik altyazılar hazırlamak için içerik üretmek yerine kurguda takılıp kalıyor.",
+   "captions": [
+    "Sırf *dinamik* *altyazılar*",
+    "hazırlamak için *içerik* *üretmek*",
+    "yerine *kurguda* *kalıyor*."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Manuel Emoji Ekleme",
+      "Saatlerce Kurgu Yapma"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Çözüm için Submagic yapay zeka editörünü kullanmaya başlıyor.",
+   "captions": [
+    "*Çözüm* için *Submagic*",
+    "*yapay* *zeka* editörünü",
+    "kullanmaya *başlıyor*."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Altyazıları hareketlendir",
+     "command": "/auto-emojis",
+     "tag": "SUBMAGIC",
+     "wait": "Kelime analizi yapılıyor...",
+     "done": "Emojiler eşlendi",
+     "result": "OTOMATİK KURGU"
+    }
+   }
+  },
+  {
+   "say": "Sistemin otomatik emoji özelliği, konuşma içindeki kilit kelimeleri saniyeler içinde tespit ediyor.",
+   "captions": [
+    "Sistemin *otomatik* *emoji*",
+    "özelliği kilit *kelimeleri*",
+    "saniyeler içinde *tespit* *ediyor*."
+   ],
+   "scene": {
+    "type": "connector",
+    "params": {
+     "left": "Ses Metni",
+     "right": "Canlı Emoji",
+     "chips": [
+      "Kelime Tespiti",
+      "Ses Analizi",
+      "Anında Eşleme"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Ardından en uygun animasyonlu emojileri konuşmanın tam ritmine ve temposuna göre yerleştiriyor.",
+   "captions": [
+    "Ardından *en* *uygun*",
+    "animasyonlu emojileri konuşmanın",
+    "*tam* *ritmine* göre yerleştiriyor."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Otomatik İşlem",
+     "screen_title": "Ritim Uyumu",
+     "steps": [
+      "Konuşma Analiz Edilir",
+      "Kelimeler Eşleşir",
+      "Animasyonlu Emoji Eklenir"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece altyazılar anında dikkat çeken ve akıcı bir görünüme kavuşuyor.",
+   "captions": [
+    "Böylece *altyazılar* *anında*",
+    "*dikkat* *çeken* akıcı bir",
+    "görünüme *kavuşuyor*."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Elde Edilen Sonuç",
+     "items": [
+      {
+       "title": "Yüksek Dikkat",
+       "sub": "İzleyici ekranda kalır",
+       "icon": "spark"
+      },
+      {
+       "title": "Akıcı Ritim",
+       "sub": "Sesle tam uyumlu",
+       "icon": "bolt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Üretici saatler süren masa başı düzenlemelerini dakikalar içinde bitirip yeni videolar üretiyor.",
+   "captions": [
+    "Üretici *saatler* *süren*",
+    "düzenlemeleri *dakikalar* içinde",
+    "bitirip *yeni* *videolar* üretiyor."
+   ],
+   "scene": {
+    "type": "calendar",
+    "params": {
+     "top": "ZAMAN TASARRUFU",
+     "big": "5",
+     "unit": "DAKİKA",
+     "note": "Hızlı İçerik Üretimi",
+     "banner": "OTOMATİK KURGU"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "Submagic"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 53.76,
+ "topic": "Submagic'in \"Auto-Emojis\" özelliğiyle videondaki altyazılarda geçen anahtar kelimelere en uygun animasyonlu emojileri konuşmanın tam ritmine göre otomatik yerleştirmek."
+}

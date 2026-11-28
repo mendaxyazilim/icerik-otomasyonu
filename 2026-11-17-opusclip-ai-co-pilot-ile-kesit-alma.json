@@ -1,0 +1,172 @@
+{
+ "id": "2026-11-17-opusclip-ai-co-pilot-ile-kesit-alma",
+ "title": "OpusClip AI Co-Pilot ile Kesit Alma",
+ "youtube_title": "Uzun Videolardan Tek Kelimeyle Viral Kesit Bulma ✂️",
+ "instagram_text": "Yapay zekâ ile uzun videolardan konuya özel kısa kesitler çıkarabilirsiniz.\n\nSaatler süren podcast veya YouTube videolarını manuel taramak yerine OpusClip'in AI Co-Pilot özelliğini kullanabilirsiniz. İstediğiniz anahtar kelimeleri girdiğinizde sadece o konunun konuşulduğu en vurucu anlar otomatik olarak dikey videoya dönüştürülür.\n\nAracı incelemek için: https://opus.pro/?via=egemen\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #içeriküretimi #opusclip",
+ "youtube_text": "Yapay zekâ ile uzun videolardan konuya özel kısa kesitler çıkarabilirsiniz.\n\nSaatler süren podcast veya YouTube videolarını manuel taramak yerine OpusClip'in AI Co-Pilot özelliğini kullanabilirsiniz. İstediğiniz anahtar kelimeleri girdiğinizde sadece o konunun konuşulduğu en vurucu anlar otomatik olarak dikey videoya dönüştürülür.\n\nAracı incelemek için: https://opus.pro/?via=egemen\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoedit #içeriküretimi #opusclip #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda anlattığım adımların özeti:\n\n1. https://opus.pro/?via=egemen paneline uzun videonun bağlantısını ekle.\n2. AI Co-Pilot alanına odaklanmak istediğin anahtar kelimeleri yaz.\n3. Yapay zekânın o anları bularak hazırladığı dikey klipleri indir.",
+ "first_comment": "Selam! 👋 Videoda anlattığım adımların özeti:\n\n1. https://opus.pro/?via=egemen paneline uzun videonun bağlantısını ekle.\n2. AI Co-Pilot alanına odaklanmak istediğin anahtar kelimeleri yaz.\n3. Yapay zekânın o anları bularak hazırladığı dikey klipleri indir.\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Uzun videolardan tek tek kesit arıyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Uzun* *videolardan*",
+    "*kesit* arıyorsan",
+    "*zaman* *kaybediyorsun*"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "VİDEO KESMEKLE",
+      "VAKİT KAYBETME"
+     ],
+     "highlight": "KAYBETME",
+     "stamp": "HIZLI ÜRETİM"
+    }
+   }
+  },
+  {
+   "say": "Bu süreci üçe bölen akıllı bir yöntem var.",
+   "captions": [
+    "Bu süreci *üçe* bölen",
+    "*akıllı* bir *yöntem* var"
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "Hızlı Kesit Yöntemi"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Birinci adım, videoyu baştan sona izleme alışkanlığını tamamen bırakmak.",
+   "captions": [
+    "*Birinci* *adım*",
+    "videoyu *izleme*",
+    "alışkanlığını *bırakmak*"
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Saatlerce izlemek",
+      "Manuel not almak",
+      "Zaman damgası aramak"
+     ]
+    }
+   }
+  },
+  {
+   "say": "İkinci adım, OpusClip aracına videonun bağlantısını yapıştırmak.",
+   "captions": [
+    "*İkinci* *adım*",
+    "*OpusClip* aracına",
+    "bağlantıyı *yapıştırmak*"
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "AI Video Kırpıcı",
+     "button": "Klibi Başlat",
+     "sticker_top": "LİNKİ YAPIŞTIR",
+     "sticker_big": "OPUS",
+     "sticker_bottom": "Otomatik Analiz"
+    }
+   }
+  },
+  {
+   "say": "Üçüncü ve en önemli adım, yapay zekâ kopilotuna anahtar kelime vermek.",
+   "captions": [
+    "*Üçüncü* ve en önemli adım",
+    "*yapay* *zekâ* kopilotuna",
+    "*anahtar* *kelime* vermek"
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "İçerik Üreticisi",
+     "command": "Sadece yapay zekâ geçen anları bul",
+     "tag": "AI Co-Pilot",
+     "wait": "Konuşmalar taranıyor...",
+     "done": "Bölümler ayrıldı",
+     "result": "3 Yeni Klip"
+    }
+   }
+  },
+  {
+   "say": "Sistem bütün konuşmaları tarayarak sadece o konunun geçtiği bölümleri çıkarır.",
+   "captions": [
+    "Sistem *konuşmaları* *tarar*",
+    "sadece o konunun",
+    "*bölümlerini* *çıkarır*"
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Filtrelenen Anlar",
+     "items": [
+      {
+       "title": "Giriş Konuşması",
+       "sub": "Atlandı",
+       "icon": "clock"
+      },
+      {
+       "title": "Hedef Anahtar Kelime",
+       "sub": "Klip oluşturuldu",
+       "icon": "check"
+      },
+      {
+       "title": "Kapanış Sohbeti",
+       "sub": "Atlandı",
+       "icon": "clock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Videonun alt yazıları ve dikey formatı da saniyeler içinde hazır hale gelir.",
+   "captions": [
+    "*Alt* *yazılar* ve dikey format",
+    "saniyeler içinde",
+    "*hazır* *hale* gelir"
+   ],
+   "scene": {
+    "type": "checklist",
+    "params": {
+     "items": [
+      "Dikey kadrajlama",
+      "Otomatik alt yazı",
+      "Önemli an vurgusu"
+     ],
+     "preview_title": "Hazır Shorts Videosu"
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 34.72,
+ "topic": "OpusClip'in \"AI Co-Pilot\" özelliğiyle uzun bir videodan sadece seçtiğin anahtar kelimelere odaklanan en vurucu anları saniyeler içinde kestirmek."
+}

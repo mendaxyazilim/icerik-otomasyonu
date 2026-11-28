@@ -1,0 +1,182 @@
+{
+ "id": "2026-11-21-opusclip-ai-b-roll-ile-otomatik-kurgu",
+ "title": "OpusClip AI B-Roll ile Otomatik Kurgu",
+ "youtube_title": "Kliplere Stok Video Eklemek Artık Saniyeler Sürüyor 🎬",
+ "instagram_text": "Yapay zekâ ile uzun videolardan çıkan kısa kliplere otomatik stok video ve görsel ekleme yöntemi.\n\nKamera karşısında konuşurken araya konuyla uyumlu b-roll görüntüleri tek tek arayıp kurgulamak saatler alabiliyor. OpusClip yeni AI B-Roll özelliğiyle konuşulan kelimeleri analiz edip en uygun sahneleri videoya kendisi yerleştiriyor.\n\nhttps://opus.pro/?via=egemen bağlantısından aracı inceleyebilirsiniz.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #içeriküreticisi #videoeditleme",
+ "youtube_text": "Yapay zekâ ile uzun videolardan çıkan kısa kliplere otomatik stok video ve görsel ekleme yöntemi.\n\nKamera karşısında konuşurken araya konuyla uyumlu b-roll görüntüleri tek tek arayıp kurgulamak saatler alabiliyor. OpusClip yeni AI B-Roll özelliğiyle konuşulan kelimeleri analiz edip en uygun sahneleri videoya kendisi yerleştiriyor.\n\nhttps://opus.pro/?via=egemen bağlantısından aracı inceleyebilirsiniz.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #videoüretimi #içeriküreticisi #videoeditleme #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim adımlar kısaca şöyle:\n\n1. Uzun videonu OpusClip'e yükle\n2. AI B-Roll seçeneğini aktif et\n3. Konuşmayla senkronize gelen stok görüntüleri tek tıkla onayla\n\nAracı denemek için bağlantı: https://opus.pro/?via=egemen",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim adımlar kısaca şöyle:\n\n1. Uzun videonu OpusClip'e yükle\n2. AI B-Roll seçeneğini aktif et\n3. Konuşmayla senkronize gelen stok görüntüleri tek tıkla onayla\n\nAracı denemek için bağlantı: https://opus.pro/?via=egemen\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Kısa videolar için saatlerce stok görüntü arıyorsan zaman kaybediyorsun.",
+   "captions": [
+    "*Saatlerce* stok görüntü *arıyorsan*",
+    "ciddi *zaman* kaybediyorsun."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "SAATLERCE STOK",
+      "ARAMAK BİTTİ"
+     ],
+     "highlight": "BİTTİ",
+     "stamp": "ESKİ YÖNTEM"
+    }
+   }
+  },
+  {
+   "say": "Eskiden videoyu kesip konuya uygun videoları tek tek bulup montajlamak gerekiyordu.",
+   "captions": [
+    "Eskiden uygun *videoları* tek tek",
+    "*bulup* montajlamak gerekiyordu."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Stok aramak",
+      "Tek tek kesmek",
+      "Zaman kaybetmek"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Düz konuşan bir yüz izleyicinin hemen sıkılıp kaydırmasına yol açıyor.",
+   "captions": [
+    "Düz konuşan *bir* *yüz*",
+    "hemen *kaydırmaya* yol açıyor."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İZLEYİCİ KAYBI",
+     "highlight": "Sıkıcı ve Düz Anlatım"
+    }
+   }
+  },
+  {
+   "say": "Opus Klip yeni yapay zekâ b-roll özelliğiyle bu süreci tamamen değiştiriyor.",
+   "captions": [
+    "*OpusClip* yeni yapay zekâ",
+    "özelliğiyle bu *süreci* değiştiriyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "AI B-Roll Generator",
+     "button": "Klipleri Oluştur",
+     "sticker_top": "YENİ",
+     "sticker_big": "B-ROLL",
+     "sticker_bottom": "Otomatik Kurgu"
+    }
+   }
+  },
+  {
+   "say": "Sistem uzun videodaki konuşmayı kelime kelime dinleyip tam o anda geçen nesneleri anlıyor.",
+   "captions": [
+    "Konuşmayı *kelime* *kelime* dinleyip",
+    "anlatılan *nesneleri* anlıyor."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Videoma uygun stok görselleri yerleştir",
+     "command": "/ai-broll-sync",
+     "tag": "OpusClip",
+     "wait": "Ses analizi yapılıyor...",
+     "done": "Görüntüler eşlendi",
+     "result": "Senkron Kurgu Hazır"
+    }
+   }
+  },
+  {
+   "say": "Ardından kütüphanesinden en uygun stok video ve görselleri seçip aralara yerleştiriyor.",
+   "captions": [
+    "En uygun *stok* *videoları* seçip",
+    "otomatik *aralara* yerleştiriyor."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "İşlem Akışı",
+     "screen_title": "AI Kurgu",
+     "steps": [
+      "Sesi Analiz Et",
+      "Stok Görseli Bul",
+      "Zaman Çizgisine Ekle"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Görüntüler konuşmayla tam senkronize şekilde ekrana geliyor ve sıkıcı anları kapatıyor.",
+   "captions": [
+    "Görüntüler *konuşmayla* *senkronize*",
+    "ve *sıkıcı* anları kapatıyor."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ KURGU",
+     "strike": "Sadece konuşan kafa",
+     "good": "AI B-ROLL",
+     "good_sub": "Dinamik video akışı",
+     "good_items": [
+      "Senkron stoklar",
+      "Akıcı kurgu",
+      "Tek tıkla hazır"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Böylece saatler süren stok arama ve kurgu işi birkaç saniyede bitiyor.",
+   "captions": [
+    "Saatler süren *kurgu* *işi*",
+    "birkaç *saniyede* bitiyor."
+   ],
+   "scene": {
+    "type": "list",
+    "params": {
+     "title": "Kazanılan Avantaj",
+     "items": [
+      {
+       "title": "Hızlı Kurgu",
+       "sub": "Manuel aramaya son",
+       "icon": "bolt"
+      },
+      {
+       "title": "Yüksek Tutma",
+       "sub": "Dinamik b-roll akışı",
+       "icon": "play"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 46.44,
+ "topic": "OpusClip'in \"AI B-Roll\" özelliğiyle uzun videondan çıkan kısa kliplerdeki anlatılan konuya uygun stok video ve görselleri konuşmayla senkronize şekilde tek tıkla aralara eklemek."
+}

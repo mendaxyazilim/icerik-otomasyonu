@@ -1,0 +1,183 @@
+{
+ "id": "2026-11-24-opusclip-ai-dynamic-hook-ozelligi",
+ "title": "OpusClip AI Dynamic Hook Özelliği",
+ "youtube_title": "Uzun Videolardan En Merak Uyandıran Klipleri Otomatik Çıkar 🎬",
+ "instagram_text": "Uzun videolarınızdan kısa klipler üretirken izleyicinin dikkatini ilk saniyelerde yakalamak artık çok daha kolay. Yapay zekâ, videonun en heyecanlı kısmını tespit edip otomatik olarak başa ekliyor. https://opus.pro/?via=egemen kullanarak içerik üretim sürecinizi nasıl hızlandırabileceğinizi öğrenin.\n\n📩 Bunu ihtiyacı olan arkadaşına gönder · 🔗 Linkler ilk yorumda\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #icerikuretimi #otomasyon #reels",
+ "youtube_text": "Uzun videolarınızdan kısa klipler üretirken izleyicinin dikkatini ilk saniyelerde yakalamak artık çok daha kolay. Yapay zekâ, videonun en heyecanlı kısmını tespit edip otomatik olarak başa ekliyor. https://opus.pro/?via=egemen kullanarak içerik üretim sürecinizi nasıl hızlandırabileceğinizi öğrenin.\n\n#reklam · Açıklamadaki bazı linkler ortaklık (affiliate) linkidir; üzerinden abone olursan sana ek maliyet olmadan komisyon kazanabilirim.\n\n#yapayzeka #opusclip #icerikuretimi #otomasyon #reels #shorts",
+ "keyword": "",
+ "dm": "Selam! 👋 Videoda bahsettiğim otomatik kanca oluşturma adımları:\n\n1. Uzun videonu https://opus.pro/?via=egemen platformuna yükle.\n2. AI Dynamic Hook özelliğini aktif et.\n3. Yapay zekanın seçtiği en çarpıcı üç saniyelik kancayla klibini indir.\n\nAraç bağlantısı: https://opus.pro/?via=egemen",
+ "first_comment": "Selam! 👋 Videoda bahsettiğim otomatik kanca oluşturma adımları:\n\n1. Uzun videonu https://opus.pro/?via=egemen platformuna yükle.\n2. AI Dynamic Hook özelliğini aktif et.\n3. Yapay zekanın seçtiği en çarpıcı üç saniyelik kancayla klibini indir.\n\nAraç bağlantısı: https://opus.pro/?via=egemen\n\n#reklam · ortaklık linki",
+ "segments": [
+  {
+   "say": "Uzun videolarından çıkardığın klipler ilk üç saniyede izlenmiyorsa zaman kaybediyorsun.",
+   "captions": [
+    "Uzun *videolarından* çıkardığın",
+    "klipler *ilk* üç saniyede",
+    "izlenmiyorsa *zaman* kaybediyorsun."
+   ],
+   "scene": {
+    "type": "bigtext",
+    "params": {
+     "lines": [
+      "İLK 3 SANİYE",
+      "NEDEN İZLENMİYOR?"
+     ],
+     "highlight": "İZLENMİYOR",
+     "stamp": "DİKKAT"
+    }
+   }
+  },
+  {
+   "say": "Eski yöntemde saatlerce süren videoyu tek tek izler en heyecanlı yeri bulmaya çalışırdın.",
+   "captions": [
+    "Eski *yöntemde* saatlerce",
+    "süren *videoyu* tek tek izler",
+    "en *heyecanlı* yeri arardın."
+   ],
+   "scene": {
+    "type": "crossed",
+    "params": {
+     "items": [
+      "Saatlerce video izlemek",
+      "Manuel kesip biçmek",
+      "Sıkıcı girişler yapmak"
+     ]
+    }
+   }
+  },
+  {
+   "say": "O kesiti alıp videonun en başına elle eklemek tam bir zaman kaybıydı.",
+   "captions": [
+    "O *kesiti* alıp videonun",
+    "en *başına* elle eklemek",
+    "tam bir *zaman* kaybıydı."
+   ],
+   "scene": {
+    "type": "compare",
+    "params": {
+     "bad": "ESKİ YOL",
+     "strike": "Manuel Kanca Ekleme",
+     "good": "YENİ YOL",
+     "good_sub": "Yapay Zekâ Desteği",
+     "good_items": [
+      "Otomatik Kesit",
+      "Çarpıcı Önizleme"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Diğer videoların arasında öne çıkmak için daha akıllıca bir yöntem var.",
+   "captions": [
+    "Diğer *videoların* arasında",
+    "öne *çıkmak* için daha",
+    "akıllıca bir *yöntem* var."
+   ],
+   "scene": {
+    "type": "crowd",
+    "params": {
+     "top": "İÇERİK DENİZİ",
+     "highlight": "ÖNE ÇIKAN KLİP"
+    }
+   }
+  },
+  {
+   "say": "OpusClip geliştirdiği dinamik kanca özelliğiyle bu süreci tamamen otomatiğe bağlıyor.",
+   "captions": [
+    "OpusClip *geliştirdiği* dinamik",
+    "kanca *özelliğiyle* bu süreci",
+    "tamamen *otomatiğe* bağlıyor."
+   ],
+   "scene": {
+    "type": "app",
+    "params": {
+     "name": "OpusClip",
+     "tagline": "AI Dynamic Hook",
+     "button": "Klibi Üret",
+     "sticker_top": "YAPAY ZEKÂ",
+     "sticker_big": "HOOK",
+     "sticker_bottom": "OTOMATİK"
+    }
+   }
+  },
+  {
+   "say": "Sistem uzun videoyu analiz eder ve izleyiciyi en çok tutacak üç saniyeyi belirler.",
+   "captions": [
+    "Sistem *uzun* videoyu analiz eder",
+    "ve *en* *çarpıcı* üç",
+    "saniyeyi *otomatik* belirler."
+   ],
+   "scene": {
+    "type": "chat",
+    "params": {
+     "user": "Uzun videodan viral klip çıkar",
+     "command": "/dynamic-hook",
+     "tag": "OpusClip",
+     "wait": "En merak uyandıran an taranıyor...",
+     "done": "Kanca Önizlemesi Hazır!",
+     "result": "Dinamik Kanca"
+    }
+   }
+  },
+  {
+   "say": "Belirlenen bu heyecanlı ön izleme parçası otomatik olarak klibin en başına yerleşir.",
+   "captions": [
+    "Belirlenen bu *ön* *izleme*",
+    "parçası *otomatik* olarak klibin",
+    "en *başına* yerleşir."
+   ],
+   "scene": {
+    "type": "terminal",
+    "params": {
+     "title": "OpusClip İşlem Paneli",
+     "lines": [
+      "> Video analiz ediliyor...",
+      "✓ En yüksek kanca puanı tespit edildi",
+      "✓ 3 saniyelik önizleme başa eklendi"
+     ],
+     "typed": "Dinamik kanca başarıyla oluşturuldu."
+    }
+   }
+  },
+  {
+   "say": "Videona tıklayan kişiler ne izleyeceğini hemen anlar ve videoda kalmaya devam eder.",
+   "captions": [
+    "Videona *tıklayan* kişiler ne",
+    "izleyeceğini *hemen* anlar ve",
+    "akışta *kalmaya* devam eder."
+   ],
+   "scene": {
+    "type": "steps",
+    "params": {
+     "title": "Kanca Süreci · 3 Adım",
+     "screen_title": "OpusClip Akışı",
+     "steps": [
+      "Uzun videoyu yükle",
+      "AI Kancayı aktif et",
+      "Hazır klibi indir"
+     ]
+    }
+   }
+  },
+  {
+   "say": "Bunu ihtiyacı olan bir arkadaşına gönder, linkleri aşağıya bıraktım!",
+   "captions": [
+    "*Arkadaşına* gönder,",
+    "linkler *aşağıda*"
+   ],
+   "scene": {
+    "type": "cta",
+    "params": {
+     "top": "Linkler ilk yorumda",
+     "word": "GÖNDER",
+     "line": "İhtiyacı olan arkadaşına",
+     "pills": [
+      "OpusClip"
+     ]
+    }
+   }
+  }
+ ],
+ "duration": 48.28,
+ "topic": "OpusClip'in \"AI Dynamic Hook\" özelliğiyle uzun videondan çıkarılan kliplerin en merak uyandıran 3 saniyesini otomatik tespit edip videonun en başına çarpıcı bir ön izleme kancası olarak eklemek."
+}
